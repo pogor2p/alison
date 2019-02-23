@@ -1,0 +1,121 @@
+@media (max-width: 575px) {
+    .header,.content-box-2 {
+        height: 300px;
+    }
+    .tour__img {
+        height: 250px;
+    }
+   
+} 
+/* @media (min-width: 576px) {
+    .header,.content-box-2 {
+        height: 500px;
+    }
+    .tour__img {
+        height: 300px;
+    }
+ 
+} 
+@media (min-width: 768px) {
+    .header,.content-box-2 {
+        height: 550px;
+    }
+    .tour__img {
+        height: 350px;
+    }
+
+}*/
+@media (min-width: 992px) {
+    .header,.content-box-2 {
+        height: 636px;
+    }
+    .top-nav__menu ul li a {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }    
+    .title-find {
+        margin-top: 65px;
+    }
+    .title-find h1 {
+        font-size: 3.3rem;
+        line-height: 78px;
+    }
+    .bott {
+        margin-top: 61px;
+    } 
+    .dashboard {
+        margin-top: 22px;
+        height: 50px;
+    }
+    .dashboard__btns__btn span {
+        font-size: 1rem;
+        line-height: 0.8rem;
+    }
+    .bott-nav ul li a {
+       padding: 10px 0;
+    }
+    .tour__img {
+        height: 265px;
+    } 
+
+}
+@media (min-width: 1200px) {
+    .header,.content-box-2 {
+        height: 770px;
+    }
+    .top-nav__menu ul li a {
+        padding:  8px 18px 4px 18px;
+        font-size: 1rem;
+    }
+    .title-find {
+        margin-top: 180px;
+    }
+    .title-find h1 {
+        font-size: 4rem;
+        line-height: 90px;
+    }
+    .bott {
+        margin-top: 25px;
+    }
+    .bott-nav ul li a {
+        padding: 10px 0;
+    } 
+    .dashboard {
+        margin-top: 22px;
+        height: 55px;
+    }
+    .dashboard__btns__btn span {
+        font-size: 1.1rem;
+        line-height: 0.8rem;
+    }    
+    .tour__img {
+        height: 320px;
+    }
+}
+/*@media (min-width: 1300px){
+    .header,.content-box-2 {
+        height: 700px;
+    }
+    .tour__img {
+        height: 440px;
+    }
+
+}
+ @media (min-width: 1400px){
+    .header,.content-box-2 {
+        height: 750px;
+    }
+    .tour__img {
+        height: 480px;
+    }
+
+} 
+@media (min-width: 1500px){
+    .header,.content-box-2 {
+        height: 770px;
+    }
+    .tour__img {
+        height: 500px;
+    }
+
+}*/

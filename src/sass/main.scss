@@ -503,11 +503,17 @@ button {
   color: #555;
   margin-top: 60px;
 }
-.card-4__container {
-  padding: 0 0 0 20px;
+.card-4-1 {
+  width: 31%;
 }
-.flex-grow-1 .card-4__container {
-  padding: 0 30px 0 0;
+.card-4-n {
+  width: 23%;
+}
+.card-4__container {
+  padding: 0 0px 0 35px;
+}
+.card-4-1 .card-4__container {
+  padding: 0 30px 0 10px;
 }
 .card-4__logo {
   /*color #a21d6e бардовый*/

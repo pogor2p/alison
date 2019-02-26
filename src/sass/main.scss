@@ -22,7 +22,7 @@ button {
     -webkit-font-smoothing: antialiased;
 }
 .header {
-    height: 770px;
+    height: 1770px;
     max-width: inherit;
     right: 0;
     top: 0;
@@ -35,8 +35,7 @@ button {
     -moz-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.11);
     box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.11);
     color: #fff;
-    background-color: #fefefe;
-    background-image: url(../image/bitmap-bitmap-mask.jpg);
+    background-image: url("../img/bitmap-bitmap-mask.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,7 +43,7 @@ button {
 .logo-img {
     height: 65px;
     width: 85px; 
-    background: transparent url(../image/icons/logo/logo-transparents2x.png)  no-repeat;
+    background: transparent url(../img/icons/logo/logo-transparents2x.png)  no-repeat;
     background-size: contain;
 }
 
@@ -445,7 +444,7 @@ button {
 .input__envelope__icon {
   height: 100%;
   width: 100%; 
-  background: #fff url(../image/icons/envelope_red.svg) 60% center no-repeat;
+  background: #fff url(../img/icons/envelope_red.svg) 60% center no-repeat;
   background-size: 22px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -531,7 +530,7 @@ button {
   /*color #a21d6e бардовый*/
     height: 65px;
     width: 85px; 
-    background: transparent url(../image/icons/logo/logo-transparents2xred.png)  no-repeat;
+    background: transparent url(../img/icons/logo/logo-transparents2xred.png)  no-repeat;
     background-size: contain;
 }
 .card-4__info {
@@ -547,7 +546,7 @@ button {
 .card-4__logo2 {
     height: 42px;
     width: 70px; 
-    background: transparent url(../image/icons/azerbaijzn/azerbaijzn@2x.png)  no-repeat;
+    background: transparent url(../img/icons/azerbaijzn/azerbaijzn@2x.png)  no-repeat;
     background-size: contain;
 }
 .card-4__country {
@@ -572,7 +571,7 @@ button {
     top: 4px;
     margin-right: 10px;
     display: inline-block;
-    background: transparent url(../image/icons/phone.svg) no-repeat;
+    background: transparent url(../img/icons/phone.svg) no-repeat;
     background-size: contain;
 }
 .card-4__address {
@@ -582,7 +581,7 @@ button {
     height: 20px;
     width: 20px;
     margin-right: 10px;
-    background: transparent url(../image/icons/location.svg)  no-repeat;
+    background: transparent url(../img/icons/location.svg)  no-repeat;
     background-size: contain;
 }
 .card-4__mail::before {
@@ -593,7 +592,7 @@ button {
     top: 6px;
     margin-right: 15px;
     display: inline-block;
-    background: transparent url(../image/icons/mail.svg) no-repeat;
+    background: transparent url(../img/icons/mail.svg) no-repeat;
     background-size: contain;
 }
 .copyright {
@@ -605,19 +604,19 @@ button {
 .copyright__visa {
   height: 40px;
   width: 60px;
-  background: transparent url(../image/icons/visa.svg) no-repeat;
+  background: transparent url(../img/icons/visa.svg) no-repeat;
   background-size: contain;
 }
 .copyright__mastercard {
   height: 40px;
   width: 60px;
-  background: transparent url(../image/icons/master-card.svg) no-repeat;
+  background: transparent url(../img/icons/master-card.svg) no-repeat;
   background-size: contain;
 }
 .copyright__am-express {
   height: 40px;
   width: 60px;
-  background: transparent url(../image/icons/am-express.svg) no-repeat;
+  background: transparent url(../img/icons/am-express.svg) no-repeat;
   background-size: contain;
 }
 
@@ -645,7 +644,7 @@ button {
     position: absolute;
     right: 20px;
     top: -10px;
-    background: #999 url("../../image/svg/right-arrow.svg") center;
+    background: #999 url("../../img/svg/right-arrow.svg") center;
     background-size: cover;
 } 
 .slick-next:before
@@ -658,7 +657,7 @@ button {
     left: 20px;
     top: -10px;
     color: #222;
-    background: #999 url("../../image/svg/right-arrow.svg") center;
+    background: #999 url("../../img/svg/right-arrow.svg") center;
     background-size: cover; 
 }
 /* *** costom style *** 

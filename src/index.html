@@ -14,92 +14,45 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- <link href="assets/plugins/datepicker/datepicker.min.css" rel="stylesheet">
+<link href="assets/plugins/datepicker/datepicker.min.css" rel="stylesheet">
  
 <link rel="stylesheet" href="slick/slick/slick.css">
 <link rel="stylesheet" href="slick/slick/slick-theme.css">
 <link rel="stylesheet" href="/css/build.css">
-<!-- <link rel="stylesheet" href="css/media.css"> -->
-<!-- assets/css/main.css?v=6.8 -->
 
-<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
-    <!-- <script src="assets/plugins/autocomplete/jquery.autocomplete.min.js"></script> -->
-    <script>
-        window.currentLanguage = "en";
-
-        var hotels = [{"id":"2","name_az":"Absheron Marriot Hotel ","name_en":"Absheron Marriot Hotel ","name_ar":"Absheron Marriot Hotel ","name_ru":"Absheron Marriot Hotel ","description_az":"<p>Voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui. voluptatem sequi nesciunt. Neque porro quisqua. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam<\/p>\n\n<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit<\/p>\n","description_en":"","description_ar":"","description_ru":"<p>Voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui. voluptatem sequi nesciunt. Neque porro quisqua. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam<\/p>\n\n<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. <strong>RU<\/strong><\/p>\n","price_from":"100","stars_count":"5","img_gallery":"[\"\/assets\/images\/hotel-big-2.jpg\",\"\/assets\/images\/hotel-big-3.jpg\",\"\/assets\/images\/hotel-big-4.jpg\",\"\/assets\/images\/hotel-big-5.jpg\",\"\/assets\/images\/hotel-big-6.jpg\",\"\/assets\/images\/gydjw_main03_r.jpg\"]","main_img":"\/assets\/images\/jw1.jpg","city_id":"1","country_id":"1","country_name_az":"Az\u0259rbaycan","country_name_en":"Azerbaijan","country_name_ru":"\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d ","country_name_ar":"Azerbaijan ","city_name_az":"Bak\u0131","city_name_en":"Baku","city_name_ru":"Baku","city_name_ar":"Baku"}];
-        $(document).ready(function () {
-
-            hotels = hotels.map(function (hotel) {
-                return {
-                    value: hotel["name_"+currentLanguage],
-                    data: hotel
-                }
-            });
-
-            var hotelIdInput = $("#hotel_id");
-            var hotelAcInput = $("#hotel-list-ac");
-            hotelAcInput.on("keydown", function (event) {
-                if (event.keyCode === 8 || event.keyCode === 46) {
-                    hotelIdInput.val("");
-                    hotelAcInput.val("")
-                }
-            }).on("blur", function () {
-                if(hotelIdInput.val() === "") {
-                    $(this).val("")
-                }
-            });
-            hotelAcInput.autocomplete({
-                lookup: hotels,
-                minChars: 0,
-                onSelect: function (suggestion) {
-                    hotelIdInput.val(suggestion.data.id);
-                }
-            });
-        })
-    </script>
 </head>
 <body>
-<!--
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=496223437090509";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>  -->
-
 
 <header class="header">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center top">
             <div class="col-md-1 col-lg-1">
                 <div class="logo-img"></div>
             </div>
-            <div class="top-nav col-md-8 col-lg-8">    
-                <nav class="top-nav__menu" role='navigation'>
+            <div class="top__nav col-md-8 col-lg-8">    
+                <nav class="top__nav__menu" role='navigation'>
                     <span class="sandwich d-sm-none d-md-none d-lg-none d-xl-none">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </span>
                     <ul class="row">
                         <li class="underline-gradient"><a href="/" data-localize="Home">Home</a></li>
-                        <li class="underline-gradient"><a href="/tours.php"><span data-localize="Tours">Tours</span> <span
-                                        class="ion-android-arrow-dropdown"></span></a>
-                            <ul>
+                        <li class="underline-gradient"><a href="/tours.php"><span data-localize="Tours">Tours</span></a>
+                            
+                            <!-- <span class="ion-android-arrow-dropdown"></span>
+                              <span class="ion-android-arrow-dropdown"></span> -->
+                            <!-- <ul>
                                 <li><a href="/tours.php?category_id=1"
                                         data-localize="Incoming tours">Incoming tours</a></li>
                                 <li><a href="/tours.php?category_id=2"
                                         data-localize="Outgoing tours">Outgoing tours</a></li>
                                 <li><a href="/tours.php?category_id=3"
                                         data-localize="Sanatoriums">Medical tourism</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="underline-gradient"><a href="/hotels.php" data-localize="Hotels">Hotels</a></li>
                         <li class="underline-gradient"><a href="/flights.php" data-localize="Flights">Flights</a></li>
-                        <li class="underline-gradient"><a href="#"><span data-localize="Services">Transfers</span> <span
-                                        class="ion-android-arrow-dropdown"></span></a>
-                            <ul>
+                        <li class="underline-gradient"><a href="#"><span data-localize="Services">Transfers</span></a>
+                            <!-- <ul>
                                                                     <li>
                                         <a href="/service.php?id=1">Study abroad </a>
                                     </li>
@@ -115,9 +68,8 @@
                                                                 <li>
                                     <a href="/myinfo.php">My info</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
-    <!-- надо уточнять меню -->
                         <li class="underline-gradient"><a href="/visas.php" data-localize="Visas">Visas</a></li>
                     </ul>
                 </nav>
@@ -155,8 +107,8 @@
                     </div-->
                      
             </div>
-        </div>   <!--class="row"-->
-    </div>       <!--div class="container"-->
+        </div>   
+    </div>       
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-12 title-find">
@@ -164,7 +116,6 @@
             </div>
         </div>
     </div>
-    
     <div class="container">
         <div class="row bott">
             <nav class="bott__nav col-md-12 col-lg-12">
@@ -172,51 +123,41 @@
                     <li><a class="underline-gradient-2" href="/tours.php"  data-localize="Tours">Tours</a></li>
                     <li><a class="underline-gradient-2" href="/hotels.php" data-localize="Hotels">Hotels</a></li>
                     <li><a class="underline-gradient-2" href="/flights.php" data-localize="Flights">Flights</a></li>
-                    <li><a class="underline-gradient-2" href="/visas.php" data-localize="Visas">Visas</a></li>
+                    <li><a class="underline-gradient-2" href="/transfers.php" data-localize="Transfers">Transfers</a></li>
                 </ul>
             </nav>
         </div>
     </div>
-
     <div class="container">
         <div class="row dashboard">
             <nav class="dashboard__btns col-md-12 col-lg-12 d-flex">
                 <div class="dashboard__btns__btn">
-                    <img class="mr-3" src="img/icons/location_red1.svg" alt="location">
+                    <img src="img/icons/location_red1.svg" alt="location">
                         <span>Azerbaijan</span></div>
                 <div class="dashboard__btns__btn">
-                    <img class="mr-3" src="img/icons/location_red2.svg" alt="location">
+                    <img src="img/icons/location_red2.svg" alt="location">
                         <span>Baku<span></div>
                 <div class="dashboard__btns__btn">
-                    <img class="mr-3" src="img/icons/calendar_red.svg" alt="calendar">
+                    <img src="img/icons/calendar_red.svg" alt="calendar">
                         <span>Date 1</span></div>
                 <div class="dashboard__btns__btn">
-                    <img class="mr-3" src="img/icons/calendar_red.svg" alt="calendar">
+                    <img src="img/icons/calendar_red.svg" alt="calendar">
                         <span>Date 2</span></div>
                 <div class="dashboard__btns__btn">
-                    <img class="mr-3" src="img/icons/people_red.svg" alt="people">
-                        <span>Piople</span></div>
-                <div class="dashboard__btns__btn">
+                    <img src="img/icons/people_red.svg" alt="people">
+                        <span>People</span></div>
+                <div class="dashboard__btns__btn"> 
                     <span>Search</span></div>
             </nav>
         </div> 
-        <!-- <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Главная ссылка</a> -->
-    </div>
+     </div>
 </header>
 <section>
     <div class="headline alison">
         <h1>Alison Travel Holidays</h1>
     </div>
-    
         <div class="container">
             <div class="row">
-                    <!--div class="tour col-lg-6 col-xl-6">
-                            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=6" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/StarsNearSun.jpg/350px-StarsNearSun.jpg&quot;);">
-                                <div class="tour__img__headline">
-                                    <h4>AZERBAIJAN</h4>
-                                </div>
-                            </a>
-                        </div-->             
                 <div class="tour col-12 col-md-12 col-lg-6 col-xl-6">
                     <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=6" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/azerbaijan/azerbaijan.jpg&quot;);">
                         <div class="tour__img__headline">
@@ -231,8 +172,6 @@
                         </div>
                     </a>
                 </div>
-
-
                 <div class="tour col-12 col-md-6 col-lg-4 col-xl-4">
                     <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=9" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/spain/spain.jpg&quot;);">
                         <div class="tour__img__headline">
@@ -272,7 +211,7 @@
                 <div class="tour col-12 col-md-6 col-lg-4 col-xl-4">
                     <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=9" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/moscow/moscow.jpg&quot;);">
                         <div class="tour__img__headline">
-                            <h4>MOSCOW</h4>
+                            <h4>Moscow</h4>
                         </div>  
                             
                     </a>
@@ -298,25 +237,24 @@
     <div class="headline most">
         <h1>Most Popular Tours</h1>
     </div>
- 
-    <div class="container">
+     <div class="container">
         <div class="row">
             <div class="col-4">
                 <div class="card-1 shadow">
                     <div class="card-1__image-holder"><img class="card-1__image" src="https://picsum.photos/200/120" alt="description" /></div>
                     <div class="card-1__container">
                         <div class="card-1__title">Dubai Aquarium and Underwater<br>Zoo Day Ticket</div>
-                        <div class="card-1__description d-flex justify-content-between mt-4">
-                            <p><img src="img/icons/clock.svg" alt="star">5 days/4 nights</p>
-                            <p>price from</p>
+                        <div class="card-1__description d-flex justify-content-between">
+                            <p class="card-1__description__text"><img class="card-1__description__icon" src="img/icons/clock.svg" alt="star">5 days / 4 nights</p>
+                            <p class="card-1__description__text">price from</p>
                         </div>
                         <div class="card-1__footer d-flex justify-content-between">
                             <div class="card-1__stars">
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
                             </div>
                             <div class="card-1__price-holder">
                                 <div class="card-1__price-currency">$</div>
@@ -332,17 +270,17 @@
                     <div class="card-1__image-holder"><img class="card-1__image" src="https://picsum.photos/200/120" alt="description" /></div>
                     <div class="card-1__container">
                         <div class="card-1__title">Dubai Aquarium and Underwater<br>Zoo Day Ticket</div>
-                        <div class="card-1__description d-flex justify-content-between mt-4">
-                            <p><img src="img/icons/clock.svg" alt="star">5 days/4 nights</p>
-                            <p>price from</p>
+                        <div class="card-1__description d-flex justify-content-between">
+                            <p class="card-1__description__text"><img class="card-1__description__icon" src="img/icons/clock.svg" alt="star">5 days / 4 nights</p>
+                            <p class="card-1__description__text">price from</p>
                         </div>
                         <div class="card-1__footer d-flex justify-content-between">
                             <div class="card-1__stars">
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
                             </div>
                             <div class="card-1__price-holder">
                                 <div class="card-1__price-currency">$</div>
@@ -357,21 +295,21 @@
                     <div class="card-1__image-holder"><img class="card-1__image" src="https://picsum.photos/200/120" alt="description" /></div>
                     <div class="card-1__container">
                         <div class="card-1__title">Dubai Aquarium and Underwater<br>Zoo Day Ticket</div>
-                        <div class="card-1__description d-flex justify-content-between mt-4">
-                            <p><img src="img/icons/clock.svg" alt="star">5 days/4 nights</p>
-                            <p>price from</p>
+                        <div class="card-1__description d-flex justify-content-between">
+                            <p class="card-1__description__text"><img class="card-1__description__icon" src="img/icons/clock.svg" alt="star">5 days / 4 nights</p>
+                            <p class="card-1__description__text">price from</p>
                         </div>
                         <div class="card-1__footer d-flex justify-content-between">
                             <div class="card-1__stars">
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
-                                <div class="card-1__star"><img src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
                             </div>
                             <div class="card-1__price-holder">
                                 <div class="card-1__price-currency">$</div>
-                                <div class="card-1__price-value">1199</div>
+                                <div class="card-1__price-value">199</div>
                             </div>
                         </div>
                     </div>
@@ -430,156 +368,56 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="card-3 card-3_red shadow" style="background-image:url(https://picsum.photos/400/400?image=1071);">
+                    <div class="card-3 card-3_b-w shadow" style="background-image:url(https://picsum.photos/400/400?image=1071);">
                         <div class="card-3__container">
-                          <h2>history</h2>
+                          <h2 class="card-3__container__text">history</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card-3 card-3_green shadow" style="background-image:url(https://picsum.photos/400/400?image=1068);">
                         <div class="card-3__container">
-                          <h2>nature</h2>
+                          <h2 class="card-3__container__text">nature</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card-3 card-3_blue shadow" style="background-image:url(https://picsum.photos/200/200?image=1063);">
                         <div class="card-3__container">
-                          <h2>family holiday</h2>
+                          <h2 class="card-3__container__text">family holiday</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-4">
                         <div class="card-3 card-3_green shadow" style="background-image:url(https://picsum.photos/400/400?image=1068);">
                             <div class="card-3__container">
-                              <h2>nightlife</h2>
+                              <h2 class="card-3__container__text">nightlife</h2>
                             </div>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="card-3 card-3_blue shadow" style="background-image:url(https://picsum.photos/200/200?image=1063);">
                             <div class="card-3__container">
-                              <h2>food</h2>
+                              <h2 class="card-3__container__text">food</h2>
                             </div>
                         </div>
                     </div>
             </div>
         </div>
     </section>
-<!--
-    <section>
-        <div class="what">
-            <h1>What Customers Say</h1>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="card-2 shadow">
-                        <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
-                        <div class="card-2__container">
-                            <div class="card-2__title text-center">Jessie Watlon</div>
-                            <div class="card-2__description text-center">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card-2 shadow">
-                        <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
-                        <div class="card-2__container">
-                            <div class="card-2__title text-center">Jessie Watlon</div>
-                            <div class="card-2__description text-center">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card-2 shadow">
-                        <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
-                        <div class="card-2__container">
-                            <div class="card-2__title text-center">Jessie Watlon</div>
-                            <div class="card-2__description text-center">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
- <section>   
-    <div class="container">  
-    <div class="sl">
-        <div class="card-22">
-        <div class="card-22-contairer shadow">
-            <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
-            <div class="card-2__container">
-                <div class="card-2__title text-center">Jessie Watlon</div>
-                <div class="card-2__description text-center">Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.</div>
-            </div>
-        </div>
-        </div>
-        <div class="card-22">
-        <div class="card-22-contairer shadow">    
-            <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
-            <div class="card-2__container">
-                <div class="card-2__title text-center">Jessie Watlon</div>
-                <div class="card-2__description text-center">Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.</div>
-            </div>
-        </div>
-        </div>
-        <div class="card-22">
-        <div class="card-22-contairer shadow">
-            <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
-            <div class="card-2__container">
-                <div class="card-2__title text-center">Jessie Watlon</div>
-                <div class="card-2__description text-center">Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.</div>
-            </div>
-        </div>
-        </div>
-        <div class="card-22">
-        <div class="card-22-contairer shadow">
-            <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
-            <div class="card-2__container">
-                <div class="card-2__title text-center">Jessie Watlon</div>
-                <div class="card-2__description text-center">Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.</div>
-            </div>
-        </div>
-        </div>
-      </div>
-    </div>    
-
-
--->
-
 </section>
 <section>
     <div class="headline subscribe">
         <h1>Subscribe to our newsletter</h1>
     </div>
-    <!-- input-group p-0  mb-5  -col-5 shadow--  form-control -->
-  
     <div class="container"> 
         <div class="row input justify-content-center shadow">
                 <div class="input__envelope"><div class="input__envelope__icon"></div></div>
                 <input type="text" class="input__input" placeholder="sebastian.stan@gmail.com" aria-label="Имя получателя" aria-describedby="basic-addon2">
                 <button type="submit" class="input__btn">Subscribe</button>
-                          
-            </div>
         </div>
     </div>
-   
-
 </section>    
-   
 <footer>
 <address class="container brd-top">
     <div class="row">

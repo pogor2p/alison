@@ -29,7 +29,7 @@
     .header,.content-box-2 {
         height: 636px;
     }
-    .top-nav__menu ul li a {
+    .top__nav__menu ul li a {
         padding: 8px 12px;
         font-size: 0.8rem;
     }    
@@ -59,38 +59,42 @@
     } 
 
 }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
     .header,.content-box-2 {
         height: 770px;
     }
-    .top-nav__menu ul li a {
-        padding:  8px 18px 4px 18px;
+    .top__nav__menu ul li a {
+        padding:  8px 19px 4px 19px;
         font-size: 1rem;
     }
     .title-find {
-        margin-top: 180px;
+        margin-top: 155px;
     }
     .title-find h1 {
-        font-size: 4rem;
-        line-height: 90px;
+        font-size: 4.5rem;
+        line-height: 98px;
     }
     .bott {
-        margin-top: 25px;
+        margin-top: 17px;
     }
     .bott-nav ul li a {
         padding: 10px 0;
     } 
     .dashboard {
-        margin-top: 22px;
-        height: 55px;
+        margin-top: 16px;
+        height: 60px;
     }
     .dashboard__btns__btn span {
-        font-size: 1.1rem;
+        font-size: 1rem;
         line-height: 0.8rem;
-    }    
-    .tour__img {
-        height: 320px;
+     //   padding-top: 20px;
     }
+    .tour__img {
+        height: 350px;
+    }
+    .tour__img h4 {
+        font-size: 3rem;
+    }        
 }
 /*@media (min-width: 1300px){
     .header,.content-box-2 {

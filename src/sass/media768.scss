@@ -2,12 +2,14 @@
     .header,.content-box-2 {
         height: 520px;
     }
-    // .top__nav__menu ul li  {
-    //     height: 30px;
-    // }
     .top__nav__menu > ul > li a {
+        height: 37px;
         padding: 8px;
         font-size: 0.9rem;
+    }
+    .underline-gradient:after {
+        position: relative;
+        bottom: 5px;
     }    
     .title-find {
         margin-top: 65px;
@@ -27,47 +29,53 @@
         font-size: 1rem; 
     }
     .dashboard {
-        margin-top: 22px;
-        height: 50px;
+        margin-top: 15px;
+        height: 40px;
     }
     .dashboard__btns__btn {
-        padding-top: 12px;
-        font-size: 1rem;
+        padding-top: 10px;
+        font-size: 0.8rem;
     }
+    .dashboard__btns__btn__icon {
+        margin: 0 4px 5px 4px;
+        height: 15px;
+        width: 15px;    
+    }  
+
     .headline {
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
     .alison {
-        margin-top: 65px;
-        margin-bottom: 35px;
+        margin-top: 55px;
+        margin-bottom: 25px;
     }
 
     .tour__img {
         height: 269px;
     } 
     .tour__img__text {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
     .most {
         margin-top: 50px;
         margin-bottom: 20px;
     }
     .card-1__image {
-        height: 202px;
+        height: 228px;
     }
     .card-1__container {
-        height: 148px;
-        padding: 9px 15px;
+        height: 169px;
+        padding: 12px 20px;
     }
     .card-1__title {
         // margin-bottom: 4px;
         font-family: 'HelveticaNeue';
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
     .card-1__description {
         height: 22px;
-        margin-top: 15px;
-        font-size: 0.7rem;
+        margin-top: 18px;
+        font-size: 0.8rem;
     }
     .card-1__description__icon {
         margin: 0 6px 3px 0;
@@ -76,8 +84,8 @@
     }
     .card-1__stars__icon {
         margin-top: 14px;
-        height: 17px;
-        width: 17px;
+        height: 19px;
+        width: 19px;
     }
     .card-1__price-holder {
         margin-bottom: 4px;

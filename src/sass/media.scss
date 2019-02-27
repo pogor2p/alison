@@ -26,37 +26,37 @@
 
 }*/
 @media (min-width: 992px) {
-    // .header,.content-box-2 {
-    //     height: 636px;
-    // }
-    // .top__nav__menu ul li a {
-    //     padding: 8px 12px;
-    //     font-size: 0.8rem;
-    // }    
-    // .title-find {
-    //     margin-top: 65px;
-    // }
-    // .title-find h1 {
-    //     font-size: 3.3rem;
-    //     line-height: 78px;
-    // }
-    // .bott {
-    //     margin-top: 61px;
-    // } 
-    // .dashboard {
-    //     margin-top: 22px;
-    //     height: 50px;
-    // }
-    // .dashboard__btns__btn span {
-    //     font-size: 1rem;
-    //     line-height: 0.8rem;
-    // }
-    // .bott-nav ul li a {
-    //    padding: 10px 0;
-    // }
-    // .tour__img {
-    //     height: 265px;
-    // } 
+    .header,.content-box-2 {
+        height: 636px;
+    }
+    .top__nav__menu ul li a {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }    
+    .title-find {
+        margin-top: 65px;
+    }
+    .title-find h1 {
+        font-size: 3.3rem;
+        line-height: 78px;
+    }
+    .bott {
+        margin-top: 61px;
+    } 
+    .dashboard {
+        margin-top: 22px;
+        height: 50px;
+    }
+    .dashboard__btns__btn span {
+        font-size: 1rem;
+        line-height: 0.8rem;
+    }
+    .bott-nav ul li a {
+       padding: 10px 0;
+    }
+    .tour__img {
+        height: 265px;
+    } 
 
 }
 @media (min-width: 1300px) {
@@ -87,7 +87,7 @@
     .tour__img {
         height: 350px;
     }
-    .tour__img h4 {
+    .tour__img__text {
         font-size: 3rem;
     }        
 }

@@ -31,7 +31,7 @@
     }
     .top__nav__menu ul li a {
         padding: 8px 12px;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }    
     .title-find {
         margin-top: 65px;
@@ -43,6 +43,10 @@
     .bott {
         margin-top: 61px;
     } 
+    .bott-nav ul li a {
+        font-size: 1rem; 
+        padding: 10px 0;
+     }
     .dashboard {
         margin-top: 22px;
         height: 50px;
@@ -50,9 +54,6 @@
     .dashboard__btns__btn {
         padding-top: 12px;
         font-size: 1rem;
-    }
-    .bott-nav ul li a {
-       padding: 10px 0;
     }
     .tour__img {
         height: 265px;

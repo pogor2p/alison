@@ -28,7 +28,7 @@ button {
   top: 0;
   left: 0;
   padding-top: 10px;
-  font-size: 13px;
+  font-size: 0.9rem;
   -webkit-transition: all .2s;
   transition: all .2s;
   -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.11);
@@ -194,7 +194,7 @@ button {
   margin: 0 42px 0 0;
   color: #fff;
   font-family: 'HelveticaNeue-Medium';
-  font-size: 1.1rem;
+  // font-size: 1.1rem;
   text-decoration: none;
 }
 .underline-gradient-2:after {

@@ -47,9 +47,9 @@
         margin-top: 22px;
         height: 50px;
     }
-    .dashboard__btns__btn__text {
+    .dashboard__btns__btn {
+        padding-top: 12px;
         font-size: 1rem;
-        line-height: 0.8rem;
     }
     .bott-nav ul li a {
        padding: 10px 0;
@@ -75,6 +75,10 @@
     .title-find__text {
         font-size: 4.5rem;
         line-height: 98px;
+    }
+    .dashboard__btns__btn {
+        padding-top: 16px;
+        font-size: 1.1rem;
     }
     .bott {
         margin-top: 17px;

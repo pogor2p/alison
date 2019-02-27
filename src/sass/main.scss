@@ -193,7 +193,7 @@ button {
   padding: 20px 0;
   margin: 0 42px 0 0;
   color: #fff;
-  font-family: 'HelveticaNeue';
+  font-family: 'HelveticaNeue-Medium';
   font-size: 1.1rem;
   text-decoration: none;
 }
@@ -216,9 +216,10 @@ button {
   background-size: 100% 50%;
 }
 .dashboard__btns__btn {
-  padding: 15px;
+  padding: 16px 0 0 12px;
   margin: 0;
   width: 17.5%;
+  font-family: 'HelveticaNeue-Medium';
   color: #555;
   background-color: #fff;
   border-right: 1px solid #d8d8d8;
@@ -226,14 +227,15 @@ button {
 .dashboard__btns__btn__icon {
   margin: 0 12px 5px 7px;  
 }  
-.dashboard__btns__btn__text {
-  font-family: 'HelveticaNeue-Medium';
-  font-size: 1.1rem;
-} 
+// .dashboard__btns__btn__text {
+
+//   font-size: 1rem;
+// } 
 .dashboard__btns__btn:first-of-type {
   border-radius: 5px 0 0 5px;
 }
 .dashboard__btns__btn:last-of-type {
+  padding-left: 0;
   color: #fff;
   background-image: linear-gradient(to right, #a21d6e, #e2245e);
   text-align: center;

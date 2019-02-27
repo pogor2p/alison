@@ -59,11 +59,23 @@
         font-size: 1rem;
     }
     .tour__img {
-        height: 265px;
+        height: 269px;
     } 
     .tour__img__text {
-        font-size: 3rem;
-    }  
+        font-size: 2.5rem;
+    }
+    //---------------
+    .card-1__image {
+        height: 202px;
+    }
+    .card-1__container {
+        height: 148px;
+        padding: 9px 15px;
+    }
+    .card-1__title {
+        // margin-bottom: 4px;
+        font-size: 1rem;
+    }      
 }
 @media (min-width: 1300px) {
     .header,.content-box-2 {
@@ -103,5 +115,16 @@
     }
     .tour__img__text {
         font-size: 3rem;
-    }        
+    }
+    .card-1__image {
+        height: 265px;
+    }
+    .card-1__container {
+        height: 195px;
+        padding: 12px 20px;
+    }
+    .card-1__title {
+        margin-bottom: 4px;
+        font-size: 1.3rem;
+    }           
 }

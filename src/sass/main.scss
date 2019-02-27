@@ -281,17 +281,17 @@ button {
   background: #fff;
   border-radius: 5px;
 }
-.card-1__container {
-  height: 195px;
-  padding: 20px 30px;
-}
 .card-1__image {
+  // height: 265px;
   width: 100%;
-  height: 265px;
+}
+.card-1__container {
+ // height: 195px;
+ // padding: 20px 30px;
 }
 .card-1__title {
-  margin-bottom: 4px;
-  font-size: 1.3rem;
+  // margin-bottom: 4px;
+  // font-size: 1.3rem;
   font-weight: bold;
   color: #555;
 }

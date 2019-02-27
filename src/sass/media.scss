@@ -36,7 +36,7 @@
     .title-find {
         margin-top: 65px;
     }
-    .title-find h1 {
+    .title-find__text {
         font-size: 3.3rem;
         line-height: 78px;
     }
@@ -47,7 +47,7 @@
         margin-top: 22px;
         height: 50px;
     }
-    .dashboard__btns__btn span {
+    .dashboard__btns__btn__text {
         font-size: 1rem;
         line-height: 0.8rem;
     }
@@ -57,7 +57,9 @@
     .tour__img {
         height: 265px;
     } 
-
+    .tour__img__text {
+        font-size: 3rem;
+    }  
 }
 @media (min-width: 1300px) {
     .header,.content-box-2 {
@@ -70,7 +72,7 @@
     .title-find {
         margin-top: 155px;
     }
-    .title-find h1 {
+    .title-find__text {
         font-size: 4.5rem;
         line-height: 98px;
     }
@@ -91,30 +93,3 @@
         font-size: 3rem;
     }        
 }
-/*@media (min-width: 1300px){
-    .header,.content-box-2 {
-        height: 700px;
-    }
-    .tour__img {
-        height: 440px;
-    }
-
-}
- @media (min-width: 1400px){
-    .header,.content-box-2 {
-        height: 750px;
-    }
-    .tour__img {
-        height: 480px;
-    }
-
-} 
-@media (min-width: 1500px){
-    .header,.content-box-2 {
-        height: 770px;
-    }
-    .tour__img {
-        height: 500px;
-    }
-
-}*/

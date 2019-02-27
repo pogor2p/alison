@@ -334,6 +334,7 @@ button {
 }
 .card-1__price-value {
   display: inline-block;
+  font-weight: bold;
 }
 
 .what {
@@ -372,7 +373,6 @@ button {
   margin-bottom: 35px;
 } 
  .card-3 {
-  height: 350px;
   margin: 15px 0;
   border-radius: 5px;
   background-size: cover;
@@ -382,7 +382,7 @@ button {
 }
 .card-3__container__text {
   font-family: 'GalanoGrotesqueDEMOBold';
-  font-size: 3rem;
+  // font-size: 3rem;
 }
 .card-3:before {
   border-radius: 5px;
@@ -494,7 +494,6 @@ button {
   width: 23%;
   height: 300px;
   font-family: 'HelveticaNeue-Medium';
-  font-size: 14px;
   line-height: 1.5;
   letter-spacing: -0.4px;
   color: #555;

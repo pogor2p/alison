@@ -1,0 +1,104 @@
+@media (min-width: 992px) {
+    .header,.content-box-2 {
+        height: 630px;
+    }
+    .top__nav__menu > ul > li a {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }    
+    .title-find {
+        margin-top: 65px;
+    }
+    .title-find__text {
+        font-size: 3.3rem;
+        line-height: 78px;
+    }
+    .bott {
+        margin-top: 61px;
+    }
+    .bott__nav > ul {
+        height: 48px;
+    }     
+    .bott__nav > ul > li a {
+        padding: 10px 0;
+        font-size: 1rem; 
+    }
+    .dashboard {
+        margin-top: 22px;
+        height: 50px;
+    }
+    .dashboard__btns__btn {
+        padding-top: 12px;
+        font-size: 1rem;
+    }
+    .headline {
+        font-size: 2.1rem;
+    }
+    .tour__img {
+        height: 269px;
+    } 
+    .tour__img__text {
+        font-size: 2.5rem;
+    }
+    .card-1__image {
+        height: 202px;
+    }
+    .card-1__container {
+        height: 148px;
+        padding: 9px 15px;
+    }
+    .card-1__title {
+        // margin-bottom: 4px;
+        font-family: 'HelveticaNeue';
+        font-size: 1.1rem;
+    }
+    .card-1__description {
+        height: 22px;
+        margin-top: 15px;
+        font-size: 0.7rem;
+    }
+    .card-1__description__icon {
+        margin: 0 6px 3px 0;
+        height: 12px;
+        width: 12px;
+    }
+    .card-1__stars__icon {
+        margin-top: 14px;
+        height: 17px;
+        width: 17px;
+    }
+    .card-1__price-holder {
+        margin-bottom: 4px;
+        font-size: 1.7rem;
+    }
+    .card-2 {
+        height: 335px;
+    }
+    .card-2__image {
+        height: 138px;
+        width: 138px;
+    }
+    .card-2__image-holder {
+        height: 190px;
+        padding-top: 40px;
+    }
+    .card-2__container {
+        padding: 5px 15px 15px 15px;
+    }
+    .card-2__title {
+        padding-bottom: 15px;
+        font-size: 1.1rem; 
+    } 
+    .card-2__description {
+        font-size: 0.9rem; 
+    }
+    .card-3 {
+        height: 267px;
+    }
+    .card-3__container__text {
+        font-size: 2.2rem;
+    }
+    .card-4 {
+        font-size: 0.8rem;                 
+    } 
+} 

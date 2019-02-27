@@ -27,11 +27,11 @@
 }*/
 @media (min-width: 992px) {
     .header,.content-box-2 {
-        height: 636px;
+        height: 630px;
     }
-    .top__nav__menu ul li a {
+    .top__nav__menu > ul > li a {
         padding: 8px 12px;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }    
     .title-find {
         margin-top: 65px;
@@ -42,11 +42,14 @@
     }
     .bott {
         margin-top: 61px;
-    } 
-    .bott-nav ul li a {
-        font-size: 1rem; 
+    }
+    .bott__nav > ul {
+        height: 48px;
+    }     
+    .bott__nav > ul > li a {
         padding: 10px 0;
-     }
+        font-size: 1rem; 
+    }
     .dashboard {
         margin-top: 22px;
         height: 50px;
@@ -66,7 +69,7 @@
     .header,.content-box-2 {
         height: 770px;
     }
-    .top__nav__menu ul li a {
+    .top__nav__menu > ul > li a {
         padding:  8px 19px 4px 19px;
         font-size: 1rem;
     }
@@ -84,8 +87,12 @@
     .bott {
         margin-top: 17px;
     }
-    .bott-nav ul li a {
-        padding: 10px 0;
+    .bott__nav > ul {
+        height: 60px;
+    } 
+    .bott__nav > ul > li a {
+        padding: 20px 0;
+        font-size: 1.1rem;
     } 
     .dashboard {
         margin-top: 16px;

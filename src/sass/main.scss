@@ -174,27 +174,24 @@ button {
 .title-find h1 b {
   color: #fff;
 }
-.bott__nav ul {
-  height: 60px; 
+.bott__nav > ul {
   list-style: none;
   position: relative;
   padding: 0;
   margin-top: 0px;
   border-bottom: 1px solid #fff;
 }
-.bott__nav ul li {
+.bott__nav > ul > li {
   display: block;
   height: 100%;
     /* -webkit-transition: all .2s ease-in-out; */
     /* transition: all .2s ease-in-out; */
 } 
-.bott__nav ul li a {
+.bott__nav > ul > li a {
   display: block;
-  padding: 20px 0;
   margin: 0 42px 0 0;
   color: #fff;
   font-family: 'HelveticaNeue-Medium';
-  // font-size: 1.1rem;
   text-decoration: none;
 }
 .underline-gradient-2:after {

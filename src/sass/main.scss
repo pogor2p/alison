@@ -239,10 +239,9 @@ button {
   border-radius: 0 5px 5px 0;
 }
 
-.headline {
+.headline__text {
   font-weight: bold;
   text-align: center;
-  // font-size: 2.2rem;
   letter-spacing: 0.2rem;
   color: #555;
 }
@@ -345,17 +344,14 @@ button {
   border-radius: 5px;
 }
 .card-2__image-holder {
-  // height: 220px;
+  height: 50%;
   width: 100%;
-  // padding-top: 60px;
-  
 }
 .card-2__image {
-//  height: 160px;
-//  width: 160px;
   border-radius: 50%;
 }
 .card-2__container {
+  height: 50%;
   font-family: 'HelveticaNeue';
   letter-spacing: 0.25px;
 }
@@ -432,10 +428,10 @@ button {
 }
 
 
-.subscribe {
-  margin-top: 70px;
-  margin-bottom: 45px;
-} 
+// .subscribe {
+//   margin-top: 70px;
+//   margin-bottom: 45px;
+// } 
 .brd-top {
   border-top: 2px solid #eaeaea;
 }

@@ -31,12 +31,16 @@
         padding-top: 12px;
         font-size: 1rem;
     }
-    .headline {
-        font-size: 2.1rem;
-    }
     .alison {
-        margin-top: 65px;
+        margin-top: 60px;
         margin-bottom: 35px;
+    }
+    .headline {
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+    .headline__text {
+        font-size: 2.1rem;
     }
 
     .tour__img {
@@ -45,12 +49,9 @@
     .tour__img__text {
         font-size: 2.5rem;
     }
-    .most {
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
+ 
     .card-1__image {
-        height: 202px;
+        height: 201px;
     }
     .card-1__container {
         height: 148px;
@@ -80,19 +81,15 @@
         margin-bottom: 4px;
         font-size: 1.7rem;
     }
-    .what {
-        margin-top: 50px;
-        margin-bottom: 30px;
-      } 
+ 
     .card-2 {
-        height: 335px;
+        height: 334px;
     }
     .card-2__image {
-        height: 138px;
-        width: 138px;
+        height: 122px;
+        width: 122px;
     }
     .card-2__image-holder {
-        height: 190px;
         padding-top: 40px;
     }
     .card-2__container {
@@ -105,10 +102,7 @@
     .card-2__description {
         font-size: 0.9rem; 
     }
-    .discover {
-        margin-top: 40px;
-        margin-bottom: 30px;
-    }
+ 
     .card-3 {
         height: 267px;
     }

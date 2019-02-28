@@ -41,25 +41,24 @@
         height: 15px;
         width: 15px;    
     }  
-
-    .headline {
-        font-size: 2rem;
-    }
     .alison {
         margin-top: 55px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
-
+    .headline {
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    .headline__text {
+        font-size: 2rem;
+    }
     .tour__img {
-        height: 269px;
+        height: 304px;
     } 
     .tour__img__text {
         font-size: 2.1rem;
     }
-    .most {
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
+  
     .card-1__image {
         height: 228px;
     }
@@ -91,19 +90,15 @@
         margin-bottom: 4px;
         font-size: 1.7rem;
     }
-    .what {
-        margin-top: 50px;
-        margin-bottom: 30px;
-      } 
+  
     .card-2 {
-        height: 335px;
+        height: 382px;
     }
     .card-2__image {
         height: 138px;
         width: 138px;
     }
     .card-2__image-holder {
-        height: 190px;
         padding-top: 40px;
     }
     .card-2__container {
@@ -116,17 +111,16 @@
     .card-2__description {
         font-size: 0.9rem; 
     }
-    .discover {
-        margin-top: 40px;
-        margin-bottom: 30px;
-    }
     .card-3 {
-        height: 267px;
+        height: 304px;
     }
     .card-3__container__text {
         font-size: 2.2rem;
     }
     .card-4 {
         font-size: 0.8rem;                 
-    } 
+    }
+    .input {
+         width: 400px;
+    }     
 }  

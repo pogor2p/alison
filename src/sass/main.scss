@@ -435,20 +435,15 @@ button {
   box-shadow: 0 0 0 0.2rem rgba(162,29,110,.5);
   box-shadow: 0 0 0 0.2rem rgba(226,36,94,.5);
 }
+.foot-mar {
+  height: 60px;
+  margin-top: 60px;
+}
 .card-4 {
-  width: 23%;
-  height: 300px;
   font-family: 'HelveticaNeue-Medium';
   line-height: 1.5;
   letter-spacing: -0.4px;
   color: #555;
-  margin-top: 60px;
-}
-.card-4-1 {
-  width: 31%;
-}
-.card-4-n {
-  width: 23%;
 }
 .card-4__container {
   padding: 0 0px 0 35px;

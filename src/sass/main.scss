@@ -230,7 +230,30 @@ button {
   border-right: 1px solid #e2245e;
   border-radius: 0 5px 5px 0;
 }
-
+  
+.dash-in {
+  height: 100%;
+  width: 17.5%;
+  // font-family: 'HelveticaNeue-Medium';
+  color: #555;
+  background-color: #fff;
+  border-right: 1px solid #d8d8d8;
+}
+.dash-in__block {
+  height: 100%;
+  width: 20%;
+  display: inline-block; 
+  // text-align: center; 
+  padding: 16px 0 0 16px;
+}
+.dash-in__label {
+  height: 100%;
+  
+}
+.dash-in__block__icon {
+  height: 20px;
+  width: 20px;
+}
 .headline__text {
   font-weight: bold;
   text-align: center;

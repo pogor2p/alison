@@ -89,14 +89,14 @@
         padding-top: 60px;
     }
     .card-2__container {
-        padding: 20px;
+        padding: 20px 30px;
     } 
-    .card-2__title {
-        padding-bottom: 20px;
-        font-weight: bold;
+    .card-2__container__title {
+        height: 40px;
         font-size: 1.2rem; 
     } 
-    .card-2__description {
+    .card-2__container__descr {
+        height: 140px;
         font-size: 1rem; 
     }
  

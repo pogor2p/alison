@@ -311,13 +311,14 @@ button {
   font-family: 'HelveticaNeue';
   letter-spacing: 0.25px;
 }
-.card-2__title {
+.card-2__container__title {
   font-weight: bold;
 } 
-.card-2__description {
-  color: #444; 
+.card-2__container__descr {
+  height: 140px;
+  overflow: hidden;
+  color: #444;
 }
-
 .card-3 {
   margin: 15px 0;
   border-radius: 5px;

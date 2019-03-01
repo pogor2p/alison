@@ -98,13 +98,14 @@
         padding-top: 40px;
     }
     .card-2__container {
-        padding: 5px 15px 15px 15px;
+        padding: 16px 25px;
     }
-    .card-2__title {
-        padding-bottom: 15px;
+    .card-2__container__title {
+        height: 36px;
         font-size: 1.1rem; 
     } 
-    .card-2__description {
+    .card-2__container__descr {
+        height: 125px;
         font-size: 0.9rem; 
     }
     .card-3 {

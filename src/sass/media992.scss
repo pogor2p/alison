@@ -121,8 +121,13 @@
     }
     .card-4-1 {
         width: 31%;
+        flex: 0 0 31%;
     }
       .card-4-n {
         width: 23%;
+        flex: 0 0 23%;
     }
+    .card-4__info {
+        height: 62px;
+    }    
 } 

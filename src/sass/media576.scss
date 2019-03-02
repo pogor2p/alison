@@ -84,9 +84,51 @@
     .input {
         margin-top: 20px;
     }
-
-
-    
+ 
+    .card-4-logo__container {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card-4__container {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card-4__logo {
+        max-width: 50%;
+        flex: 0 0 50%;
+        height: 120px;
+    }
+    .card-4__info {
+        max-width: 50%;
+        flex: 0 0 50%;
+        font-size: 1rem;
+    }
+    .card-4__icons {
+        width: 50%;
+        margin-left: 50%;
+        margin-top: -40px;
+    }
+    .card-4__icons__icon {
+        width: 30px;
+        height: 30px;
+    }
+    .card-4__logo2 {
+        display: none;
+    }
+    .card-4__country {
+        margin-bottom: 15px;
+    }
+    .card-4__contacts {
+        margin-bottom: 5px !important; 
+    }
+    .card-4__address {
+        margin-bottom: 5px !important; 
+    }
+ 
     .copyright__text {
         font-size: 0.7rem;   
     } 

@@ -483,8 +483,9 @@ button {
   letter-spacing: -0.4px;
   color: #555;
 }
+.card-4-logo__container,
 .card-4__container {
-  padding: 0 0px 0 35px;
+  padding: 0 0 0 35px;
 }
 .card-4-1 .card-4__container {
   padding: 0 30px 0 10px;
@@ -496,14 +497,11 @@ button {
   background-size: contain;
 }
 .card-4__info {
-  height: 42px;
+  // height: 62px;
   font-family: 'HelveticaNeue-Medium';
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: -0.4px;
-}
-.card-4__icons img {
-  height: 15px;
 }
 .card-4__logo2 {
   height: 42px;
@@ -546,16 +544,16 @@ button {
   background: transparent url("../img/icons/location.svg")  no-repeat;
   background-size: contain;
 }
-.card-4__mail::before {
-  content: "";
-  height: 18px;
-  width: 18px;
-  position: relative;
-  top: 6px;
+.card-4__mail__icon {
+  height: 20px;
+  width: 22px;
   margin-right: 15px;
   display: inline-block;
   background: transparent url("../img/icons/mail.svg") no-repeat;
   background-size: contain;
+}
+.card-4__mail__text {
+  word-break: break-all;
 }
 .copyright {
     height: 70px;

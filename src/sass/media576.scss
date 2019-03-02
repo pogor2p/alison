@@ -14,15 +14,85 @@
         font-size: 1.6rem;
     }
     .tour__img {
-        height: 280px;
+        height: 250px;
     } 
     .tour__img__text {
         font-size: 2.5rem;
     }
     
-    
+    .card-1__image {
+        height: 150px;
+    }
+    .card-1__container {
+        height: 150px;
+        padding: 11px 17px;
+    }
+    .card-1__title {
+        // margin-bottom: 4px;
+        font-family: 'HelveticaNeue';
+        font-size: 0.9rem;
+    }
+    .card-1__description {
+        height: 23px;
+        margin-top: 6px;
+        font-size: 0.8rem;
+    }
+    .card-1__description__icon {
+        margin: 0 6px 3px 0;
+        height: 12px;
+        width: 12px;
+    }
+    .card-1__stars__icon {
+        margin-top: 12px;
+        height: 17px;
+        width: 17px;
+    }
+    .card-1__price-holder {
+        margin-top: 0;
+        font-size: 1.7rem;
+    }
+
+    .card-2 {
+        height: 300px;
+    }
+    .card-2__image {
+        height: 120px;
+        width: 120px;
+    }
+    .card-2__image-holder {
+        padding-top: 30px;
+    }
+    .card-2__container {
+        padding: 10px 15px;
+    }
+    .card-2__container__title {
+        height: 30px;
+        font-size: 1rem; 
+    } 
+    .card-2__container__descr {
+        height: 90px;
+        font-size: 0.8rem; 
+    }
     
     .card-3 {
-        height: 280px;
+        height: 220px;
     }
+    .card-3__container__text {
+        white-space: nowrap;
+        font-size: 2rem;
+    }
+    .input {
+        margin-top: 20px;
+    }
+
+
+    
+    .copyright__text {
+        font-size: 0.7rem;   
+    } 
+    .copyright__icon {
+        height: 40px;
+        width: 60px;
+        margin-right: 10px;
+      }  
 }  

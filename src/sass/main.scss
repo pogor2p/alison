@@ -43,9 +43,7 @@ button {
 }
 .fa-bars {
   content: "\f0c9";
-  // height: 50px;
-  // width: 50px;
-  font: normal normal normal 2rem/1 FontAwesome;
+  font: normal normal normal 1.8rem/1 FontAwesome;
   text-rendering: auto;
     
 }
@@ -349,6 +347,7 @@ button {
   border-radius: 50%;
 }
 .card-2__container {
+  overflow: hidden;
   height: 50%;
   font-family: 'HelveticaNeue';
   letter-spacing: 0.25px;
@@ -428,7 +427,8 @@ button {
 .input {
   height: 45px;
   width: 500px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 80px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -473,7 +473,7 @@ button {
   box-shadow: 0 0 0 0.2rem rgba(162,29,110,.5);
   box-shadow: 0 0 0 0.2rem rgba(226,36,94,.5);
 }
-.foot-mar {
+.mar-foot {
   height: 60px;
   margin-top: 60px;
 }

@@ -21,29 +21,42 @@ button {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-.header {
+.header-media {
   height: 1770px;
-  max-width: inherit;
+  // max-width: inherit;
   padding-top: 10px;
   font-size: 0.9rem;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.11);
-  -moz-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.11);
-  box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.11);
+  // -webkit-transition: all .2s;
+  // transition: all .2s;
+  // -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.11);
+  // -moz-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.11);
+  // box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.11);
+
+}
+
+.header-bg {
   color: #fff;
   background-image: url("../img/background/home1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.fa-bars {
+  content: "\f0c9";
+  // height: 50px;
+  // width: 50px;
+  font: normal normal normal 2rem/1 FontAwesome;
+  text-rendering: auto;
+    
+}
+
 .logo-img {
   height: 65px;
   width: 80px; 
   background: transparent url("../img/icons/logo/logo-transparents2x.png")  no-repeat;
   background-size: contain;
 }
-.top {
+.m-top {
   margin-top: 10px;
 }
 .top__nav {

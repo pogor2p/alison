@@ -45,10 +45,11 @@
     }
 
     .headline {
-        margin-top: 45px;
+        margin: 45px auto 0 auto;
         margin-bottom: 30px;
     }
     .headline__text {
+        letter-spacing: 0.2rem;
         font-size: 2rem;
     }
     .tour__img {

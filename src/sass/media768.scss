@@ -32,16 +32,18 @@
         margin-top: 15px;
         height: 40px;
     }
-    .dashboard__btns__btn {
-        padding-top: 10px;
+    .dash-in__img {
+        padding-top: 1px;
+    }
+    .dash-in__img__icon {
+        height: 16px;
+        width: 16px;
+    }
+    .dash-in__text__input {
         font-size: 0.8rem;
+        margin-top: 4px;
     }
-    .dashboard__btns__btn__icon {
-        margin: 0 4px 5px 4px;
-        height: 15px;
-        width: 15px;    
-    }
-  
+
     .headline {
         margin-top: 45px;
         margin-bottom: 30px;

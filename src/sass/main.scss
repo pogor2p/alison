@@ -209,19 +209,10 @@ button {
 .underline-gradient-2:focus:after {
   background-size: 100% 50%;
 }
-.dashboard__btns__btn {
-  padding: 16px 0 0 12px;
-  margin: 0;
-  width: 17.5%;
-  font-family: 'HelveticaNeue-Medium';
-  color: #555;
-  background-color: #fff;
-  border-right: 1px solid #d8d8d8;
-}
-.dashboard__btns__btn:first-of-type {
+.dash-in:first-of-type {
   border-radius: 5px 0 0 5px;
 }
-.dashboard__btns__btn:last-of-type {
+.dash-in:last-of-type {
   padding-left: 0;
   color: #fff;
   background-image: linear-gradient(to right, #a21d6e, #e2245e);
@@ -230,36 +221,43 @@ button {
   border-right: 1px solid #e2245e;
   border-radius: 0 5px 5px 0;
 }
-  
 .dash-in {
   height: 100%;
   width: 17.5%;
-  // font-family: 'HelveticaNeue-Medium';
-  
+  cursor: pointer;  
   background-color: #fff;
   border-right: 1px solid #d8d8d8;
 }
-.dash-in__block {
-  height: 100%;
-  width: 20%;
-  display: inline-block; 
-  // text-align: center; 
-  padding: 16px 0 0 16px;
+.dash-in__img {
+  height: 30px;
+  width: 28%;
+  cursor: pointer; 
 }
-.dash-in__label {
-  height: 100%;
-  font-family: 'HelveticaNeue-Medium';
-  font-size: 1.1rem;
-  color: #555;
-  
-  
-}
-.dash-in__block__icon {
+.dash-in__img__icon {
   height: 20px;
   width: 20px;
 }
-
-
+.dash-in__text {
+  height: 30px;
+  width: 72%;
+  border: none;
+  cursor: pointer;
+}
+.dash-in__text__input {
+  width: 100%;
+  font-family: 'HelveticaNeue-Medium';
+  border: none;
+  cursor: pointer;
+}
+.dash-in__text__input::placeholder {
+  color: #555;
+}
+.dash-in__text__input:active,
+.dash-in__text__input:focus,
+.dash-in__text__input:hover,
+.dash-in__text__input:visited {
+   outline: none; 
+}
 
 .headline__text {
   font-weight: bold;

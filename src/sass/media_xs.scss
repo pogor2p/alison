@@ -1,1 +1,40 @@
-  
+ 
+ .top-nav-mini {
+     margin-top: 15px;
+ }
+ .dashboard-mini {
+    // padding-left: 15px;
+    // padding-right: 15px;
+    margin-top: 30px;
+ } 
+ .dsh-m__btn {
+    height: 70px;
+    // width: 100%;
+    // outline: 1px dotted #333;
+    text-align: center;
+    padding: 1px 0;
+    color: #fff;
+    background-image: linear-gradient(to right, #a21d6e, #e2245e);
+    border-radius: 5px;
+}
+.dsh-m__inp {
+    height: 50px;
+    margin-top: 30px;
+    // outline: 1px dotted #333;
+    // text-align: center;
+    // padding: 1px 0;
+    color: #444;
+    background-color: #fff;
+    border-radius: 5px;
+}  
+.dsh-m__search {
+    height: 60px;
+    margin-top: 30px;
+    // width: 100%;
+    // outline: 1px dotted #333;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    background-image: linear-gradient(to right, #a21d6e, #e2245e);
+    border-radius: 5px;
+}  

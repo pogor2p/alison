@@ -174,6 +174,15 @@ button {
 .row.p-sm > div:not(:last-child) {
   padding-right: 5px;
 }
+
+.sandwich__icon {
+  height: 30px;
+  width: 30px;
+  margin-top: -5px;
+  color: #fff;
+  background: transparent url("../img/icons/list-menu.png")  no-repeat;
+  background-size: contain;
+}
 .title-find__text {
   font-family: 'GalanoGrotesqueDEMOBold';
   letter-spacing: -2px;

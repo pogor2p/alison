@@ -3,37 +3,101 @@
      margin-top: 15px;
  }
  .dashboard-mini {
-    // padding-left: 15px;
-    // padding-right: 15px;
     margin-top: 30px;
  } 
  .dsh-m__btn {
     height: 70px;
-    // width: 100%;
-    // outline: 1px dotted #333;
     text-align: center;
     padding: 1px 0;
-    color: #fff;
-    background-image: linear-gradient(to right, #a21d6e, #e2245e);
+    font-size: 1rem;
+    background-color: #fff;
     border-radius: 5px;
 }
+.dsh-m__btn-1 {
+    background-image: linear-gradient(to right, #a21d6e, #e2245e);
+}
+.dsh-m__btn__text-1 {
+    color: #fff;
+}
+.dsh-m__btn__text {
+    color: #444;
+}
+.dsh-m__btn__icon-tour {
+    height: 25px;
+    width: 25px;
+    margin: 8px auto 2px auto;
+    background: transparent url("../img/icons/tours.svg")  no-repeat;
+    background-size: contain;
+}
+.dsh-m__btn__icon-hot {
+    height: 25px;
+    width: 25px;
+    margin: 8px auto 2px auto;
+    background: transparent url("../img/icons/hotels.svg")  no-repeat;
+    background-size: contain;
+}
+.dsh-m__btn__icon-fli {
+    height: 25px;
+    width: 25px;
+    margin: 8px auto 2px auto;
+    background: transparent url("../img/icons/flights.svg")  no-repeat;
+    background-size: contain;
+}
+.dsh-m__btn__icon-tran {
+    height: 25px;
+    width: 25px;
+    margin: 8px auto 2px auto;
+    background: transparent url("../img/icons/transfers.svg")  no-repeat;
+    background-size: contain;
+}
+.dsh-m__inp__text {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 12px 0;
+}    
+.dsh-m__inp__icon-location-1 {
+    height: 25px;
+    width: 25px;
+    margin: 12px 25px;
+    background: transparent url("../img/icons/location_red1.svg")  no-repeat;
+    background-size: contain;
+}
+.dsh-m__inp__icon-location-2 {
+    height: 25px;
+    width: 25px;
+    margin: 12px 25px;
+    background: transparent url("../img/icons/location_red2.svg")  no-repeat;
+    background-size: contain;
+}
+.dsh-m__inp__icon-calendar {
+    height: 25px;
+    width: 25px;
+    margin: 12px 25px;
+    background: transparent url("../img/icons/calendar_red.svg")  no-repeat;
+    background-size: contain;
+}
+.dsh-m__inp__icon-people {
+    height: 25px;
+    width: 25px;
+    margin: 12px 25px;
+    background: transparent url("../img/icons/people_red.svg")  no-repeat;
+    background-size: contain;
+}
+
 .dsh-m__inp {
     height: 50px;
     margin-top: 30px;
-    // outline: 1px dotted #333;
-    // text-align: center;
-    // padding: 1px 0;
-    color: #444;
     background-color: #fff;
     border-radius: 5px;
-}  
+} 
+
 .dsh-m__search {
     height: 60px;
     margin-top: 30px;
-    // width: 100%;
-    // outline: 1px dotted #333;
     text-align: center;
     padding: 20px 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
     color: #fff;
     background-image: linear-gradient(to right, #a21d6e, #e2245e);
     border-radius: 5px;

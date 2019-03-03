@@ -24,7 +24,7 @@
 <body>
 
     <header>
-<div class="header-media header-bg d-sm-none d-md-block">
+<div class="header-lg header-bg d-none d-md-block">
     <div class="container">
         <div class="row align-items-center m-top">
             <div class="col-md-1 col-lg-1">
@@ -40,7 +40,7 @@
                               <span class="ion-android-arrow-dropdown"></span> -->
                             <!-- <ul>
                                 <li><a href="/tours.php?category_id=1"
-                                        data-localize="Incoming tours">Incoming tours</a></li>
+                                     data-localize="Incoming tours">Incoming tours</a></li>
                                 <li><a href="/tours.php?category_id=2"
                                         data-localize="Outgoing tours">Outgoing tours</a></li>
                                 <li><a href="/tours.php?category_id=3"
@@ -177,7 +177,7 @@
     </div>
   </form>     
 </div>
-<div class="header-mob header-bg d-sm-block d-md-none">
+<div class="header-md header-bg d-none d-sm-block d-md-none">
     <div class="container">    
         <div class="row justify-content-between align-items-center pt-3">
             <div class="logo-mini">
@@ -197,6 +197,11 @@
         </div>    
     </div>
 </div>
+
+<!-- <div class="header-mob header-bg d-none d-sm-block d-md-none">
+
+</div> -->
+
 </header>
 <section>
     <div class="container">
@@ -484,10 +489,10 @@
     </div>
     </div>
     <div class="container"> 
-        <div class="row input justify-content-center shadow">
-                <div class="input__envelope"><div class="input__envelope__icon"></div></div>
-                <input type="text" class="input__input" placeholder="sebastian.stan@gmail.com" aria-label="Имя получателя" aria-describedby="basic-addon2">
-                <button type="submit" class="input__btn">Subscribe</button>
+        <div class="row sub-input shadow">
+                <div class="sub-input__envelope"><div class="sb-input__envelope__icon"></div></div>
+                <input type="text" class="sub-input__input" placeholder="sebastian.stan@gmail.com" aria-label="Имя получателя" aria-describedby="basic-addon2">
+                <button type="submit" class="sub-input__btn">Subscribe</button>
         </div>
     </div>
 </section>    
@@ -506,7 +511,12 @@
                 </div>
                 <div class="card-4__logo2"></div>
             </div>
-        </div>    
+        </div>
+        <div class="col-sm-12 f-menu d-flex justify-content-center">
+            <buttom class="f-buttom d-md-none shadow" id="f-b-azer">Azerbaijan</buttom>
+            <buttom class="f-buttom d-md-none shadow" id="f-b-geor">Georgia</buttom>
+            <buttom class="f-buttom d-md-none shadow"id="f-b-ukr">Ukraine</buttom>
+        </div>
         <div class="col-sm-12 col-md-6 card-4 card-4-n">
             <div class="card-4__container">
                 <div class="card-4__country d-flex">
@@ -564,6 +574,7 @@
             </div>
         </div>
     </div>
+
 </address>
 <div class="container brd-top">
     <div class="row copyright align-items-center">
@@ -574,6 +585,20 @@
     </div>
 </div>
 </footer>
+
+<!-- <script>
+    let content = document.getElementById("content")
+    let show = document.getElementById("showContent")
+    let hide = document.getElementById("hideContent")
+
+    show.addEventListener("click", () => {
+        content.style.display = "block"
+    })
+
+    hide.addEventListener("click", () => {
+        content.style.display = "none"
+    })
+</script> -->
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

@@ -1,5 +1,5 @@
 @media (min-width: 576px) {
-    .header-mob {
+    .header-md {
         height: 350px;
     }
     .title-find {
@@ -76,16 +76,18 @@
     
     .card-3 {
         height: 220px;
-<<<<<<< HEAD
     }
     .card-3__container__text {
         white-space: nowrap;
         font-size: 2rem;
     }
-    .input {
+    .sub-input {
         margin-top: 20px;
     }
  
+    .card-4-1 {
+        margin-bottom: 30px;
+    }
     .card-4-logo__container {
         margin-top: 20px;
         display: flex;
@@ -121,18 +123,6 @@
         display: none;
     }
     .card-4__country {
-=======
-    }
-    .card-3__container__text {
-        white-space: nowrap;
-        font-size: 2rem;
-    }
-    .input {
-        margin-top: 20px;
-    }
-    .card-4__country {
-        // margin-top: 20px;
->>>>>>> 2c554698848faad8d995e21cba8412e3baafb77e
         margin-bottom: 15px;
     }
     .card-4__contacts {
@@ -141,10 +131,7 @@
     .card-4__address {
         margin-bottom: 5px !important; 
     }
-<<<<<<< HEAD
  
-=======
->>>>>>> 2c554698848faad8d995e21cba8412e3baafb77e
     .copyright__text {
         font-size: 0.7rem;   
     } 
@@ -153,4 +140,18 @@
         width: 60px;
         margin-right: 10px;
       }  
+    
+    .f-buttom {
+        height: 45px;
+        width: 120px;
+        margin: 0 20px 20px 20px;
+        padding: 10px 0;
+        text-align: center;
+        background-image: linear-gradient(to right, #a21d6e, #e2245e);
+        border: 0;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+    }  
+    
 }  

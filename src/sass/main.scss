@@ -21,7 +21,7 @@ button {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-.header-media {
+.header-lg {
   height: 1770px;
   // max-width: inherit;
   padding-top: 10px;
@@ -424,7 +424,7 @@ button {
 .brd-top {
   border-top: 2px solid #eaeaea;
 }
-.input {
+.sub-input {
   height: 45px;
   width: 500px;
   margin-left: auto;
@@ -433,11 +433,11 @@ button {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.input__envelope {
+.sub-input__envelope {
   height: 40px;
   width: 12%;
 } 
-.input__envelope__icon {
+.sub-input__envelope__icon {
   height: 100%;
   width: 100%; 
   background: #fff url("../img/icons/envelope_red.svg") 55% 60% no-repeat;
@@ -445,7 +445,7 @@ button {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.input__input {
+.sub-input__input {
   height: inherit;
   width: 64%;
   font-family: 'HelveticaNeue-Medium'; 
@@ -454,21 +454,21 @@ button {
   border: 0;
   background-color: #fff;
 }
-.input__input:focus {
+.sub-input__input:focus {
   outline: 0;
 }
-.input__btn {
+.sub-input__btn {
   height: inherit;
   width: 24%;
   text-align: center;
-  vertical-align: middle;
+  // vertical-align: middle;
   background-image: linear-gradient(to right, #a21d6e, #e2245e);
   border: 0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   color: #fff;
 }
-.input__btn:focus {
+.sub-input__btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(162,29,110,.5);
   box-shadow: 0 0 0 0.2rem rgba(226,36,94,.5);

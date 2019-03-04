@@ -351,11 +351,11 @@
 </section>
 <section>
     <div class="container">
-    <div class="row">
-    <div class="headline">
-        <h1 class="headline__text">Most Popular Tours</h1>
-    </div>
-    </div>
+        <div class="row">
+            <div class="headline">
+                <h1 class="headline__text">Most Popular Tours</h1>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="row">
@@ -409,7 +409,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="d-none d-lg-block col-sm-6 col-md-6 col-lg-4 col-xl-4">
                 <div class="card-1 shadow">
                     <div class="card-1__image-holder"><img class="card-1__image" src="https://picsum.photos/200/120" alt="description" /></div>
                     <div class="card-1__container">
@@ -439,11 +439,11 @@
 </section>
 <section>
     <div class="container">
-    <div class="row">
-    <div class="headline">
-        <h1  class="headline__text">What Customers Say</h1>
-    </div>
-    </div>
+        <div class="row">
+            <div class="headline">
+                <h1  class="headline__text">What Customers Say</h1>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="row">
@@ -475,7 +475,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="d-none d-lg-block col-sm-6 col-md-6 col-lg-4 col-xl-4">
                 <div class="card-2 shadow">
                     <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
                     <div class="card-2__container">
@@ -491,6 +491,7 @@
         </div>
     </div>
 </section>
+
 <section>
     <div class="container">
     <div class="row">
@@ -576,7 +577,7 @@
             </div>
         </div>
 
-        <div class="col-sm-12 f-menu d-flex justify-content-center">
+        <div class="col-sm-12 d-md-none f-menu d-flex justify-content-center">
             <buttom class="f-buttom d-md-none shadow" id="f-b-azer">Azerbaijan</buttom>
             <buttom class="f-buttom d-md-none shadow" id="f-b-geor">Georgia</buttom>
             <buttom class="f-buttom d-md-none shadow"id="f-b-ukr">Ukraine</buttom>
@@ -651,19 +652,6 @@
 </div>
 </footer>
 
-<!-- <script>
-    let content = document.getElementById("content")
-    let show = document.getElementById("showContent")
-    let hide = document.getElementById("hideContent")
-
-    show.addEventListener("click", () => {
-        content.style.display = "block"
-    })
-
-    hide.addEventListener("click", () => {
-        content.style.display = "none"
-    })
-</script> -->
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -671,9 +659,11 @@
     <script type="text/javascript" src="slick/slick/slick.min.js"></script>
 
     <script type="text/javascript">
-       $('.sl').slick({
+         $('.single-item').slick();
+       
+       $('.slick-card-2').slick({
         centerMode: true,
-      
+        dots: true,
         infinite: false,
         slidesToShow: 3,
         slidesToScroll: 3

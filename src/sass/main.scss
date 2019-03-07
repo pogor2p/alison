@@ -470,7 +470,6 @@ button {
   height: inherit;
   width: 24%;
   text-align: center;
-  // vertical-align: middle;
   background-image: linear-gradient(to right, #a21d6e, #e2245e);
   border: 0;
   border-top-right-radius: 5px;
@@ -506,7 +505,6 @@ button {
   background-size: contain;
 }
 .card-4__info {
-  // height: 62px;
   font-family: 'HelveticaNeue-Medium';
   font-size: 14px;
   line-height: 1.5;
@@ -589,6 +587,8 @@ button {
   background: transparent url("../img/icons/am-express.svg") no-repeat;
 }
 
-.width300px {
+.aa {
   width: 300px;
 }
+
+

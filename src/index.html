@@ -25,47 +25,6 @@
    
 <script type="text/javascript" src="slick/slick/slick.min.js"></script>
 
-<script type="text/javascript">
-     $('.slick-card-2').slick();
-
-    //  $('.slick-card-2').slick({
-    //     centerMode: true,
-    //     centerPadding: '60px',
-    //     slidesToShow: 3,
-    //     responsive: [
-    //         {
-    //         breakpoint: 768,
-    //         settings: {
-    //             arrows: false,
-    //             // arrows: true,
-    //             centerMode: true,
-    //             centerPadding: '40px',
-    //             slidesToShow: 3
-    //         }
-    //         },
-    //         {
-    //         breakpoint: 480,
-    //         settings: {
-    //             arrows: false,
-    //             // arrows: true,
-    //             centerMode: true,
-    //             centerPadding: '40px',
-    //             slidesToShow: 1
-    //         }
-    //         }
-    //     ]
-    //     });
-
-
-//    $('.slick').slick({
-//     centerMode: true,
-//     dots: true,
-//     infinite: false,
-//     slidesToShow: 3,
-//     slidesToScroll: 3
-//   });
-</script>
-
 </head>
 <body>
 
@@ -492,8 +451,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+        <div class="row slick-card-2">
+            <div class="slick-card-2__item">
                 <div class="card-2 shadow">
                     <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
                     <div class="card-2__container">
@@ -506,7 +465,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="slick-card-2__item">
                 <div class="card-2 shadow">
                     <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
                     <div class="card-2__container">
@@ -521,7 +480,20 @@
                     </div>
                 </div>
             </div>
-            <div class="d-none d-lg-block col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="slick-card-2__item">
+                <div class="card-2 shadow">
+                    <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
+                    <div class="card-2__container">
+                        <div class="card-2__container__title text-center">Jessie Watlon</div>
+                        <div class="card-2__container__descr">
+                            <div class="card-2__container__descr__text text-center">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="slick-card-2__item">
                 <div class="card-2 shadow">
                     <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
                     <div class="card-2__container">
@@ -701,8 +673,8 @@
 
 
 
-
-<div class="bb" style=height:500px>
+<!-- 
+<div class="container" style=height:500px>
     <div class="row slick-card-2">
         <div class="aa">
             <div class="card-2 shadow">
@@ -745,9 +717,80 @@
                 </div>
             </div>
         </div>
-    </div>
+        <div class="aa">
+            <div class="card-2 shadow">
+                <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
+                <div class="card-2__container">
+                    <div class="card-2__container__title text-center">Jessie Watlon</div>
+                    <div class="card-2__container__descr">
+                        <div class="card-2__cont__descr__text text-center">Lorem ipsum dolor sit amet, consectetur
+                           adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate. Lorem ipsum dolor sit amet, consectetur
+                           adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate. Lorem ipsum dolor sit amet, consectetur
+                           adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aa">
+            <div class="card-2 shadow">
+                <div class="card-2__image-holder"><img class="card-2__image d-block mx-auto" src="https://picsum.photos/200/120" alt="description" /></div>
+                <div class="card-2__container">
+                    <div class="card-2__container__title text-center">Jessie Watlon</div>
+                    <div class="card-2__container__descr">
+                        <div class="card-2__container__descr__text text-center">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Nihil deleniti nesciunt perspiciatis cupiditate.
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div> 
 </div>
+-->
 
+
+<script type="text/javascript">
+   // $('.slick-card-2').slick();
+
+    $('.slick-card-2').slick({
+       centerMode: true,
+       arrows: true,
+       dots: true,
+       centerPadding: '0px',
+       initialSlide: 1,
+       slidesToShow: 3,
+       infinite: false, 
+  
+       responsive: [
+           {
+           breakpoint: 992,
+           settings: {
+            slidesToShow: 2,
+           }
+           },
+        //    {
+        //    breakpoint: 480,
+        //    settings: {
+        //        arrows: false,
+        //        // arrows: true,
+        //        centerMode: true,
+        //        centerPadding: '40px',
+        //        slidesToShow: 1
+        //    }
+        //    }
+       ]
+      });
+
+
+//    $('.slick').slick({
+//     centerMode: true,
+//     dots: true,
+//     infinite: false,
+//     slidesToShow: 3,
+//     slidesToScroll: 3
+//   });
+</script>
  
 </body>
 </html>

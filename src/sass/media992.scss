@@ -129,5 +129,10 @@
     }
     .card-4__info {
         height: 62px;
-    }    
+    }
+    .slick-center .card-2 {
+        transform: scale(1.1);
+        transition: all .5s;
+      }
+
 } 

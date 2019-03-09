@@ -493,7 +493,9 @@ button {
   letter-spacing: -0.4px;
   color: #555;
 }
-.card-4-logo__container,
+.card-4-logo__container {
+  padding: 0; 
+}
 .card-4__container {
   padding: 0 0 0 35px;
 }
@@ -565,28 +567,27 @@ button {
   word-break: break-all;
 }
 .copyright {
-    height: 70px;
+  height: 70px;
 }
 .copyright__text {
   margin-left: 15px;
   font-family: 'HelveticaNeue-Light';
-  font-size: 0.9rem;
   color: #555;
 }
 .copyright__icon {
-  height: 60px;
-  width: 70px;
+  // height: 70px;
+  // width: 90px;
   margin-right: 15px;
   background-size: contain;
 } 
 .copyright__visa {
-  background: transparent url("../img/icons/visa.svg") no-repeat;
+  background: transparent url("../img/icons/visa.svg") no-repeat center center / contain;
 }
 .copyright__mastercard {
-  background: transparent url("../img/icons/master-card.svg") no-repeat;
+  background: transparent url("../img/icons/master-card.svg") no-repeat center center / contain;
 }
 .copyright__am-express {
-  background: transparent url("../img/icons/am-express.svg") no-repeat;
+  background: transparent url("../img/icons/am-express.svg") no-repeat center center / contain;
 }
 
 .slick-card-2-wrap {

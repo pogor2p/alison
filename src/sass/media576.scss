@@ -154,4 +154,17 @@
         cursor: pointer;
     }  
     
+    .slick-card-2-wrap {
+        height: 370px;
+        width: 540px;
+     }
+     .slick-card-2__item {
+        height: 350px;
+    }
+     .slick-center .card-2 {
+        height: 300px;
+    }
+    .slick-dots{
+        bottom: -10px;
+    }    
 }  

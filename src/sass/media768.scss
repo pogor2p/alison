@@ -174,8 +174,9 @@
         height: 420px;
     }
      .slick-center .card-2 {
-         bottom: 0px;
          height: 382px;
-     }    
-
+    }    
+    .slick-dots{
+        bottom: -25px;
+    } 
 }  

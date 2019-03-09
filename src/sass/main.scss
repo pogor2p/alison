@@ -603,6 +603,7 @@ button {
 } 
 .slick-center .card-2 {
   position: relative;
+  bottom: 0px;
 /* outline: 1px dotted #000;*/
 /* transform: scale(1); */
   transition: all .5s;
@@ -643,10 +644,6 @@ button {
   background-size: cover;
 }
 
-.slick-dots{
-  bottom: -25px;
-  
-}  
 .slick-dots li button1:after {
   display: block;
   content: "";

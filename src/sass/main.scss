@@ -596,7 +596,6 @@ button {
 }
 
 .slick-card-2__item {
-  height: 380px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
@@ -604,9 +603,6 @@ button {
 } 
 .slick-center .card-2 {
   position: relative;
-  bottom: 11px;
-
-  height: 360px;
 /* outline: 1px dotted #000;*/
 /* transform: scale(1); */
   transition: all .5s;
@@ -648,7 +644,7 @@ button {
 }
 
 .slick-dots{
-  bottom: -40px;
+  bottom: -25px;
   
 }  
 .slick-dots li button1:after {

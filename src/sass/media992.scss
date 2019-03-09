@@ -145,19 +145,16 @@
         height: 62px;
     }
 
-
-
     .slick-card-2-wrap {
-        
-       height: 400px;
+       height: 420px;
        width: 960px;
     }
-    // .slick-center .card-2 {
-    //     position: relative;
-    //     bottom: 18px;
-    //     height: 370px;
-    //     transition: all .5s;
-    //     // transform: scale(1.1);
-    // }
+    .slick-card-2__item {
+        height: 380px;
+    }
+    .slick-center .card-2 {
+        bottom: 11px;
+        height: 360px;
+    }  
  
 } 

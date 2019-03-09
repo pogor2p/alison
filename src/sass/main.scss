@@ -487,6 +487,9 @@ button {
   height: 60px;
   margin-top: 60px;
 }
+address {
+  margin-bottom: 0;
+}
 .card-4 {
   font-family: 'HelveticaNeue-Medium';
   line-height: 1.5;
@@ -580,33 +583,27 @@ button {
   margin-right: 15px;
   background-size: contain;
 } 
-.copyright__visa {
+.copyright__icon_visa {
   background: transparent url("../img/icons/visa.svg") no-repeat center center / contain;
 }
-.copyright__mastercard {
+.copyright__icon_mastercard {
   background: transparent url("../img/icons/master-card.svg") no-repeat center center / contain;
 }
-.copyright__am-express {
+.copyright__icon_am-express {
   background: transparent url("../img/icons/am-express.svg") no-repeat center center / contain;
 }
 
 .slick-card-2-wrap {
   margin-left: -15px;
-  // margin-right: auto;
-    
 }
-
 .slick-card-2__item {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
-
 } 
 .slick-center .card-2 {
   position: relative;
   bottom: 0px;
-/* outline: 1px dotted #000;*/
-/* transform: scale(1); */
   transition: all .5s;
 }  
 
@@ -645,17 +642,6 @@ button {
   background-size: cover;
 }
 
-.slick-dots li button1:after {
-  display: block;
-  content: "";
-  position: relative;
-  height: 20px;
-  width: 20px;
-  top: 15px;
-  background: green;
-  border-radius: 50%;
-}
-
 .slick-dots li button:before {
   height: 10px;
   width: 10px;
@@ -675,7 +661,8 @@ button {
 .slick-dots li.slick-active button:before {
   height: 21px;
   width: 21px;
-  top:  17px;
+  top: 17px;
+  left: -4px;
   background: #e2245e;
   border: 4px solid #fff;
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, .3);
@@ -683,54 +670,6 @@ button {
   border-radius: 50%;
 
 }
-// /* Dots */
-// .slick-dotted.slick-slider{
-//   margin-bottom: 30px;
-// }
-// .slick-dots{
-//   display: block;
-//   width: 100%;
-//   padding: 0;
-//   margin: 10px 0 0;
-//   list-style: none;
-//   text-align: center;
-//   font-size: 0;
-// }
-// .slick-dots li {
-//   position: relative;
-//   display: block;
-//   float: left;
-//   margin: 0 7px 0 0 ;
-//   padding: 0;
-//   cursor: pointer;
-// }
-// .slick-dots li:last-child {
-//   margin-right: 0;
-// }
-// .slick-dots li.slick-active button {
-//   border:2px solid #a9d1f5;
-// }
-// .slick-dots li button {
-//   font-size: 0;
-//   line-height: 0;
-//   display: block;
-//   width: 109px;
-//   border-radius: 7px;
-//   height: 80px;
-//   cursor: pointer;
-//   color: transparent;
-//   border: 0;
-//   outline: none;
-//   background: url(../img/gp1.jpg) no-repeat 0 0 / cover;
-// }
-// .slick-dots li:nth-child(2) button {
-//   background-image: url(../img/gp2.jpg);
-// }
-// .slick-dots li:nth-child(3) button {
-//   background-image: url(../img/gp3.jpg);
-// }
-// .slick-dots li:nth-child(4) button {
-//   background-image: url(../img/gp4.jpg);
-// }
+
 
 

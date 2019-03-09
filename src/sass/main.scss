@@ -345,25 +345,7 @@ button {
 
 .card-2 {
 
-
-
-
-
-
-
-
-
-
-
   // margin: 15px 0;
-  
-  
-  
-  
-  
-  
-  
-  
   
   background: #fff;
   border-radius: 5px;
@@ -609,25 +591,24 @@ button {
 
 .slick-card-2-wrap {
   margin-left: -15px;
-  margin-right: -15px;
-  margin: 20px;
-  height: 400px;
-  // outline: 1px dotted #000;
+  // margin-right: auto;
+    
 }
 
 .slick-card-2__item {
-  height: 360px;
+  height: 380px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
+
 } 
 .slick-center .card-2 {
   position: relative;
-  bottom: 15px;
+  bottom: 11px;
 
-  height: 385px;
-/*   z-index: 100;
-transform: scale(1); */
+  height: 360px;
+/* outline: 1px dotted #000;*/
+/* transform: scale(1); */
   transition: all .5s;
 }  
 

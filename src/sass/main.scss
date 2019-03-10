@@ -593,6 +593,15 @@ address {
   background: transparent url("../img/icons/am-express.svg") no-repeat center center / contain;
 }
 
+.slick-card-1-wrap {
+  margin-left: -15px;
+}
+.slick-card-1__item {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+
 .slick-card-2-wrap {
   margin-left: -15px;
 }

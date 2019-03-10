@@ -85,6 +85,9 @@
         margin-top: 20px;
     }
  
+    .address {
+        margin-bottom: 35px; 
+    } 
     .card-4-1 {
         margin-bottom: 30px;
     }
@@ -131,13 +134,17 @@
     .card-4__address {
         margin-bottom: 5px !important; 
     }
- 
+    
+    .copyright {
+        height: 60px;
+    }
     .copyright__text {
-        font-size: 0.7rem;   
+        font-size: 0.8rem;   
     } 
     .copyright__icon {
+        margin-right: 8px;
         height: 40px;
-        width: 60px;
+        width: 55px;
     }          
     
     .f-buttom {
@@ -157,9 +164,6 @@
         height: 370px;
         width: 540px;
      }
-    //  .slick-card-1__item {
-    //     height: 350px;
-    // }
 
     .slick-card-2-wrap {
         height: 370px;

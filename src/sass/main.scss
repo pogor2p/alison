@@ -309,6 +309,8 @@ button {
 }
 .card-1__image {
   width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .card-1__title {
   font-weight: bold;
@@ -578,8 +580,6 @@ address {
   color: #555;
 }
 .copyright__icon {
-  // height: 70px;
-  // width: 90px;
   margin-right: 15px;
   background-size: contain;
 } 

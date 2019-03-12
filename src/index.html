@@ -362,7 +362,7 @@
 
 <div class="d-flex most-card-wrap">
     <div class="div-opacity"></div>
-    <div class="container">
+    <div class="container"> 
         <div class="slick-card-1-wrap">
             <div class="slick-card-1">
                 
@@ -372,20 +372,23 @@
                         <div class="card-1__container">
                             <div class="card-1__title">Dubai Aquarium and Underwater<br>Zoo Day Ticket</div>
                             <div class="card-1__description d-flex justify-content-between">
-                                <div class="card-1__description__text"><img class="card-1__description__icon" src="img/icons/clock.svg" alt="star">5 days / 4 nights</div>
-                                <div class="card-1__description__text">price from</div>
+                                <div class="card-1__description__row d-flex">
+                                    <img class="card-1__description__row-icon" src="img/icons/clock.svg" alt="star">
+                                    <div class="card-1__description__row-text">5 days / 4 nights</div>
+                                </div>
+                                <div class="card-1__description__row-text">price from</div>
                             </div>
                             <div class="card-1__footer d-flex justify-content-between">
-                                <div class="card-1__stars">
-                                    <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
-                                    <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
-                                    <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
-                                    <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
-                                    <div class="card-1__stars__star"><img class="card-1__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                <div class="card-1__footer__stars">
+                                    <div class="card-1__footer__stars__star"><img class="card-1__footer__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                    <div class="card-1__footer__stars__star"><img class="card-1__footer__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                    <div class="card-1__footer__stars__star"><img class="card-1__footer__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                    <div class="card-1__footer__stars__star"><img class="card-1__footer__stars__icon" src="img/icons/star.svg" alt="star"></div>
+                                    <div class="card-1__footer__stars__star"><img class="card-1__footer__stars__icon" src="img/icons/star.svg" alt="star"></div>
                                 </div>
-                                <div class="card-1__price-holder">
-                                    <div class="card-1__price-currency">$</div>
-                                    <div class="card-1__price-value">1199</div>
+                                <div class="card-1__footer__price-holder">
+                                    <div class="card-1__footer__price-currency">$</div>
+                                    <div class="card-1__footer__price-value">1199</div>
                                 </div>
                             </div>
                         </div>
@@ -496,8 +499,8 @@
     </div>
     <div class="div-opacity"></div>
 </div>
-
 </section>
+
 <section>
     <div class="container">
         <div class="row">
@@ -760,22 +763,36 @@
        centerMode: true, 
   
        responsive: [
-           {
-           breakpoint: 992,
-           settings: {
-            slidesToShow: 2,
-           }
-           },
-        //    {
-        //    breakpoint: 480,
+        //  {
+        //    breakpoint: 992,
         //    settings: {
-        //        arrows: false,
-        //        // arrows: true,
-        //        centerMode: true,
-        //        centerPadding: '40px',
-        //        slidesToShow: 1
+        //     slidesToShow: 2,
         //    }
-        //    }
+        //    },
+            {
+            breakpoint: 768,
+           settings: {
+               arrows: false,
+               initialSlide: 1,
+               slidesToShow: 2,
+               infinite: true
+               // arrows: true,
+            //    centerMode: true,
+            //    centerPadding: '40px',
+            //    slidesToShow: 1
+           },
+           breakpoint: 576,
+           settings: {
+               arrows: false,
+               initialSlide: 0,
+               slidesToShow: 1,
+               infinite: true
+               // arrows: true,
+            //    centerMode: true,
+            //    centerPadding: '40px',
+            //    slidesToShow: 1
+           }
+           }
        ]
       });
 

@@ -4,6 +4,40 @@
         height: 280px;
     }
 
-
+    // **************** section card-1 **************************
+    .card-1 {
+        margin: 0;
+      }
+      .card-1__image {
+        height: 180px;
+        width: 100%;
+      }
+      .card-1__container {
+        height: 180px;
+        padding: 11px 17px;
+      }
+      .card-1__title {
+        height: 85px;
+        font-size: 1.2rem;
+      }
+      .card-1__description {
+        height: 25px;
+      }
+      .card-1__description__row-icon {
+        margin: 4px 6px 0 0;
+        height: 11px;
+        width: 11px;
+      }
+      .card-1__description__row-text {
+        font-size: 0.85rem;
+      }  
+      .card-1__footer__stars__icon {
+        margin-top: 12px;
+        height: 18px;
+        width: 18px;
+      }
+      .card-1__footer__price-holder {
+        font-size: 1.8rem;
+      }
 
 }      

@@ -298,9 +298,9 @@ button {
   text-decoration: none;
   color: #fff;
 }  
-
+ // **************** section card-1 **************************
 .most-card-wrap {
-  margin-top: -30px;
+  // margin-top: -30px;
 }
 .card-1 {
   margin: 15px 0;
@@ -308,43 +308,65 @@ button {
   border-radius: 5px;
 }
 .card-1__image {
+  height: 150px;
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
+.card-1__container {
+  height: 150px;
+  padding: 11px 17px;
+}
 .card-1__title {
+  height: 70px;
+  overflow: hidden;
+  font-family: 'HelveticaNeue';
   font-weight: bold;
+  font-size: 0.9rem;
   color: #555;
 }
 .card-1__description {
+  height: 23px;
+}
+.card-1__description__row-icon {
+  display: block;
+  margin: 4px 6px 0 0;
+  height: 10px;
+  width: 10px;
+}
+.card-1__description__row-text {
+  height: inherit;
   font-family: 'HelveticaNeue';
   letter-spacing: -0.6px;
+  font-size: 0.8rem;
   color: #777;
-}
-.card-1__description__text {
-  height: 100%;   
-}
-.card-1__stars {
+}  
+
+.card-1__footer__stars {
   white-space: nowrap;
 }
-.card-1__stars__star {
+.card-1__footer__stars__star {
   display: inline-block;
 }
-.card-1__star_half {
-  border-color: #aaa;
+.card-1__footer__stars__icon {
+  margin-top: 12px;
+  height: 17px;
+  width: 17px;
 }
-.card-1__price-holder {
+.card-1__footer__price-holder {
    color: #222;
+   margin-top: 0;
+   font-size: 1.7rem;
 }
-.card-1__price-currency {
+.card-1__footer__price-currency {
   display: inline-block;
   white-space: nowrap;
 }
-.card-1__price-value {
+.card-1__footer__price-value {
   display: inline-block;
   font-weight: bold;
 }
-
+ // **************** section card-2 **************************
 .card-2 {
   background: #fff;
   border-radius: 5px;

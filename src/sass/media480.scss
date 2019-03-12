@@ -1,7 +1,5 @@
 @media (min-width: 480px) { 
-    .container {
-        // max-width: 450px;
-    } 
+
     .header-md {
         height: 270px;
     }
@@ -18,5 +16,35 @@
         letter-spacing: 0px;
         line-height: 45px;
     }
-  
+      // **************** section card-1 **************************
+      .card-1__image {
+        height: 50px;
+    }
+    .card-1__container {
+        height: 150px;
+        padding: 11px 17px;
+    }
+    .card-1__title {
+        font-size: 0.9rem;
+    }
+    .card-1__description {
+        height: 23px;
+        margin-top: 6px;
+        font-size: 0.8rem;
+    }
+    .card-1__description__icon {
+        margin: 0 6px 3px 0;
+        height: 12px;
+        width: 12px;
+        top: 3px;
+    }
+    .card-1__stars__icon {
+        margin-top: 12px;
+        height: 17px;
+        width: 17px;
+    }
+    .card-1__price-holder {
+        margin-top: 0;
+        font-size: 1.7rem;
+    }
 }      

@@ -777,25 +777,23 @@
        centerMode: true, 
   
        responsive: [
-        //  {
-        //    breakpoint: 992,
+        //   {
+        //    breakpoint: 768 992,
         //    settings: {
         //     slidesToShow: 2,
         //    }
         //    },
-            {
-            breakpoint: 768,
-           settings: {
-               arrows: false,
-               initialSlide: 1,
-               slidesToShow: 2,
-               infinite: true
-               // arrows: true,
-            //    centerMode: true,
-            //    centerPadding: '40px',
-            //    slidesToShow: 1
+           {
+              breakpoint: 992,
+              settings: {
+                arrows: true,
+                initialSlide: 1,
+                slidesToShow: 2,
+                infinite: true
+              } 
            },
-           breakpoint: 576,
+           {
+           breakpoint: 400,
            settings: {
                arrows: false,
                initialSlide: 0,
@@ -805,7 +803,7 @@
             //    centerMode: true,
             //    centerPadding: '40px',
             //    slidesToShow: 1
-           }
+              }
            }
        ]
       });
@@ -825,7 +823,7 @@
            settings: {
             slidesToShow: 2,
            }
-           },
+           }
         //    {
         //    breakpoint: 480,
         //    settings: {

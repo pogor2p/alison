@@ -20,14 +20,7 @@
         letter-spacing: -2px;
         line-height: 55px;
     }
-    // .headline {
-    //     margin: 30px 0 0 0;
-    // }
-    // .headline__text {
-    //     margin-left: 15px;
-    //     letter-spacing: 0.1rem;
-    //     font-size: 1.6rem;
-    // }
+ 
     .tour__img {
         height: 250px;
     } 
@@ -35,35 +28,39 @@
         font-size: 2.5rem;
     }
     
+   // **************** section card-1 **************************
     .card-1__image {
         height: 150px;
-    }
-    .card-1__container {
+        width: 100%;
+      }
+      .card-1__container {
         height: 150px;
         padding: 11px 17px;
-    }
-    .card-1__title {
+      }
+      .card-1__title {
+        height: 58px;
         font-size: 0.9rem;
-    }
-    .card-1__description {
-        height: 23px;
-        margin-top: 6px;
-        font-size: 0.8rem;
-    }
-    .card-1__description__icon {
-        margin: 0 6px 3px 0;
-        height: 12px;
-        width: 12px;
-    }
-    .card-1__stars__icon {
+      }
+      .card-1__description {
+        height: 20px;
+      }
+      .card-1__description__row-icon {
+        margin: 3px 6px 3px 0;
+        height: 11px;
+        width: 11px;
+      }
+      .card-1__description__row-text {
+        font-size: 0.7rem;
+      }  
+      .card-1__footer__stars__icon {
         margin-top: 12px;
         height: 17px;
         width: 17px;
-    }
-    .card-1__price-holder {
-        margin-top: 0;
+      }
+      .card-1__footer__price-holder {
         font-size: 1.7rem;
-    }
+      }
+
 
     .card-2 {
         height: 300px;

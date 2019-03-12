@@ -16,35 +16,37 @@
         letter-spacing: 0px;
         line-height: 45px;
     }
-      // **************** section card-1 **************************
-      .card-1__image {
-        height: 50px;
-    }
-    .card-1__container {
-        height: 150px;
-        padding: 11px 17px;
-    }
-    .card-1__title {
-        font-size: 0.9rem;
-    }
-    .card-1__description {
-        height: 23px;
-        margin-top: 6px;
-        font-size: 0.8rem;
-    }
-    .card-1__description__icon {
-        margin: 0 6px 3px 0;
-        height: 12px;
-        width: 12px;
-        top: 3px;
-    }
-    .card-1__stars__icon {
-        margin-top: 12px;
-        height: 17px;
-        width: 17px;
-    }
-    .card-1__price-holder {
-        margin-top: 0;
-        font-size: 1.7rem;
-    }
+   // **************** section card-1 **************************
+   .card-1__image {
+    height: 150px;
+    width: 100%;
+  }
+  .card-1__container {
+    height: 150px;
+    padding: 11px 17px;
+  }
+  .card-1__title {
+    height: 58px;
+    font-size: 0.9rem;
+  }
+  .card-1__description {
+    height: 20px;
+  }
+  .card-1__description__row-icon {
+    margin: 3px 6px 3px 0;
+    height: 11px;
+    width: 11px;
+  }
+  .card-1__description__row-text {
+    font-size: 0.7rem;
+  }  
+  .card-1__footer__stars__icon {
+    margin-top: 12px;
+    height: 17px;
+    width: 17px;
+  }
+  .card-1__footer__price-holder {
+    font-size: 1.7rem;
+  }
+
 }      

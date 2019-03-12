@@ -59,37 +59,39 @@
     .tour__img__text {
         font-size: 2.1rem;
     }
-  
-    .card-1__image {
-        height: 228px;
-    }
-    .card-1__container {
-        height: 169px;
-        padding: 17px 27px;
-    }
-    .card-1__title {
-         font-size: 1.1rem;
-    }
-    .card-1__description {
-        height: 23px;
-        margin-top: 18px;
-        font-size: 0.8rem;
-    }
-    .card-1__description__icon {
-        margin: 0 6px 3px 0;
-        height: 12px;
-        width: 12px;
-    }
-    .card-1__stars__icon {
-        margin-top: 12px;
-        height: 19px;
-        width: 19px;
-    }
-    .card-1__price-holder {
-        margin-top: 0;
-        font-size: 1.7rem;
-    }
-  
+   // **************** section card-1 **************************
+   .card-1__image {
+    height: 228px;
+    width: 100%;
+  }
+  .card-1__container {
+    height: 169px;
+    padding: 17px 27px;
+  }
+  .card-1__title {
+    height: 48px;
+    font-size: 1.1rem;
+  }
+  .card-1__description {
+    height: 23px;
+  }
+  .card-1__description__row-icon {
+    margin: 3px 7px 3px 0;
+    height: 12px;
+    width: 12px;
+  }
+  .card-1__description__row-text {
+    font-size: 0.8rem;
+  }  
+  .card-1__footer__stars__icon {
+    margin-top: 12px;
+    height: 19px;
+    width: 19px;
+  }
+  .card-1__footer__price-holder {
+    font-size: 1.7rem;
+  }
+   
     .card-2 {
         height: 382px;
     }

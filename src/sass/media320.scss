@@ -1,4 +1,24 @@
-@media (min-width: 400px) { 
+@media (min-width: 320px) { 
+
+    .header-md {
+        height: 300px;
+    }
+    .container {
+        max-width: 450px;
+    }
+   
+    .sandwich__icon {
+        height: 23px;
+        width: 23px;
+    }
+    .title-find {
+        margin-top: 25px;
+    }
+    .title-find__text {
+        font-size: 2rem;
+        letter-spacing: 0px;
+        line-height: 45px;
+    }
 
     .top-nav-mini {
         margin-top: 15px;
@@ -103,4 +123,16 @@
         background-image: linear-gradient(to right, #a21d6e, #e2245e);
         border-radius: 5px;
     }
+    
+    .headline {
+        margin: 30px 0 0 0;
+    }
+    .headline__text {
+        margin-left: 15px;
+        letter-spacing: 0.1rem;
+        font-size: 1.6rem;
+    }
+    .tour__img {
+        height: 250px;
+    } 
 }      

@@ -13,12 +13,12 @@
         width: 100%;
       }
       .card-1__container {
-        height: 180px;
+        min-height: 180px;
         padding: 11px 17px;
       }
       .card-1__title {
-        height: 85px;
-        font-size: 1.2rem;
+        min-height: 85px;
+        font-size: 1.25rem;
       }
       .card-1__description {
         height: 25px;
@@ -29,7 +29,7 @@
         width: 11px;
       }
       .card-1__description__row-text {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
       }  
       .card-1__footer__stars__icon {
         margin-top: 12px;

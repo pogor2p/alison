@@ -65,18 +65,18 @@
     width: 100%;
   }
   .card-1__container {
-    height: 169px;
+    min-height: 169px;
     padding: 17px 27px;
   }
   .card-1__title {
-    height: 48px;
+    min-height: 70px;
     font-size: 1.1rem;
   }
   .card-1__description {
     height: 23px;
   }
   .card-1__description__row-icon {
-    margin: 3px 7px 3px 0;
+    margin: 3px 7px 0 0;
     height: 12px;
     width: 12px;
   }

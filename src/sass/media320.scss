@@ -141,11 +141,11 @@
         width: 100%;
       }
       .card-1__container {
-        height: 180px;
+        min-height: 180px;
         padding: 11px 17px;
       }
       .card-1__title {
-        height: 85px;
+        min-height: 85px;
         font-size: 1.2rem;
       }
       .card-1__description {

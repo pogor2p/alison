@@ -314,12 +314,12 @@ button {
   border-top-left-radius: 5px;
 }
 .card-1__container {
-  height: 150px;
+  min-height: 150px;
   padding: 11px 17px;
 }
 .card-1__title {
-  height: 70px;
-  overflow: hidden;
+  min-height: 70px;
+  // overflow: hidden;
   font-family: 'HelveticaNeue';
   font-weight: bold;
   font-size: 0.9rem;

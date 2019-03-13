@@ -34,23 +34,23 @@
         width: 100%;
       }
       .card-1__container {
-        height: 150px;
+        min-height: 150px;
         padding: 11px 17px;
       }
       .card-1__title {
-        height: 58px;
-        font-size: 0.9rem;
+        min-height: 65px;
+        font-size: 1rem;
       }
       .card-1__description {
         height: 20px;
       }
       .card-1__description__row-icon {
-        margin: 3px 6px 3px 0;
-        height: 11px;
-        width: 11px;
+        margin: 5px 6px 0 0;
+        height: 10px;
+        width: 10px;
       }
       .card-1__description__row-text {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
       }  
       .card-1__footer__stars__icon {
         margin-top: 12px;

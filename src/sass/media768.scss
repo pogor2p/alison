@@ -60,59 +60,77 @@
         font-size: 2.1rem;
     }
    // **************** section card-1 **************************
-   .card-1__image {
-    height: 228px;
-    width: 100%;
-  }
-  .card-1__container {
-    min-height: 169px;
-    padding: 17px 27px;
-  }
-  .card-1__title {
-    min-height: 70px;
-    font-size: 1.1rem;
-  }
-  .card-1__description {
-    height: 23px;
-  }
-  .card-1__description__row-icon {
-    margin: 3px 7px 0 0;
-    height: 12px;
-    width: 12px;
-  }
-  .card-1__description__row-text {
-    font-size: 0.8rem;
-  }  
-  .card-1__footer__stars__icon {
-    margin-top: 12px;
-    height: 19px;
-    width: 19px;
-  }
-  .card-1__footer__price-holder {
-    font-size: 1.7rem;
-  }
-   
+   .most-card-wrap {
+        margin-bottom: -20px;
+    }
+    .card-1__image {
+        height: 228px;
+        width: 100%;
+    }
+    .card-1__container {
+        min-height: 169px;
+        padding: 17px 27px;
+    }
+    .card-1__title {
+        min-height: 70px;
+        font-size: 1.1rem;
+    }
+    .card-1__description {
+        height: 23px;
+    }
+    .card-1__description__row-icon {
+        margin: 3px 7px 0 0;
+        height: 12px;
+        width: 12px;
+    }
+    .card-1__description__row-text {
+        font-size: 0.8rem;
+    }  
+    .card-1__footer__stars__icon {
+        margin-top: 12px;
+        height: 19px;
+        width: 19px;
+    }
+    .card-1__footer__price-holder {
+        font-size: 1.7rem;
+    }
+    .slick-card-1-wrap {
+        height: 460px;
+        width: 720px;
+    }
+// **************** section card-2 **************************   
     .card-2 {
         height: 382px;
+    }
+    .card-2__image-holder {
+        height: 191px;
     }
     .card-2__image {
         height: 138px;
         width: 138px;
     }
-    .card-2__image-holder {
-        padding-top: 40px;
-    }
     .card-2__container {
+        height: 191px;
         padding: 16px 25px;
     }
     .card-2__container__title {
-        height: 36px;
         font-size: 1.1rem; 
     } 
     .card-2__container__descr {
-        height: 125px;
+        padding: 8px 8px;
         font-size: 0.9rem; 
     }
+    .slick-card-2-wrap {
+        height: 460px;
+        width: 720px;
+     }
+     .slick-card-2__item {
+        height: 420px;
+    }
+     .slick-center .card-2 {
+         height: 382px;
+    } 
+// **************** section card-3 **************************
     .card-3 {
         height: 304px;
     }
@@ -175,22 +193,7 @@
     .copyright__text {
         font-size: 0.9rem;
     }
-    
-    .slick-card-1-wrap {
-        height: 460px;
-        width: 720px;
-    }
-  
-    .slick-card-2-wrap {
-        height: 460px;
-        width: 720px;
-     }
-     .slick-card-2__item {
-        height: 420px;
-    }
-     .slick-center .card-2 {
-         height: 382px;
-    }    
+          
     .slick-dots{
         bottom: -25px;
     } 

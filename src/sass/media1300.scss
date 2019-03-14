@@ -88,29 +88,47 @@
     .card-1__footer__price-holder {
         font-size: 2rem;
     }
-
+    .slick-card-1-wrap {
+        height: 530px;
+        width: 1230px;
+    }
+// **************** section card-2 **************************
     .card-2 {
         height: 440px;
+    }
+    .card-2__image-holder {
+        height: 220px;
     }
     .card-2__image {
         height: 160px;
         width: 160px;
     }
-    .card-2__image-holder {
-        padding-top: 60px;
-    }
     .card-2__container {
+        height: 220px;
         padding: 20px 30px;
     } 
     .card-2__container__title {
-        height: 40px;
         font-size: 1.2rem; 
     } 
     .card-2__container__descr {
-        height: 140px;
+        padding-top: 10px;
         font-size: 1rem; 
     }
- 
+    .slick-card-2-wrap {
+        height: 530px;
+        width: 1230px;
+    }
+    .slick-card-2__item {
+        height: 500px;
+    }
+    .slick-center .card-2 {
+        bottom: 14px;
+        height: 474px;
+    }
+    .slick-center .card-2__image-holder {
+        height: 234px;
+    }       
+ // **************** section card-3 **************************
     .card-3 {
         height: 350px;
     }
@@ -124,21 +142,5 @@
         height: 60px;
         width: 80px;
     }
-
-    .slick-card-1-wrap {
-        height: 530px;
-        width: 1230px;
-    }
- 
-    .slick-card-2-wrap {
-        height: 530px;
-        width: 1230px;
-    }
-    .slick-card-2__item {
-        height: 500px;
-    }
-    .slick-center .card-2 {
-        bottom: 14px;
-        height: 474px;
-    }       
+    
 }

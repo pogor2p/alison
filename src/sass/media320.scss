@@ -132,7 +132,7 @@
     .tour__img {
         height: 250px;
     }
-    // **************** section card-1 **************************
+// **************** section card-1 **************************
      .card-1 {
         margin: 0;
       }
@@ -167,5 +167,33 @@
       .card-1__footer__price-holder {
         font-size: 1.8rem;
       }
-
+// **************** section card-2 **************************
+      .card-2 {
+          height: 360px;
+      }
+      .card-2__image-holder {
+          height: 180px;
+      }
+      .card-2__image {
+          height: 120px;
+          width: 120px;
+      }
+      .card-2__container {
+          height: 180px;  
+          padding: 10px 8px 8px 8px;
+      }
+      .card-2__container__title {
+          font-size: 1rem; 
+      } 
+      .card-2__container__descr {
+          font-size: 0.8rem; 
+      }
+// **************** section card-3 **************************
+    .card-3 {
+        height: 330px;
+    }
+    .card-3__container__text {
+        white-space: nowrap;
+        font-size: 2rem;
+    }
 }      

@@ -299,9 +299,6 @@ button {
   color: #fff;
 }  
  // **************** section card-1 **************************
-// .most-card-wrap {
-//   margin-top: -30px;
-// }
 .card-1 {
   margin: 15px 0;
   background: #fff;
@@ -341,7 +338,6 @@ button {
   font-size: 0.8rem;
   color: #777;
 }  
-
 .card-1__footer__stars {
   white-space: nowrap;
 }
@@ -368,30 +364,39 @@ button {
 }
  // **************** section card-2 **************************
 .card-2 {
+  height: 320px;
   background: #fff;
   border-radius: 5px;
 }
 .card-2__image-holder {
-  height: 50%;
+  height: 160px;
   width: 100%;
 }
 .card-2__image {
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
 }
 .card-2__container {
-  overflow: hidden;
-  height: 50%;
+  height: 160px;
+  padding: 10px 6px 6px 6px;
   font-family: 'HelveticaNeue';
   letter-spacing: 0.25px;
+  overflow: hidden;
 }
 .card-2__container__title {
+  font-size: 1rem;
   font-weight: bold;
 } 
 .card-2__container__descr {
-  height: 140px;
-  overflow: hidden;
+  font-size: 0.8rem; 
   color: #444;
+  overflow: hidden;
 }
+.card-2__container__descr__text {
+  overflow: hidden;
+} 
+ // **************** section card-3 **************************
 .card-3 {
   margin: 15px 0;
   border-radius: 5px;

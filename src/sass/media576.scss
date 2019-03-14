@@ -1,7 +1,4 @@
 @media (min-width: 576px) {
-    .container {
-        // max-width: inherit;
-    }
     .header-md {
         height: 350px;
     }
@@ -28,8 +25,11 @@
         font-size: 2.5rem;
     }
     
-   // **************** section card-1 **************************
-    .card-1__image {
+// **************** section card-1 **************************
+      .most-card-wrap {
+        margin-bottom: -60px;
+      } 
+      .card-1__image {
         height: 150px;
         width: 100%;
       }
@@ -59,31 +59,39 @@
       }
       .card-1__footer__price-holder {
         font-size: 1.7rem;
-      }
-
-
+      }      
+// **************** section card-2 **************************
     .card-2 {
         height: 300px;
+    }
+    .card-2__image-holder {
+        height: 150px;
     }
     .card-2__image {
         height: 120px;
         width: 120px;
     }
-    .card-2__image-holder {
-        padding-top: 30px;
-    }
     .card-2__container {
+        height: 150px;   
         padding: 10px 15px;
     }
     .card-2__container__title {
-        height: 30px;
         font-size: 1rem; 
     } 
     .card-2__container__descr {
-        height: 90px;
         font-size: 0.8rem; 
     }
-    
+    .slick-card-2-wrap {
+        min-height: 370px;
+        width: 540px;
+     }
+     .slick-card-2__item {
+        height: 350px;
+    }
+     .slick-center .card-2 {
+        height: 300px;
+    }
+    // **************** section card-3 **************************
     .card-3 {
         height: 220px;
     }
@@ -175,16 +183,7 @@
         width: 540px;
      }
 
-    .slick-card-2-wrap {
-        height: 370px;
-        width: 540px;
-     }
-     .slick-card-2__item {
-        height: 350px;
-    }
-     .slick-center .card-2 {
-        height: 300px;
-    }
+    
     .slick-dots{
         bottom: -10px;
     }    

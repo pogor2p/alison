@@ -4,7 +4,7 @@
         height: 280px;
     }
 
-    // **************** section card-1 **************************
+// **************** section card-1 **************************
     .card-1 {
         margin: 0;
       }
@@ -39,5 +39,25 @@
       .card-1__footer__price-holder {
         font-size: 1.8rem;
       }
-
+// **************** section card-2 **************************
+      .card-2 {
+        height: 380px;
+      }
+      .card-2__image-holder {
+        height: 190px;
+      }
+      .card-2__image {
+        height: 135px;
+        width: 135px;
+      }
+      .card-2__container {
+        height: 190px;  
+        padding: 12px;
+      }
+      .card-2__container__title {
+        font-size: 1.1rem; 
+      } 
+      .card-2__container__descr {
+        font-size: 0.9rem; 
+      }
 }      

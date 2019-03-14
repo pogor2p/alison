@@ -54,62 +54,78 @@
         font-size: 2.5rem;
     }
   // **************** section card-1 **************************
-  .card-1__image {
-    height: 201px;
-    width: 100%;
-  }
-  .card-1__container {
-    height: 148px;
-    padding: 15px 25px;
-  }
-  .card-1__title {
-    height: 48px;
-    font-size: 1rem;
-  }
-  .card-1__description {
-    height: 20px;
-  }
-  .card-1__description__row-icon {
-    margin: 3px 7px 3px 0;
-    height: 12px;
-    width: 12px;
-  }
-  .card-1__description__row-text {
-    font-size: 0.8rem;
-  }  
-  .card-1__footer__stars__icon {
-    margin-top: 11px;
-    height: 17px;
-    width: 17px;
-  }
-  .card-1__footer__price-holder {
-    font-size: 1.7rem;
-  }
-   
-
- 
+    .card-1__image {
+        height: 201px;
+        width: 100%;
+    }
+    .card-1__container {
+        height: 148px;
+        padding: 15px 25px;
+    }
+    .card-1__title {
+        height: 48px;
+        font-size: 1rem;
+    }
+    .card-1__description {
+        height: 20px;
+    }
+    .card-1__description__row-icon {
+        margin: 3px 7px 3px 0;
+        height: 12px;
+        width: 12px;
+    }
+    .card-1__description__row-text {
+        font-size: 0.8rem;
+    }  
+    .card-1__footer__stars__icon {
+        margin-top: 11px;
+        height: 17px;
+        width: 17px;
+    }
+    .card-1__footer__price-holder {
+        font-size: 1.7rem;
+    }
+    .slick-card-1-wrap {
+      height: 420px;
+      width: 960px;
+    }
+// **************** section card-2 **************************   
     .card-2 {
         height: 334px;
+    }
+    .card-2__image-holder {
+        height: 167px;
     }
     .card-2__image {
         height: 122px;
         width: 122px;
     }
-    .card-2__image-holder {
-        padding-top: 40px;
-    }
     .card-2__container {
+        height: 167px;
         padding: 14px 20px;
     }
     .card-2__container__title {
-        height: 34px;
         font-size: 1.1rem; 
     } 
     .card-2__container__descr {
-        height: 100px;
+        padding-top: 8px;
         font-size: 0.9rem; 
     }
- 
+    .slick-card-2-wrap {
+        height: 420px;
+        width: 960px;
+    }
+    .slick-card-2__item {
+        height: 380px;
+    }
+    .slick-center .card-2 {
+        bottom: 11px;
+        height: 360px;
+    }
+    .slick-center .card-2__image-holder {
+        height: 178px;
+    }  
+ // **************** section card-3 **************************   
     .card-3 {
         height: 267px;
     }
@@ -137,22 +153,6 @@
         width: 70px;
         margin-right: 15px;
     }
-
-    .slick-card-1-wrap {
-        height: 420px;
-        width: 960px;
-     }
-   
-    .slick-card-2-wrap {
-       height: 420px;
-       width: 960px;
-    }
-    .slick-card-2__item {
-        height: 380px;
-    }
-    .slick-center .card-2 {
-        bottom: 11px;
-        height: 360px;
-    }  
+  
  
 } 

@@ -149,7 +149,15 @@
         font-size: 0.8rem;                 
     }
     .card-4-1,
-    .card-4-n {
+    .card-4-azer,
+    .card-4-geor,
+    .card-4-ukr {
+        display: block;
+    }
+    .card-4-1,
+    .card-4-azer,
+    .card-4-geor,
+    .card-4-ukr {
         width: 50%;
     }
     .card-4-logo__container,

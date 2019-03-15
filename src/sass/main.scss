@@ -463,9 +463,10 @@ button {
 }
 .sub-input {
   height: 45px;
-  width: 500px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   margin-bottom: 80px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -513,12 +514,10 @@ button {
   height: 60px;
   margin-top: 60px;
 }
+// ******************* footer **************************    
 address {
-  margin-bottom: 0;
+  margin-bottom: 25px;
 }
-
-
-
 .f-buttom {
   height: 45px;
   width: 120px;
@@ -539,7 +538,7 @@ address {
 }
 .card-4-logo__container {
   padding: 0;
-  margin-top: 20px;
+  margin-top: -10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; 
@@ -561,18 +560,18 @@ address {
   // width: 85px; 
   background: transparent url("../img/icons/logo/logo-transparents2xred.png")  no-repeat;
   background-size: contain;
-  max-width: 50%;
+  // max-width: 50%;
   flex: 0 0 50%;
-  height: 120px;
+  height: 90px;
 }
 .card-4__info {
   font-family: 'HelveticaNeue-Medium';
   // font-size: 14px;
   line-height: 1.5;
   letter-spacing: -0.4px;
-  max-width: 50%;
+  // max-width: 50%;
   flex: 0 0 50%;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 .card-4__icons {
   width: 50%;
@@ -580,8 +579,8 @@ address {
   margin-top: -40px;
 }
 .card-4__icons__icon {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
 }
 .card-4__logo2 {
   display: none;
@@ -635,6 +634,12 @@ address {
 }
 .card-4__mail__text {
   word-break: break-all;
+}
+// .card-4-1,
+.card-4-azer,
+.card-4-geor,
+.card-4-ukr {
+  display: none;
 }
 
 .copyright {

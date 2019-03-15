@@ -91,7 +91,7 @@
      .slick-center .card-2 {
         height: 300px;
     }
-    // **************** section card-3 **************************
+// **************** section card-3 **************************
     .card-3 {
         height: 220px;
     }
@@ -99,10 +99,11 @@
         white-space: nowrap;
         font-size: 2rem;
     }
+    
     .sub-input {
         margin-top: 20px;
     }
- 
+// ******************* footer **************************     
     .address {
         margin-bottom: 35px; 
     } 
@@ -111,7 +112,7 @@
     }
    
     .card-4-logo__container {
-        margin-top: 20px;
+        margin-top: 0px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -123,12 +124,12 @@
         flex-wrap: wrap;
     }
     .card-4__logo {
-        max-width: 50%;
+        // max-width: 50%;
         flex: 0 0 50%;
         height: 120px;
     }
     .card-4__info {
-        max-width: 50%;
+        // max-width: 50%;
         flex: 0 0 50%;
         font-size: 1rem;
     }

@@ -516,6 +516,21 @@ button {
 address {
   margin-bottom: 0;
 }
+
+
+
+.f-buttom {
+  height: 45px;
+  width: 120px;
+  // margin: 0 20px 20px 20px;
+  padding: 10px 0;
+  text-align: center;
+  background-image: linear-gradient(to right, #a21d6e, #e2245e);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}  
 .card-4 {
   font-family: 'HelveticaNeue-Medium';
   line-height: 1.5;
@@ -523,27 +538,53 @@ address {
   color: #555;
 }
 .card-4-logo__container {
-  padding: 0; 
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
 }
 .card-4__container {
   padding: 0 0 0 35px;
+}
+.card-4__container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .card-4-1 .card-4__container {
   padding: 0 30px 0 10px;
 }
 .card-4__logo {
-  height: 65px;
-  width: 85px; 
+  // height: 65px;
+  // width: 85px; 
   background: transparent url("../img/icons/logo/logo-transparents2xred.png")  no-repeat;
   background-size: contain;
+  max-width: 50%;
+  flex: 0 0 50%;
+  height: 120px;
 }
 .card-4__info {
   font-family: 'HelveticaNeue-Medium';
-  font-size: 14px;
+  // font-size: 14px;
   line-height: 1.5;
   letter-spacing: -0.4px;
+  max-width: 50%;
+  flex: 0 0 50%;
+  font-size: 1rem;
+}
+.card-4__icons {
+  width: 50%;
+  margin-left: 50%;
+  margin-top: -40px;
+}
+.card-4__icons__icon {
+  width: 30px;
+  height: 30px;
 }
 .card-4__logo2 {
+  display: none;
   height: 42px;
   width: 70px; 
   background: transparent url("../img/icons/azerbaijzn/azerbaijzn@2x.png")  no-repeat;
@@ -595,6 +636,7 @@ address {
 .card-4__mail__text {
   word-break: break-all;
 }
+
 .copyright {
   height: 70px;
 }

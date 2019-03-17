@@ -104,9 +104,6 @@
         margin-top: 20px;
     }
 // ******************* footer **************************     
-    .address {
-        margin-bottom: 35px; 
-    } 
     .card-4-1 {
         margin-bottom: 30px;
     }
@@ -129,7 +126,7 @@
         height: 120px;
     }
     .card-4__info {
-        // max-width: 50%;
+        margin-top: 0px;
         flex: 0 0 50%;
         font-size: 1rem;
     }
@@ -161,7 +158,7 @@
     .copyright__text {
         font-size: 0.8rem;   
     } 
-    .copyright__icon {
+    .copyright__icon-size {
         margin-right: 8px;
         height: 40px;
         width: 55px;

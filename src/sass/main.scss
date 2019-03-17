@@ -536,6 +536,14 @@ address {
   letter-spacing: -0.4px;
   color: #555;
 }
+.card-4-1 {
+  min-height: 120px; 
+}
+.card-4-azer,
+.card-4-geor,
+.card-4-ukr {
+  min-height: 260px;
+}
 .card-4-logo__container {
   padding: 0;
   margin-top: -10px;
@@ -544,7 +552,7 @@ address {
   flex-wrap: wrap; 
 }
 .card-4__container {
-  padding: 0 0 0 35px;
+  padding: 0;
 }
 .card-4__container {
   margin-top: 20px;
@@ -634,12 +642,6 @@ address {
 }
 .card-4__mail__text {
   word-break: break-all;
-}
-// .card-4-1,
-.card-4-azer,
-.card-4-geor,
-.card-4-ukr {
-  display: none;
 }
 
 .copyright {
@@ -773,4 +775,5 @@ address {
 }
 // ---------------------------------
 
-
+// @import "./slick/slick"
+// @import "./slick/slick-theme"

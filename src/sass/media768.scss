@@ -144,20 +144,18 @@
     .address {
         margin-bottom: 0; 
     } 
-    .card-4 {
-        height: 260px;
-        font-size: 0.8rem;                 
-    }
+    // .card-4 {
+    //     min-height: 260px;
+    //     font-size: 0.8rem;                 
+    // }
     .card-4-1,
     .card-4-azer,
     .card-4-geor,
     .card-4-ukr {
-        display: block;
-    }
-    .card-4-1,
-    .card-4-azer,
-    .card-4-geor,
-    .card-4-ukr {
+        min-height: 260px;
+        font-size: 0.8rem; 
+        display: block !important;
+        opacity: 1 !important;
         width: 50%;
     }
     .card-4-logo__container,
@@ -165,6 +163,10 @@
         margin-top: 0px;
         display: block;
     }
+
+    .card-4__container {
+        padding-right: 35px;
+      }
     .card-4__logo {
         height: 65px;
         width: 85px; 

@@ -13,7 +13,7 @@
 <meta name="author" content="mike"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!-- <link href="assets/plugins/datepicker/datepicker.min.css" rel="stylesheet"> -->
  
 <link rel="stylesheet" href="/css/build.css">
@@ -21,8 +21,11 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
    
-<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<!-- <script type="text/javascript" src="js/slick/slick.min.js"></script> -->
 
+
+ <!-- src('node_modules/jquery/dist/jquery.min.js');
+  src('node_modules/slick-carousel/slick/slick.min.js'); -->
 </head>
 <body>
 
@@ -352,7 +355,7 @@
 </div>
 </section>
 
-<section>
+<section style="display:none">
     <div class="container">
         <div class="row">
             <div class="headline">
@@ -513,7 +516,7 @@
 </div>
 </section>
 
-<section>
+<section style="display:none">
     <div class="container">
         <div class="row">
             <div class="headline ">
@@ -670,7 +673,7 @@
         <div class="mar-foot brd-top"></div>
     </div>
 <address class="container address">
-    <div class="row">
+    <div class="row tab-content" id="nav-tabContent">
         <div class="col-12 col-md-6 card-4 card-4-1">
             <div class="card-4-logo__container">
                 <div class="card-4__logo mb-3"></div>
@@ -683,28 +686,16 @@
                 <div class="card-4__logo2"></div>
             </div>
         </div>
+            
+<!--                            из bottom убрал id="nav-profile-tab" одинаковы  show active  -->
 
-  <nav>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
-        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
-    </div>
-  </nav>
-  <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
-    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-  </div>
-
-      <nav>
-        <div class="col-12 d-md-none f-menu d-flex justify-content-between">
-            <buttom class="f-buttom d-md-none shadow" id="f-b-azer">Azerbaijan</buttom>
-            <buttom class="f-buttom d-md-none shadow" id="f-b-geor">Georgia</buttom>
-            <buttom class="f-buttom d-md-none shadow"id="f-b-ukr">Ukraine</buttom>
-        </div>
-      </nav>   
-        <div class="col-sm-12 col-md-6 card-4 card-4-azer">
+        <nav class="col-12 d-md-none f-menu d-flex justify-content-between nav nav-tabs" id="nav-tab">
+            <buttom class="d-md-none shadow nav-item nav-link active f-buttom" data-toggle="tab" data-target="#azer" role="tab">Azerbaijan</buttom>
+            <buttom class="d-md-none shadow nav-item nav-link f-buttom" data-toggle="tab" data-target="#geor" role="tab">Georgia</buttom>
+            <buttom class="d-md-none shadow nav-item nav-link f-buttom" data-toggle="tab" data-target="#ukr" role="tab">Ukraine</buttom>
+        </nav>
+   
+        <div class="col-sm-12 col-md-6 card-4 tab-pane fade card-4-azer show active" id="azer" role="tabpanel" aria-labelledby="nav-home-tab">
             <div class="card-4__container">
                 <div class="card-4__country d-flex">
                     <img class="mr-3" src="img/icons/azerbaijan.svg" alt="azerbaijan"> 
@@ -722,7 +713,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 card-4 card-4-geor">
+        <div class="col-sm-12 col-md-6 card-4 tab-pane fade card-4-geor" id="geor" role="tabpanel" aria-labelledby="nav-profile-tab">
             <div class="card-4__container">
                 <div class="card-4__country d-flex">
                     <img class="mr-3" src="img/icons/georgia.svg" alt="georgia"> 
@@ -740,7 +731,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 card-4 card-4-ukr">
+        <div class="col-sm-12 col-md-6 card-4 tab-pane fade card-4-ukr" id="ukr" role="tabpanel" aria-labelledby="nav-contact-tab">
             <div class="card-4__container">
                 <div class="card-4__country d-flex">
                     <img class="mr-3" src="img/icons/ukraine.svg" alt="ukraine"> 
@@ -766,21 +757,29 @@
     <div class="container"> 
         <div class="brd-top"></div>
     </div>
+ 
 <div class="container">
     <div class="row align-items-center copyright">
         <div class="copyright__text mr-auto">Copyright © 2018 Alison Travel. All rights reserved</div> 
         <div class="copyright__icon copyright__icon_visa"></div>
         <div class="copyright__icon copyright__icon_mastercard"></div>
         <div class="copyright__icon copyright__icon_am-express"></div>
-    </div>
-</div>
+    </div> 
+</div>  
 </footer>
+
+<!-- <script type="text/javascript" src="../node_modules/slick-carousel/slick/slick.min.js"></script> -->
+<!-- <script type="text/javascript" src="../node_modules/slick-carousel/slick/main2.js"></script> -->
+<!-- <script type="text/javascript" src="./js/main.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
     $('.slick-card-1').slick({
        centerMode: true,
        arrows: true,
-       initialSlide: 1,
+       initialSlide: 1, 
        slidesToShow: 3,
        infinite: false,
        centerMode: true, 

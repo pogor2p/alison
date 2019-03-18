@@ -1,11 +1,14 @@
 var gulp = require('gulp'),
 	gutil = require('gulp-util'),
+	resolvePath = require('path'),
 	sass = require('gulp-sass'),
 	babel = require('gulp-babel'),
 	sourcemaps = require('gulp-sourcemaps'),
 	uglify = require('gulp-uglify'),
 	autoprefixer = require('gulp-autoprefixer'),
 	browserSync = require('browser-sync'),
+	webpackStream = require('webpack-stream'),
+	webpack = webpackStream.webpack,
 	reload = require('browser-sync').reload;
 
 const isBuild = gutil.env.env === 'build';
@@ -37,7 +40,7 @@ const path = {
 	},
 	src: {
 		html: ["src/**/*.html"],
-		js: "src/js/**/*.js",
+		js: "src/js/main.js",
 		style: "src/sass/build.sass",
 		img: "src/img/**/*.*",
 		fonts: "src/fonts/**/*.*"
@@ -51,6 +54,15 @@ const path = {
 	},
 };
 path.dest = isBuild ? path.build : path.dist;
+
+const webpackOptions = {
+  mode: isBuild ? 'production' : 'development',
+  entry: resolvePath.join(__dirname, path.src.js),
+  output: {
+    path: resolvePath.join(__dirname, path.dest.js),
+    filename: 'main.js'
+  }
+};
 
 // SASS
 gulp.task('sass', function () {
@@ -85,10 +97,7 @@ gulp.task('scripts', function(){
 		uglify = gutil.noop;
 	}
 	gulp.src(path.src.js)
-		.pipe(babel({
-			presets: ['es2015']
-		}))
-		.pipe(uglify())
+		.pipe(webpackStream(webpackOptions))
 		.pipe(gulp.dest(path.dest.js))
 		.pipe(reload({stream:true}));
 });

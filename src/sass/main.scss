@@ -470,6 +470,7 @@ button {
   margin-bottom: 80px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  font-size: 0.8rem;
 }
 .sub-input__envelope {
   height: 40px;
@@ -487,7 +488,6 @@ button {
   height: inherit;
   width: 64%;
   font-family: 'HelveticaNeue-Medium'; 
-  font-size: 1rem;
   letter-spacing: -0.5px; 
   border: 0;
   background-color: #fff;
@@ -498,6 +498,7 @@ button {
 .sub-input__btn {
   height: inherit;
   width: 24%;
+  
   text-align: center;
   background-image: linear-gradient(to right, #a21d6e, #e2245e);
   border: 0;
@@ -527,14 +528,16 @@ address {
   width: 80px;
   padding: 10px 0;
   text-align: center;
-  background-image: linear-gradient(to right, #a21d6e, #e2245e);
+  // background-image: linear-gradient(to right, #a21d6e, #e2245e);
+  background-color: #fff;
   border: 0;
   border-radius: 5px;
   font-size: 0.8rem;
-  color: #999;
+  color: #555;
   cursor: pointer;
 }
-.nav-pills .nav-link .active {
+.nav-pills .nav-link.active {
+  background-image: linear-gradient(to right, #a21d6e, #e2245e) !important;
   color: #fff;
 }  
 .card-4 {
@@ -589,13 +592,26 @@ address {
   letter-spacing: -0.4px;
 }
 .card-4__icons {
-  width: 50%;
   margin-left: 50%;
   margin-top: -25px;
 }
-.card-4__icons__icon {
-  width: 27px;
-  height: 27px;
+.card-4__icons-facebook,
+.card-4__icons-instagram,
+.card-4__icons-youtube {
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 0;
+}
+.card-4__icons-facebook {
+  background: url("../img/icons/facebook.svg") no-repeat left center / contain;
+}
+.card-4__icons-instagram {
+  background: url("../img/icons/instagram.svg") no-repeat left center / contain;
+}
+.card-4__icons-youtube {
+  width: 20px;
+  height: 20px;
+  background: url("../img/icons/youtube.svg") no-repeat left center / contain;
 }
 .card-4__logo2 {
   display: none;
@@ -642,8 +658,9 @@ address {
   background-size: contain;
 }
 .card-4__mail__icon {
-  height: 20px;
-  width: 22px;
+  height: 18px;
+  width: 20px;
+  margin-top: 3px;
   margin-right: 15px;
   display: inline-block;
   background: transparent url("../img/icons/mail.svg") no-repeat;
@@ -658,7 +675,7 @@ address {
 }
 .copyright__text {
   font-size: 0.75rem;
-  // margin-left: 15px;
+  margin-bottom: 20px;
   font-family: 'HelveticaNeue-Light';
   color: #555;
   order: 2;

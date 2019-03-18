@@ -41,8 +41,7 @@
         width: 16px;
     }
     .dash-in__text__input {
-        font-size: 0.8rem;
-        margin-top: 4px;
+        margin-top: -1px;
     }
 
     .headline {
@@ -171,9 +170,17 @@
         font-size: 0.9rem;
     }
     .card-4__icons {
-        width: 50%;
         margin-left: 0;
-        margin-top: 0;
+        margin-top: 25px;
+    }
+    .card-4__icons-facebook,
+    .card-4__icons-instagram {
+        width: 18px;
+        height: 18px;
+    }
+    .card-4__icons-youtube {
+        width: 25px;
+        height: 20px;
     }
       .card-4__logo2 {
         display: block;

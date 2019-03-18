@@ -60,6 +60,9 @@
       .card-2__container__descr {
         font-size: 0.9rem; 
       }
+      .sub-input {
+        font-size: 1rem;
+      }
 // **************** footer card-4 **************************
       .f-buttom {
         height: 45px;
@@ -82,12 +85,17 @@
         font-size: 0.9rem;
       }
       .card-4__icons {
-        margin-top: -40px;
+        margin-top: -20px;
       }
       .card-4__icons__icon {
         width: 28px;
         height: 28px;
       }
+      .card-4__mail__icon {
+        height: 19px;
+        width: 21px;
+        margin-top: 3px;
+      }  
       .copyright__text {
         font-size: 0.8rem;
       }

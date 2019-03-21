@@ -1,12 +1,14 @@
 import $ from 'jquery';
 import 'slick-carousel';
 
-$('.slick-card-1').slick({
+let slick1 = $('.slick-card-1'); 
+
+slick1.slick({
    centerMode: true,
    arrows: true,
    initialSlide: 1, 
    slidesToShow: 3,
-   infinite: false,
+   infinite: true,
    centerMode: true, 
    centerPadding: '0px',
 
@@ -51,7 +53,7 @@ $('.slick-card-1').slick({
           }
        }
    ]
-  });
+});
 
 $('.slick-card-2').slick({
    centerMode: true,
@@ -95,5 +97,24 @@ $('.slick-card-2').slick({
          }
        }
    ]
-  });
+});
+
+$('.slick-card-1 .slick-slide').css('opacity','0.3');
+
+let slick1_center = $('.slick-card-1 .slick-center');  
+  slick1_center.css('opacity','1');
+  slick1_center.next().css('opacity','1');
+  slick1_center.prev().css('opacity','1'); 
+  
+
+slick1.on('afterChange', function(event, slick, currentSlide){
+
+  let slick1_center = $('.slick-card-1 .slick-center');  
+  $('.slick-card-1 .slick-slide').css('opacity','0.3');
+  
+  slick1_center.css('opacity','1');
+  slick1_center.next().css('opacity','1');
+  slick1_center.prev().css('opacity','1');
+
+});
 

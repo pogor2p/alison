@@ -699,14 +699,12 @@ address {
   background: transparent url("../img/icons/am-express.svg") no-repeat center center / contain;
 }
 
-.div-opacity {
-  position: relative;
-  height: 400px;
-  width: 25%;
-  opacity: .7;
-  background-color: #fafafa;
-  box-shadow: 0 0 20px 10px rgba(250,250,250,1);
-  z-index: 110;
+// ************************* slick custom ********************************
+.slick-card-1 .slick-slide {
+  transition: all 0.5s;
+}
+.slick-card-1 .slick-center {
+  transition: all 0.5s;
 }
 .slick-card-1 .slick-list {
   overflow: visible;

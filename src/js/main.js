@@ -101,20 +101,41 @@ $('.slick-card-2').slick({
 
 $('.slick-card-1 .slick-slide').css('opacity','0.3');
 
-let slick1_center = $('.slick-card-1 .slick-center');  
-  slick1_center.css('opacity','1');
-  slick1_center.next().css('opacity','1');
-  slick1_center.prev().css('opacity','1'); 
-  
+      let slick1_center = $('.slick-card-1 .slick-center'); 
+if($(window).width() > 992) {
+      slick1_center.css('opacity','1');
+      slick1_center.next().css('opacity','1');
+      slick1_center.prev().css('opacity','1'); 
+}       
+else {  if($(window).width() > 576) {
+          slick1_center.css('opacity','1');
+          slick1_center.prev().css('opacity','1'); 
+        }
+        else {
+          $('.slick-card-1 .slick-slide').css('opacity','1');
+        }
+}
 
 slick1.on('afterChange', function(event, slick, currentSlide){
-
-  let slick1_center = $('.slick-card-1 .slick-center');  
-  $('.slick-card-1 .slick-slide').css('opacity','0.3');
-  
-  slick1_center.css('opacity','1');
-  slick1_center.next().css('opacity','1');
-  slick1_center.prev().css('opacity','1');
-
+  if($(window).width() > 992) {
+    $('.slick-card-1 .slick-slide').css('opacity','0.3');
+      let slick1_center = $('.slick-card-1 .slick-center');  
+      slick1_center.css('opacity','1');
+      slick1_center.next().css('opacity','1');
+      slick1_center.prev().css('opacity','1');
+  }
+  else {  if($(window).width() > 576) {
+            $('.slick-card-1 .slick-slide').css('opacity','0.3');
+            let slick1_center = $('.slick-card-1 .slick-center');  
+            slick1_center.css('opacity','1');
+            slick1_center.prev().css('opacity','1');
+          }
+          else {
+            $('.slick-card-1 .slick-slide').css('opacity','1');
+          } 
+  }
 });
 
+
+ 
+ 

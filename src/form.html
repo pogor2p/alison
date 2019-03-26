@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alison. Form validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/build.css">
+</head>
+<body>
+    <section>
+        <h1 style="text-align: center">Order now</h1>           
+        <form class="orderNow" name="Order" action="" method="post" autocomplete="off">
+            <div>
+                <label for="firstName"></label>
+                <input id="firstName" type="text" size=65 name="First Name" placeholder="First Name" required>
+            </div>
+
+            <div>
+                <label for="lastName"></label>
+                <input id="lastName" type="text" size=65 name="Last Name" placeholder="Last Name" required>
+            </div>
+            
+            <div>
+                <label for="userEmail"></label>
+                <input id="userEmail" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size=65 name="E-mail" placeholder="ihor.test@mail.com" required>
+            </div>
+            
+            <div>
+                <label for="telNum"></label>
+                <input id="telNum" type="tel" size=55 name="Phone" autocomplete="tel-local" required>
+            </div>
+            
+            <div class="datesWrapper">
+                <label for="checkInDate"></label>
+                <input class="checkDates" id="checkInDate" type="text" size=65 name="Check-in" placeholder="Check-in" required/>           
+            
+                <label for="checkOutDate"></label>
+                <input class="checkDates" id="checkOutDate" type="text" size=65 name="Check-out" placeholder="Check-out" required/>               
+            </div>
+            
+            <div>
+                <label for="peopleCount"></label>
+                <select id="peopleCount" placeholder="How many people" required> <br>  
+                    <option value="">How many people</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="comments"></label>
+                <textarea id="comments" placeholder="Your message" cols="55" name="Comments"></textarea>
+            </div>            
+            
+            <input id="submit" type="submit" placeholder="send" name="Submit">
+            <input id="reset" type="reset" placeholder="Reset" name="Reset">
+        </form> 
+    </section>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import 'slick-carousel';
+import './form.js';
 
 let slick1 = $('.slick-card-1'); 
 

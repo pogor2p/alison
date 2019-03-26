@@ -3,317 +3,697 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-<title>Find Things To Do, Attractions, Best Tours in Azerbaijan and Georgia | Alison</title>
-
-<meta name="keywords" content="travel, azerbaijan, tours, hotel, hotels, trip, trips, georgia, cheap tours, transfer, transfers, travel to azerbaijan, travel to georgia, travel to ukraine, travel to baku, gabala, qabala, quba, guba palace, qafqaz, discount tour, best price, low price, visa azerbaijan, online visa, asan visa, alison travel, guides, food, best price, marxal, sheki, maiden tower">
-<meta name="description" content="Find, compare, and book sightseeing tours, attractions, excursions, things to do and fun activities from around the world. Save money and book directly from local suppliers."/>
-
-<meta name="author" content="mike"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- <link href="assets/plugins/datepicker/datepicker.min.css" rel="stylesheet"> -->
- 
-<link rel="stylesheet" href="/css/build.css">
+    <title>Find Things To Do, Attractions, Best Tours in Azerbaijan and Georgia | Alison</title>
+    <meta name="keywords" content="travel, azerbaijan, tours, hotel, hotels, trip, trips, georgia, cheap tours, transfer, transfers, travel to azerbaijan, travel to georgia, travel to ukraine, travel to baku, gabala, qabala, quba, guba palace, qafqaz, discount tour, best price, low price, visa azerbaijan, online visa, asan visa, alison travel, guides, food, best price, marxal, sheki, maiden tower">
+    <meta name="description" content="Find, compare, and book sightseeing tours, attractions, excursions, things to do and fun activities from around the world. Save money and book directly from local suppliers."/>
+    <meta name="author" content="mike"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/build.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </head>
 <body>
-<header>
-    <div class="header-lg header-bg d-none d-md-block">
-        <div class="container">
-            <div class="row align-items-center m-top">
-                <div class="col-md-1 col-lg-1">
-                    <div class="logo-img"></div>
+    <nav class="alisontravel navbar navbar-expand-lg">
+        <div class="container align-items-center">
+            <a class="navbar-brand" href="#"><img src="../img/icons/logo.png" alt="logo" class="navbar-logo"></a>
+            <button class="navbar-toggler second-button alisontravel-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+            </button>
+            <div class="alison-nav-menu d-none d-lg-block">
+                <ul class="d-flex list-unstyled text-left mb-0">
+                    <li><a class="alison-nav-menu__item" href=""> Home</a></li>
+                    <li><a class="alison-nav-menu__item" href="">Tours</a></li>
+                    <li><a class="alison-nav-menu__item" href="">Hotels</a></li>
+                    <li><a class="alison-nav-menu__item" href="">Flights</a></li>
+                    <li><a class="alison-nav-menu__item" href="">Transfers</a></li>
+                    <li><a class="alison-nav-menu__item" href="">Visas</a></li>
+                </ul>
+            </div>
+            <div class="dropdown d-none d-lg-block">
+                <button class="btn btn-outline-light dropdown-toggle d-flex justify-content-around align-items-center border-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="mr-1" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ACCB530E-14BB-4FDB-9EA8-4EFC1E00E54C.svg" alt="county">
+                    EU
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#"><img class="mr-1" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ACCB530E-14BB-4FDB-9EA8-4EFC1E00E54C.svg" alt="county">RU</a>
+                    <a class="dropdown-item" href="#"><img class="mr-1" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ACCB530E-14BB-4FDB-9EA8-4EFC1E00E54C.svg" alt="county">AZ</a>
+                    <a class="dropdown-item" href="#"><img class="mr-1" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ACCB530E-14BB-4FDB-9EA8-4EFC1E00E54C.svg" alt="county">AR</a>
                 </div>
-                <div class="top__nav col-md-8 col-lg-8">
-                    <nav class="top__nav__menu" role='navigation'>
-                        <ul class="row">
-                            <li class="underline-gradient">
-                                <a href="/" data-localize="Home">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="underline-gradient">
-                                <a href="/tours.php">
-                                    <span data-localize="Tours">Tours</span></a>
-                            </li>
-                            <li class="underline-gradient">
-                                <a href="/hotels.php"data-localize="Hotels">
-                                    Hotels
-                                </a>
-                            </li>
-                            <li class="underline-gradient">
-                                <a href="/flights.php" data-localize="Flights">
-                                    Flights
-                                </a>
-                            </li>
-                            <li class="underline-gradient">
-                                <a href="#">
-                                    <span data-localize="Services">Transfers</span>
-                                </a>
-                            </li>
-                            <li class="underline-gradient">
-                                <a href="/visas.php" data-localize="Visas">
-                                Visas
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+            </div>
+        </div>
+    </nav>
+    <div class="alisontravel-navbar collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="top-nav-wide">
+            <ul class="alisontravel-nav navbar-nav">
+                <li class="nav-item active col-6">
+                    <a class="alisontravel-link nav-link nav-light" href="/">Home</a>
+                </li>
+                <li class="nav-item col-6">
+                    <a class="alisontravel-link nav-link nav-light" href="./country.html">Tours</a>
+                </li>
+                <li class="nav-item col-6">
+                    <a class="alisontravel-link nav-link nav-light" href="./cards.html">Hotels</a>
+                </li>
+                <li class="nav-item col-6">
+                    <a class="alisontravel-link nav-link nav-light" href="#">Flights</a>
+                </li>
+                <li class="nav-item col-6">
+                    <a class="alisontravel-link nav-link nav-light" href="#">Transfers</a>
+                </li>
+                <li class="nav-item col-6">
+                    <a class="alisontravel-link nav-link nav-light" href="#">Visas</a>
+                </li>
+            </ul>
+            <div class="dropdown ">
+                <button class="btn btn-outline-light dropdown-toggle d-flex justify-content-around align-items-center border-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="mr-1" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ACCB530E-14BB-4FDB-9EA8-4EFC1E00E54C.svg" alt="county">
+                    EU
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#"><img class="mr-1" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ACCB530E-14BB-4FDB-9EA8-4EFC1E00E54C.svg" alt="county">RU</a>
+                    <a class="dropdown-item" href="#"><img class="mr-1" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ACCB530E-14BB-4FDB-9EA8-4EFC1E00E54C.svg" alt="county">AZ</a>
+                    <a class="dropdown-item" href="#"><img class="mr-1" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ACCB530E-14BB-4FDB-9EA8-4EFC1E00E54C.svg" alt="county">AR</a>
                 </div>
-                <div class="language-selector col-md-2 col-lg-2 ml-auto">
-                        <div class="col-sm-12 text-right">
-                            <div class="mn-dropdown">
-                                <div class="mn-d-selected">
-                                    <img class="flag mr5" src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg">
-                                        En
-                                    <span class="arrow-down ion-android-arrow-dropdown pull-right"></span>
-                                </div>
-                                <div class="mn-d-content">
-                                    <a class="md-c-i" href="/ru/">
-                                        <img class="flag mr5" src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg">Ru</a>
-                                    <a class="md-c-i" href="/az/">
-                                        <img class="flag mr5" src="https://lipis.github.io/flag-icon-css/flags/4x3/az.svg">Az</a>
-                                    <a class="md-c-i" href="/ar/">
-                                        <img class="flag mr5" src="https://lipis.github.io/flag-icon-css/flags/4x3/ae.svg">Ar</a>
-                                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header-bg hero-homepage counrty">
+        <div class="container ">
+            <div class="col-8 col-md-9 col-lg-7 main-title">
+                Find places to stay <br class="d-md-none"> in  <span class="main-title__text_white">Azerbaijan</span> on <br class="d-md-none"> <span class="main-title__text_white">Alison Travel</span>
+            </div>
+            <div class="wrap-form">
+                <div class="container">
+                    <nav>
+                    <div class="hero-page__nav nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="hero-page__nav-item hero-page__nav-item_tours hero-page__nav-link nav-light nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-tours" role="tab" aria-controls="nav-home" aria-selected="true">
+                            <div>Tours</div>
+                        </a>
+                        <a class="hero-page__nav-item hero-page__nav-item_hotels hero-page__nav-link nav-light nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-hotels" role="tab" aria-controls="nav-profile" aria-selected="false">
+                            <div>Hotels</div>
+                        </a>
+                        <a class="hero-page__nav-item hero-page__nav-item_flights hero-page__nav-link nav-light nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-flights" role="tab" aria-controls="nav-contact" aria-selected="false">
+                            <div>Flights</div>
+                        </a>
+                        <a class="hero-page__nav-item hero-page__nav-item_transfers hero-page__nav-link nav-light nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-transfers" role="tab" aria-controls="nav-contact" aria-selected="false">
+                            <div>Transfers</div>
+                        </a>
+                    </div>
+                </nav>
+                <div class="tab-content tab-content__spase">
+                    <div class="tab-pane fade show active" id="nav-tours" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="search-tab-content">
+                            <div class="page-search-p">
+                                <form action="/tours.php">
+                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                                        <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
+                                                <div class="mn-select w-100">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size"  name="country_id">
+                                                        <option disabled selected data-localize="Any country">Any country</option>
+                                                        <option value="1">Azerbaijan</option>
+                                                        <option value="2">Georgia</option>
+                                                        <option value="3">Italy </option>
+                                                        <option value="4">Greece </option>
+                                                        <option value="5">Turkey </option>
+                                                        <option value="6">Russia </option>
+                                                        <option value="7">Ukraine </option>
+                                                        <option value="8">Hungary </option>
+                                                        <option value="9">Spain </option>
+                                                        <option value="10">Germany </option>
+                                                        <option value="11">Czech Republic  </option>
+                                                        <option value="12">Austria </option>
+                                                        <option value="13">Portugal </option>
+                                                        <option value="14">Thailand </option>
+                                                        <option value="15">Japan </option>
+                                                        <option value="16">Sri Lanka </option>
+                                                        <option value="17">United Arab Emirates </option>
+                                                        <option value="18">Indonesia</option>
+                                                        <option value="19">Montenegro</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
+                                                <div class="mn-select w-100">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size">
+                                                        <option disabled selected data-localize="Any city">Any city</option>
+                                                        <option value="1">Baku</option>
+                                                        <option value="3">Gabala</option>
+                                                        <option value="5">Rome</option>
+                                                        <option value="6">Tbilisi </option>
+                                                        <option value="7">Batumi </option>
+                                                        <option value="8">Gabala </option>
+                                                        <option value="9">Santorini </option>
+                                                        <option value="10">Istanbul </option>
+                                                        <option value="11">Antalia </option>
+                                                        <option value="12">Bodrum</option>
+                                                        <option value="13">Budapest </option>
+                                                        <option value="14">Rhodos </option>
+                                                        <option value="15">Lisbon </option>
+                                                        <option value="16">Porto</option>
+                                                        <option value="17">Bangkok </option>
+                                                        <option value="18">Tokio </option>
+                                                        <option value="19">Sri Lanka </option>
+                                                        <option value="20">Moscow </option>
+                                                        <option value="21">Kiev </option>
+                                                        <option value="22">Lviv </option>
+                                                        <option value="23">Dubai </option>
+                                                        <option value="24">Izmir</option>
+                                                        <option value="25">Barcelona</option>
+                                                        <option value="26">BODRUM</option>
+                                                        <option value="27">CESME</option>
+                                                        <option value="28">BAKU-GUBA</option>
+                                                        <option value="29">BAKU-GABALA-SHEKI</option>
+                                                        <option value="30">Kuala Lumpur</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item tab-item_date col-6 col-sm-6 col-md-6 order-md-2 order-lg-1 col-lg col-xl">
+                                            <div class="form-group mb-0 ">
+                                                <div class="input-group d-flex justify-content-center alig-items-center">
+                                                    <div class="mn-select w-100">
+                                                        <div class="select-img">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                        </div>
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control value="2019-02-25" min="2019-02-25">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item tab-item_date col-6 col-sm-6 col-md-6 order-md-3 order-lg-2 col-lg col-xl">
+                                            <div class="form-group mb-0">
+                                                <div class="input-group d-flex justify-content-center alig-items-center">
+                                                    <div class="mn-select w-100">
+                                                        <div class="select-img">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                        </div>
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-12 col-md-4 order-md-1 order-lg-3 col-lg col-xl">
+                                            <div class="form-group mb-0 ">
+                                                <div class="mn-select">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size">
+                                                        <option disabled selected>People</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                        <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-12 col-lg-12 order-md-12 order-lg-12 col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center ">
+                                                <button class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-hotels" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="search-tab-content">
+                            <div class="page-search-p">
+                                <form action="/tours.php">
+                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                        <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
+                                                <div class="mn-select w-100">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size"  name="country_id">
+                                                        <option disabled selected data-localize="Any country">Any country</option>
+                                                        <option value="1">Azerbaijan</option>
+                                                        <option value="2">Georgia</option>
+                                                        <option value="3">Italy </option>
+                                                        <option value="4">Greece </option>
+                                                        <option value="5">Turkey </option>
+                                                        <option value="6">Russia </option>
+                                                        <option value="7">Ukraine </option>
+                                                        <option value="8">Hungary </option>
+                                                        <option value="9">Spain </option>
+                                                        <option value="10">Germany </option>
+                                                        <option value="11">Czech Republic  </option>
+                                                        <option value="12">Austria </option>
+                                                        <option value="13">Portugal </option>
+                                                        <option value="14">Thailand </option>
+                                                        <option value="15">Japan </option>
+                                                        <option value="16">Sri Lanka </option>
+                                                        <option value="17">United Arab Emirates </option>
+                                                        <option value="18">Indonesia</option>
+                                                        <option value="19">Montenegro</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
+                                                <div class="mn-select w-100">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size">
+                                                        <option disabled selected data-localize="Any city">Any city</option>
+                                                        <option value="1">Baku</option>
+                                                        <option value="3">Gabala</option>
+                                                        <option value="5">Rome</option>
+                                                        <option value="6">Tbilisi </option>
+                                                        <option value="7">Batumi </option>
+                                                        <option value="8">Gabala </option>
+                                                        <option value="9">Santorini </option>
+                                                        <option value="10">Istanbul </option>
+                                                        <option value="11">Antalia </option>
+                                                        <option value="12">Bodrum</option>
+                                                        <option value="13">Budapest </option>
+                                                        <option value="14">Rhodos </option>
+                                                        <option value="15">Lisbon </option>
+                                                        <option value="16">Porto</option>
+                                                        <option value="17">Bangkok </option>
+                                                        <option value="18">Tokio </option>
+                                                        <option value="19">Sri Lanka </option>
+                                                        <option value="20">Moscow </option>
+                                                        <option value="21">Kiev </option>
+                                                        <option value="22">Lviv </option>
+                                                        <option value="23">Dubai </option>
+                                                        <option value="24">Izmir</option>
+                                                        <option value="25">Barcelona</option>
+                                                        <option value="26">BODRUM</option>
+                                                        <option value="27">CESME</option>
+                                                        <option value="28">BAKU-GUBA</option>
+                                                        <option value="29">BAKU-GABALA-SHEKI</option>
+                                                        <option value="30">Kuala Lumpur</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item tab-item_date col-6 col-sm-6 col-md-6 order-md-2 order-lg-1 col-lg col-xl">
+                                            <div class="form-group mb-0 ">
+                                                <div class="input-group d-flex justify-content-center alig-items-center">
+                                                    <div class="mn-select w-100">
+                                                        <div class="select-img">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                        </div>
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control value="2019-02-25" min="2019-02-25">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item tab-item_date col-6 col-sm-6 col-md-6 order-md-3 order-lg-2 col-lg col-xl">
+                                            <div class="form-group mb-0">
+                                                <div class="input-group d-flex justify-content-center alig-items-center">
+                                                    <div class="mn-select w-100">
+                                                        <div class="select-img">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                        </div>
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-12 col-md-4 order-md-1 order-lg-3 col-lg col-xl">
+                                            <div class="form-group mb-0 ">
+                                                <div class="mn-select">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size">
+                                                        <option disabled selected>People</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                        <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-12 col-lg-12 order-md-12 order-lg-12 col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center ">
+                                                <button class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-flights" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="search-tab-content">
+                            <div class="page-search-p">
+                                <form action="/tours.php">
+                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                        <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
+                                                <div class="mn-select w-100">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size"  name="country_id">
+                                                        <option disabled selected data-localize="Any country">Any country</option>
+                                                        <option value="1">Azerbaijan</option>
+                                                        <option value="2">Georgia</option>
+                                                        <option value="3">Italy </option>
+                                                        <option value="4">Greece </option>
+                                                        <option value="5">Turkey </option>
+                                                        <option value="6">Russia </option>
+                                                        <option value="7">Ukraine </option>
+                                                        <option value="8">Hungary </option>
+                                                        <option value="9">Spain </option>
+                                                        <option value="10">Germany </option>
+                                                        <option value="11">Czech Republic  </option>
+                                                        <option value="12">Austria </option>
+                                                        <option value="13">Portugal </option>
+                                                        <option value="14">Thailand </option>
+                                                        <option value="15">Japan </option>
+                                                        <option value="16">Sri Lanka </option>
+                                                        <option value="17">United Arab Emirates </option>
+                                                        <option value="18">Indonesia</option>
+                                                        <option value="19">Montenegro</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
+                                                <div class="mn-select w-100">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size">
+                                                        <option disabled selected data-localize="Any city">Any city</option>
+                                                        <option value="1">Baku</option>
+                                                        <option value="3">Gabala</option>
+                                                        <option value="5">Rome</option>
+                                                        <option value="6">Tbilisi </option>
+                                                        <option value="7">Batumi </option>
+                                                        <option value="8">Gabala </option>
+                                                        <option value="9">Santorini </option>
+                                                        <option value="10">Istanbul </option>
+                                                        <option value="11">Antalia </option>
+                                                        <option value="12">Bodrum</option>
+                                                        <option value="13">Budapest </option>
+                                                        <option value="14">Rhodos </option>
+                                                        <option value="15">Lisbon </option>
+                                                        <option value="16">Porto</option>
+                                                        <option value="17">Bangkok </option>
+                                                        <option value="18">Tokio </option>
+                                                        <option value="19">Sri Lanka </option>
+                                                        <option value="20">Moscow </option>
+                                                        <option value="21">Kiev </option>
+                                                        <option value="22">Lviv </option>
+                                                        <option value="23">Dubai </option>
+                                                        <option value="24">Izmir</option>
+                                                        <option value="25">Barcelona</option>
+                                                        <option value="26">BODRUM</option>
+                                                        <option value="27">CESME</option>
+                                                        <option value="28">BAKU-GUBA</option>
+                                                        <option value="29">BAKU-GABALA-SHEKI</option>
+                                                        <option value="30">Kuala Lumpur</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item tab-item_date col-6 col-sm-6 col-md-6 order-md-2 order-lg-1 col-lg col-xl">
+                                            <div class="form-group mb-0 ">
+                                                <div class="input-group d-flex justify-content-center alig-items-center">
+                                                    <div class="mn-select w-100">
+                                                        <div class="select-img">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                        </div>
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control value="2019-02-25" min="2019-02-25">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item tab-item_date col-6 col-sm-6 col-md-6 order-md-3 order-lg-2 col-lg col-xl">
+                                            <div class="form-group mb-0">
+                                                <div class="input-group d-flex justify-content-center alig-items-center">
+                                                    <div class="mn-select w-100">
+                                                        <div class="select-img">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                        </div>
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-12 col-md-4 order-md-1 order-lg-3 col-lg col-xl">
+                                            <div class="form-group mb-0 ">
+                                                <div class="mn-select">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size">
+                                                        <option disabled selected>People</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                        <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-12 col-lg-12 order-md-12 order-lg-12 col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center ">
+                                                <button class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-transfers" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="search-tab-content">
+                            <div class="page-search-p">
+                                <form action="/tours.php">
+                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                        <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
+                                                <div class="mn-select w-100">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size"  name="country_id">
+                                                        <option disabled selected data-localize="Any country">Any country</option>
+                                                        <option value="1">Azerbaijan</option>
+                                                        <option value="2">Georgia</option>
+                                                        <option value="3">Italy </option>
+                                                        <option value="4">Greece </option>
+                                                        <option value="5">Turkey </option>
+                                                        <option value="6">Russia </option>
+                                                        <option value="7">Ukraine </option>
+                                                        <option value="8">Hungary </option>
+                                                        <option value="9">Spain </option>
+                                                        <option value="10">Germany </option>
+                                                        <option value="11">Czech Republic  </option>
+                                                        <option value="12">Austria </option>
+                                                        <option value="13">Portugal </option>
+                                                        <option value="14">Thailand </option>
+                                                        <option value="15">Japan </option>
+                                                        <option value="16">Sri Lanka </option>
+                                                        <option value="17">United Arab Emirates </option>
+                                                        <option value="18">Indonesia</option>
+                                                        <option value="19">Montenegro</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
+                                                <div class="mn-select w-100">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size">
+                                                        <option disabled selected data-localize="Any city">Any city</option>
+                                                        <option value="1">Baku</option>
+                                                        <option value="3">Gabala</option>
+                                                        <option value="5">Rome</option>
+                                                        <option value="6">Tbilisi </option>
+                                                        <option value="7">Batumi </option>
+                                                        <option value="8">Gabala </option>
+                                                        <option value="9">Santorini </option>
+                                                        <option value="10">Istanbul </option>
+                                                        <option value="11">Antalia </option>
+                                                        <option value="12">Bodrum</option>
+                                                        <option value="13">Budapest </option>
+                                                        <option value="14">Rhodos </option>
+                                                        <option value="15">Lisbon </option>
+                                                        <option value="16">Porto</option>
+                                                        <option value="17">Bangkok </option>
+                                                        <option value="18">Tokio </option>
+                                                        <option value="19">Sri Lanka </option>
+                                                        <option value="20">Moscow </option>
+                                                        <option value="21">Kiev </option>
+                                                        <option value="22">Lviv </option>
+                                                        <option value="23">Dubai </option>
+                                                        <option value="24">Izmir</option>
+                                                        <option value="25">Barcelona</option>
+                                                        <option value="26">BODRUM</option>
+                                                        <option value="27">CESME</option>
+                                                        <option value="28">BAKU-GUBA</option>
+                                                        <option value="29">BAKU-GABALA-SHEKI</option>
+                                                        <option value="30">Kuala Lumpur</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item tab-item_date col-6 col-sm-6 col-md-6 order-md-2 order-lg-1 col-lg col-xl">
+                                            <div class="form-group mb-0 ">
+                                                <div class="input-group d-flex justify-content-center alig-items-center">
+                                                    <div class="mn-select w-100">
+                                                        <div class="select-img">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                        </div>
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control value="2019-02-25" min="2019-02-25">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item tab-item_date col-6 col-sm-6 col-md-6 order-md-3 order-lg-2 col-lg col-xl">
+                                            <div class="form-group mb-0">
+                                                <div class="input-group d-flex justify-content-center alig-items-center">
+                                                    <div class="mn-select w-100">
+                                                        <div class="select-img">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                        </div>
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-12 col-md-4 order-md-1 order-lg-3 col-lg col-xl">
+                                            <div class="form-group mb-0 ">
+                                                <div class="mn-select">
+                                                    <div class="select-img">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg" alt="location">
+                                                    </div>
+                                                    <select class="tab-item_size">
+                                                        <option disabled selected>People</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                        <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item col-12 col-sm-12 col-lg-12 order-md-12 order-lg-12 col-xl">
+                                            <div class="form-group mb-0 d-flex justify-content-center alig-items-center ">
+                                                <button class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-12 title-find">
-                    <h1 class="title-find__text">Find places to stay<br>in <b>Azerbaijan</b> on<br><b>Alison Travel</b></h1>
-                </div>
+    </header>
+    <div class="container">
+        <div class="h1 travel-holidays__title">Alison Travel Holidays</div>
+        <div class="row">
+            <!-- 2 -->
+            <div class="travel-holidays__item travel-holidays__item_wide-on-mobile col-12 col-sm-12 col-md-6 col-lg-6">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
+                
             </div>
-            <div class="row bott">
-                <nav class="bott__nav col-md-12 col-lg-12">
-                    <ul class="d-flex">
-                        <li><a class="underline-gradient-2" href="/tours.php"  data-localize="Tours">Tours</a></li>
-                        <li><a class="underline-gradient-2" href="/hotels.php" data-localize="Hotels">Hotels</a></li>
-                        <li><a class="underline-gradient-2" href="/flights.php" data-localize="Flights">Flights</a></li>
-                        <li><a class="underline-gradient-2" href="/transfers.php" data-localize="Transfers">Transfers</a></li>
-                    </ul>
-                </nav>
+            <div class="travel-holidays__item col-6 col-md-6 col-lg-6">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
             </div>
-        </div>
-    <form action="/tours.php">
-        <div class="container">
-            <div class="row dashboard">
-                <nav class="dashboard__btns col-md-12 col-lg-12 d-flex">
-                    <div class="dash-in d-flex flex-row align-items-center">
-                        <div class="dash-in__img text-center">
-                            <img class="dash-in__img__icon" src="img/icons/location_red1.svg" alt="calendar">
-                        </div>
-                        <div class="dash-in__text">
-                            <input class="dash-in__text__input" type="text" placeholder="Azerbaijan"></input>
-                        </div>
-                    </div>
-                    <div class="dash-in d-flex flex-row align-items-center">
-                        <div class="dash-in__img text-center">
-                            <img class="dash-in__img__icon" src="img/icons/location_red2.svg" alt="calendar">
-                        </div>
-                        <div class="dash-in__text">
-                            <input class="dash-in__text__input" type="text" placeholder="Baku"></input>
-                        </div>
-                    </div>
-                    <div class="dash-in d-flex flex-row align-items-center">
-                        <div class="dash-in__img text-center">
-                            <img class="dash-in__img__icon" src="img/icons/calendar_red.svg" alt="calendar">
-                        </div>
-                        <div class="dash-in__text">
-                            <input class="dash-in__text__input" type="text" placeholder="Check in"></input>
-                        </div>
-                    </div>
-                    <div class="dash-in d-flex flex-row align-items-center">
-                        <div class="dash-in__img text-center">
-                            <img class="dash-in__img__icon" src="img/icons/calendar_red.svg" alt="calendar">
-                        </div>
-                        <div class="dash-in__text">
-                            <input class="dash-in__text__input" type="text" placeholder="Check out"></input>
-                        </div>
-                    </div>
-                    <div class="dash-in d-flex flex-row align-items-center">
-                        <div class="dash-in__img text-center">
-                            <img class="dash-in__img__icon" src="img/icons/people_red.svg" alt="calendar">
-                        </div>
-                        <div class="dash-in__text">
-                            <input class="dash-in__text__input" type="text" placeholder="People"></input>
-                        </div>
-                    </div>                
-                    <div class="dash-in d-flex align-items-center">
-                        <div class="dash-in__text__input">Search</div>
-                    </div>
-                </nav>
+            <!-- 3 -->
+            <div class="travel-holidays__item col-6 col-md-6 col-lg-4">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
+            </div>
+            <div class="travel-holidays__item travel-holidays__item_wide-on-mobile col-12 col-sm-12 col-md-6 col-lg-4">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
+            </div>
+            <div class="travel-holidays__item  col-6 col-md-6 col-lg-4">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
+            </div>
+            <!-- 2 -->
+            <div class="travel-holidays__item  col-6 col-md-6">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
+            </div>
+            <div class="travel-holidays__item travel-holidays__item_wide-on-mobile col-12 col-sm-12 col-md-6">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
+            </div>
+            <!-- 3 -->
+            <div class="travel-holidays__item col-6 col-md-6 col-lg-4">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
+            </div>
+            <div class="travel-holidays__item  col-6 col-md-6 col-lg-4">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
+            </div>
+            <div class="travel-holidays__item travel-holidays__item_wide-on-mobile col-12 col-sm-12 col-md-6 col-lg-4">
+                <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
+                <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
             </div>
         </div>
-      </form>
     </div>
-    <div class="header-md header-bg d-block d-md-none">
-        <div class="container">
-            <div class="row">
-                <div class="top-nav-mini col-12 d-flex justify-content-between align-items-center">
-                    <div class="logo-img"></div>
-                    <div class="sandwich">
-                        <div class="sandwich__icon"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 title-find">
-                    <h1 class="title-find__text">Find places to stay<br>in <b>Azerbaijan</b> on<br><b>Alison Travel</b></H1>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="d-block d-md-none">
-        <div class="container">
-            <div class="row dashboard-mini">
-                <div class="col-3 dsh-m">
-                    <div class="dsh-m__btn dsh-m__btn-1 shadow">
-                        <div class="dsh-m__btn__icon-tour"></div>
-                        <div class="dsh-m__btn__text-1">Tours</div>
-                    </div>
-                </div>
-                <div class="col-3 dsh-m">
-                    <div class="dsh-m__btn shadow">
-                        <div class="dsh-m__btn__icon-hot"></div>
-                        <div class="dsh-m__btn__text">Hotels</div>
-                    </div>
-                </div>
-                <div class="col-3 dsh-m">
-                    <div class="dsh-m__btn shadow">
-                        <div class="dsh-m__btn__icon-fli"></div>
-                        <div class="dsh-m__btn__text">Flights</div>
-                    </div>
-                </div>
-                <div class="col-3 dsh-m">
-                    <div class="dsh-m__btn shadow">
-                        <div class="dsh-m__btn__icon-tran"></div>
-                        <div class="dsh-m__btn__text">Transfers</div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="dsh-m__inp d-flex shadow">
-                        <div class="dsh-m__inp__icon-location-1"></div>
-                        <div class="dsh-m__inp__text">Azerbaijan</div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="dsh-m__inp d-flex shadow">
-                        <div class="dsh-m__inp__icon-location-2"></div>
-                        <div class="dsh-m__inp__text">Baku</div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="dsh-m__inp d-flex shadow">
-                        <div class="dsh-m__inp__icon-calendar"></div>
-                        <div class="dsh-m__inp__text">Check in</div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="dsh-m__inp d-flex shadow">
-                        <div class="dsh-m__inp__icon-calendar"></div>
-                        <div class="dsh-m__inp__text">Check out</div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="dsh-m__inp d-flex shadow">
-                        <div class="dsh-m__inp__icon-people"></div>
-                        <div class="dsh-m__inp__text">1</div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="dsh-m__search shadow">
-                        <div class="dsh-m__search__text">Search</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<div class="container">
-    <div class="row">
-        <div class="headline">
-            <h1 class="headline__text">Alison Travel Holidays</h1>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="tour col-12 col-md-6">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=6" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/azerbaijan/azerbaijan.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">Azerbaijan</h4>
-                </div>
-            </a>
-        </div>
-        <div class="tour col-12 col-sm-6">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=28" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/georgia/georgia.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">Georgia</h4>
-                </div>
-            </a>
-        </div>
-        <div class="tour col-12 col-md-6 col-lg-4">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=9" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/spain/spain.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">Spain</h4>
-                </div>
-            </a>
-        </div>
-        <div class="tour col-12 col-md-6 col-lg-4">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=28" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/slovakia/slovakia.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">Slovakia</h4>
-                </div>
-            </a>
-        </div>
-        <div class="tour col-12 col-sm-6 col-lg-4">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=6" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/germany/germany.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">Germany</h4>
-                </div>
-            </a>
-        </div>
-        <div class="tour col-12 col-sm-6">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=6" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/turkey/turkey.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">Turkey</h4>
-                </div>
-            </a>
-        </div>
-        <div class="tour col-12 col-md-6">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=28" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/ukraine/ukraine.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">Ukraine</h4>
-                </div>
-            </a>
-        </div>
-        <div class="tour col-12 col-sm-6 col-lg-4">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=9" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/moscow/moscow.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">Moscow</h4>
-                </div>  
-            </a>
-        </div>
-        <div class="tour col-12 col-sm-6 col-lg-4">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=28" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/france/france.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">France</h4>
-                </div>
-            </a>
-        </div>
-        <div class="tour col-12 col-md-6 col-lg-4">
-            <a class="tour__img d-flex align-items-center justify-content-center" href="/tour.php?id=6" data-id="post-9" data-src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" data-was-processed="true" style="background-image: url(&quot;img/cards/germany/germany.jpg&quot;);">
-                <div>
-                    <h4 class="tour__img__text">Germany</h4>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
 <div class="container">
     <div class="row">
         <div class="headline">
@@ -322,6 +702,7 @@
     </div>
 </div>
 <div class="d-flex most-card-wrap">
+    <div class="div-opacity"></div>
     <div class="container">
         <div class="slick-card-1-wrap">
             <div class="slick-card-1">
@@ -723,6 +1104,23 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+  $('.first-button').on('click', function () {
+
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
+
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
+
+    $('.animated-icon3').toggleClass('open');
+  });
+});
+    </script>
 
 </body>
 </html>

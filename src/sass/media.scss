@@ -21,14 +21,14 @@
 }
 
 @include media-breakpoint-down(md) {
-    .hero-homepage{
+    .hero-homepage {
         padding: 100px 10px 15px 10px;
 
-        .container{
+        .container {
             padding: 0;
         }
 
-        .main-title{
+        .main-title {
             padding: 0;
         }
 
@@ -56,7 +56,7 @@
         justify-content: center;
     }
 
-    .alisontravel-nav .alisontravel-link{
+    .alisontravel-nav .alisontravel-link {
         padding-right: 0;
         text-align: center;
     }
@@ -80,8 +80,8 @@
 
     }
 
-.counrty{
-    .wrap-form{
+.counrty {
+    .wrap-form {
         position: absolute;
         margin-top: 20px;
         margin-right: 10px;

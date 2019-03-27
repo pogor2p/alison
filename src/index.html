@@ -23,9 +23,9 @@
             </button>
             <div class="alison-nav-menu d-none d-lg-block">
                 <ul class="d-flex list-unstyled text-left mb-0">
-                    <li><a class="alison-nav-menu__item" href=""> Home</a></li>
-                    <li><a class="alison-nav-menu__item" href="">Tours</a></li>
-                    <li><a class="alison-nav-menu__item" href="">Hotels</a></li>
+                    <li><a class="alison-nav-menu__item" href="/">Home</a></li>
+                    <li><a class="alison-nav-menu__item" href="./country.html">Tours</a></li>
+                    <li><a class="alison-nav-menu__item" href="./cards.html">Hotels</a></li>
                     <li><a class="alison-nav-menu__item" href="">Flights</a></li>
                     <li><a class="alison-nav-menu__item" href="">Transfers</a></li>
                     <li><a class="alison-nav-menu__item" href="">Visas</a></li>
@@ -647,7 +647,7 @@
     <div class="container">
         <div class="h1 travel-holidays__title">Alison Travel Holidays</div>
         <div class="row">
-            <!-- 2 -->
+            
             <div class="travel-holidays__item travel-holidays__item_wide-on-mobile col-12 col-sm-12 col-md-6 col-lg-6">
                 <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
                 <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
@@ -657,7 +657,7 @@
                 <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
                 <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
             </div>
-            <!-- 3 -->
+            
             <div class="travel-holidays__item col-6 col-md-6 col-lg-4">
                 <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
                 <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
@@ -670,7 +670,7 @@
                 <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
                 <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
             </div>
-            <!-- 2 -->
+            
             <div class="travel-holidays__item  col-6 col-md-6">
                 <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
                 <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
@@ -679,7 +679,7 @@
                 <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
                 <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
             </div>
-            <!-- 3 -->
+            
             <div class="travel-holidays__item col-6 col-md-6 col-lg-4">
                 <img class="w-100 travel-holidays__item-img" src="http://www.alisontravel.eu/img-medium/assets/images/Batumi.jpg" alt="">
                 <a href=""><div class="travel-holidays__item-title h3 mb-0">Azerbaijan</div></a>
@@ -703,7 +703,7 @@
 </div>
 <div class="d-flex most-card-wrap">
     <div class="div-opacity"></div>
-    <div class="container">
+    <div class="container p-0">
         <div class="slick-card-1-wrap">
             <div class="slick-card-1">
                 <div class="slick-card-1__item">
@@ -860,10 +860,12 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="headline ">
-            <h1 class="headline__text">What Customers Say</h1>
+        <div class="headline">
+            <h1 class="headline__text">Most Popular Tours</h1>
         </div>
     </div>
+</div>
+<div class="container p-0">
     <div class="slick-card-2-wrap">
         <div class="slick-card-2">
             <div class="slick-card-2__item">
@@ -994,21 +996,23 @@
     </div>
 </div>
 <div class="container">
-    <div class="row">
-        <div class="headline">
-            <h1  class="headline__text">Subscribe to our newsletter</h1>
+    <div class="alison-sub row">
+        <div class="alison-sub__title col-12">Subscribe to our newsletter</div>
+        <div class="col-10 col-md-7 col-lg-6  col-xl-5 p-0">
+            <div class="alison-sub__form ">
+                <form class="row shadow" action="">
+                    <div class="alison-sub__form-wrap col-8 p-0">
+                        <img class="alison-sub__form-wrap-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/00DD4E2E-170B-46A0-8A58-FA9D9F1BAB29.svg" alt="">
+                        <input class="alison-sub__form-wrap-input" type="email" placeholder="sebastian.stan@gmail.com">
+                    </div>
+                    <input class="col-4 alison-sub__form-submit" type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </div>
-    <div class="row sub-input shadow">
-        <div class="sub-input__envelope"><div class="sub-input__envelope__icon"></div></div>
-        <input type="email" class="sub-input__input" placeholder="sebastian.stan@gmail.com" aria-label="Имя получателя" aria-describedby="basic-addon2">
-        <button type="submit" class="sub-input__btn">Subscribe</button>
-    </div>
+    <hr>
 </div>
 <footer>
-    <div class="container">
-        <div class="mar-foot brd-top"></div>
-    </div>
     <address class="container address">
         <div class="row tab-content" id="nav-tabContent">
             <div class="col-12 col-md-6 card-4 card-4-1">
@@ -1104,23 +1108,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-
-  $('.first-button').on('click', function () {
-
-    $('.animated-icon1').toggleClass('open');
-  });
-  $('.second-button').on('click', function () {
-
-    $('.animated-icon2').toggleClass('open');
-  });
-  $('.third-button').on('click', function () {
-
-    $('.animated-icon3').toggleClass('open');
-  });
-});
-    </script>
 
 </body>
 </html>

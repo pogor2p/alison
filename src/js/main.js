@@ -136,7 +136,3 @@ slick1.on('afterChange', function(event, slick, currentSlide){
           } 
   }
 });
-
-
- 
- 

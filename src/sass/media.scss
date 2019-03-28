@@ -197,11 +197,38 @@
     }
 
     .alison-sub__form-submit{
-        height: 35px;
+        height: 60px;
         border-radius: 0px 0px 5px 5px; 
     }
+
     .alison-sub__form-wrap-input{
         border-radius: 5px 5px 0px 0px; 
+        height: 60px;
+    }
+
+    .tour-form__top .top__prise {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .alison-sub__form-wrap-img{
+        margin-top: 20px;
+    }
+
+    .tour-form__top .top__prise_margin {
+        margin-bottom: -15px;
+    }
+
+    .tour-form__top .top__star {
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        &-item{
+            max-width: 12%;
+        }
+    }
+    .mb30{
+        margin-bottom: 30px;
     }
 
 }
@@ -215,6 +242,7 @@
     }
     @include media-breakpoint-down(md) {
         font-size: 42px;
+
     }
     @include media-breakpoint-down(sm) {
         font-size: 60px;

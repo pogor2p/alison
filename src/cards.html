@@ -248,8 +248,7 @@
 													</div>
 												</div>
 											</div>
-											<div
-												class="tab-item col-12 col-sm-12 col-md-4 order-md-1 order-lg-3 col-lg col-xl">
+											<div class="tab-item col-12 col-sm-12 col-md-4 order-md-1 order-lg-3 col-lg col-xl">
 												<div class="form-group mb-0 ">
 													<div class="mn-select">
 														<div class="select-img">
@@ -790,11 +789,22 @@
 						</div>
 						<div class="info__item d-flex">
 							<img class="info__item_img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/3DAA7B4C-1DEA-4FA4-9AA5-B40E92B738E5.svg" alt="time">
-							Live guide &nbsp;<span class="info__item_grey">(English, Russian)</span>
+							<div class="wrap">
+								<div class="info__item-text">
+									Live guide
+								</div>
+								<span class="info__item_grey">(English, Russian)</span>
+							</div>
+							
 						</div>
 						<div class="info__item d-flex">
 							<img class="info__item_img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/3DAA7B4C-1DEA-4FA4-9AA5-B40E92B738E5.svg" alt="time">
-							Pick-up service &nbsp;<span class="info__item_grey" >(Pick up from hotel or from any address in Baku)</span>
+							<div class="wrap">
+								<div class="info__item-text">
+									Pick-up service
+								</div>
+								<span class="info__item_grey">(Pick up from hotel or from any address in Baku)</span>
+							</div>
 						</div>
 						<div class="info__item d-flex">
 							<img class="info__item_img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/3DAA7B4C-1DEA-4FA4-9AA5-B40E92B738E5.svg" alt="time">
@@ -828,106 +838,113 @@
 				</div>
 				<div class="col-12 col-lg-5">
 					<div class="tour-form shadow ">
-						<div class="tour-form__top d-flex justify-content-between align-items-center">
-							<div class="top__prise">
-								$119 <span class="top__prise_span" >per 2 day</span>
+						<div class="tour-form__top d-flex justify-content-between align-items-center row">
+							<div class="top__prise col-12 col-sm-6 col-lg-6 p-0">
+								<div class="top__prise_margin">
+									$119
+								</div>
+								<span class="top__prise_span" >per 2 day</span>
 							</div>
-							<div class="top__star">
-								<img src="./img/icons/form.svg" alt="star">
-								<img src="./img/icons/form.svg" alt="star">
-								<img src="./img/icons/form.svg" alt="star">
-								<img src="./img/icons/form.svg" alt="star">
-								<img src="./img/icons/form.svg" alt="star">
+							<div class="top__star col-12 col-sm-6 col-lg-6">
+								<div class="top__star row">
+									<img class="top__star-item col-2 p-0" src="./img/icons/form.svg" alt="star">
+									<img class="top__star-item col-2 p-0" src="./img/icons/form.svg" alt="star">
+									<img class="top__star-item col-2 p-0" src="./img/icons/form.svg" alt="star">
+									<img class="top__star-item col-2 p-0" src="./img/icons/form.svg" alt="star">
+									<img class="top__star-item col-2 p-0" src="./img/icons/form.svg" alt="star">
+								</div>
 							</div>
 						</div>
-						<hr class="margin-30">
+						<hr class="mb30">
 						<form class="tour-form__form" action="" method="post" autocomplete="off" id="tour-form__form">
 							<div class="tour-form__main-form">
 								<div class="row">
-									<div class="col-6">
-						<div class="main-form__item">
-							<input class="main-form__item-input" id="firstName" type="text" size=65 name="First Name" placeholder="First Name" required>
-							<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
-						</div>
-					</div>
+									<div class="col-12 col-sm-6 col-lg-12 col-xl-6">
+										<div class="main-form__item">
+											<input class="main-form__item-input" id="firstName" type="text" size=65 name="First Name" placeholder="First Name" required>
+											<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-12 col-xl-6">
+										<div class="main-form__item">
+											<input class="main-form__item-input" id="lastName" type="text" size=65 name="Last Name" placeholder="Last Name" required>
+											<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
+										</div>
+									</div>
 
-					<div class="col-6">
-						<div class="main-form__item">
-							<input class="main-form__item-input" id="lastName" type="text" size=65 name="Last Name" placeholder="Last Name" required>
-							<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
-						</div>
-					</div>
+									<div class="col-12 col-sm-6 col-lg-12 col-xl-6">
+										<div class="main-form__item">
+											<input class="main-form__item-input" id="userEmail" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size=65 name="E-mail" placeholder="ihor.test@mail.com" required>
+											<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
+										</div>
+									</div>
 
-					<div class="col-6">
-						<div class="main-form__item">
-							<input class="main-form__item-input" id="userEmail" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size=65 name="E-mail" placeholder="ihor.test@mail.com" required>
-							<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
-						</div>
-					</div>
-
-					<div class="col-6">
-						<div class="main-form__item">
-							<input class="main-form__item-input" id="telNum" type="tel" size=55 name="Phone" autocomplete="tel-local" required>
-						</div>
-					</div>
-					
-					<div class="col-6">
-						<div class="main-form__item">
-							<input class="main-form__item-input" class="checkDates" id="checkInDate" type="text" size=65 name="Check-in" placeholder="Check-in" required/>
-							<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
-						</div>
-					</div>
+									<div class="col-12 col-sm-6 col-lg-12 col-xl-6">
+										<div class="main-form__item">
+											<input class="main-form__item-input" id="telNum" type="tel" size=55 name="Phone" autocomplete="tel-local" required>
+										</div>
+									</div>
+									
+									<div class="col-12 col-sm-6 col-lg-12 col-xl-6">
+										<div class="main-form__item">
+											<input class="main-form__item-input" class="checkDates" id="checkInDate" type="text" size=65 name="Check-in" placeholder="Check-in" required/>
+											<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
+										</div>
+									</div>
 
 
-					<div class="col-6">
-						<div class="main-form__item">
-							<input class="main-form__item-input" class="checkDates" id="checkOutDate" type="text" size=65 name="Check-out" placeholder="Check-out" required/>
-							<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
-						</div>
-					</div>
+									<div class="col-12 col-sm-6 col-lg-12 col-xl-6">
+										<div class="main-form__item">
+											<input class="main-form__item-input" class="checkDates" id="checkOutDate" type="text" size=65 name="Check-out" placeholder="Check-out" required/>
+											<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
+										</div>
+									</div>
 
-					<div class="col-12">
-						<div class="main-form__item">
-							<select class="main-form__item-input col-12" id="peopleCount" placeholder="How many people" required> 
-								<option disabled selected>People</option>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-							</select>
-							<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
-						</div>
-					</div>
+									<div class="col-12">
+										<div class="main-form__item">
+											<select class="main-form__item-input col-12" id="peopleCount" required> 
+												<option style="color:#ffffff" disabled selected>People</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+												<option value="8">8</option>
+											</select>
+											<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
+										</div>
+									</div>
 
-					<div class="col-12">
-						<div class="main-form__item">
-							<textarea class="main-form__item-input main-form__item-input_pt col-12" id="comments" placeholder="Your message" cols="55" name="Comments" rows="2" ></textarea>
-							<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
-						</div>
-					</div>
+									<div class="col-12">
+										<div class="main-form__item">
+											<textarea class="main-form__item-input main-form__item-input_pt col-12" id="comments" placeholder="Your message" cols="55" name="Comments" rows="2" ></textarea>
+											<img class="main-form__item-img" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/ABDB4D88-C8D4-402E-B298-C08843D99DBF.svg" alt="img">
+										</div>
+									</div>
 
-					<div class="col-12">
-						<div class="main-form__item">
-							<input class="main-form__item-input main-form__item-input_submit col-12 p-0" id="submit" type="submit" placeholder="send" name="Submit" value="Send request">
-						</div>
-					</div>
+									<div class="col-12">
+										<div class="main-form__item">
+											<input class="main-form__item-input main-form__item-input_submit col-12 p-0" id="submit" type="submit" placeholder="send" name="Submit" value="Send request">
+										</div>
+									</div>
 								</div>
+							</div>	
 						</form>
-						<hr class="margin-30">
+						<hr>
 						<div class="tour-form__contact">
 							<div class="contact__title"> Need Help? </div> 
 							<div class="contact__sub-title"> We would be happy to help you!</div>
 							<div class="contact__tel">
 								<div class="row">
-									<div class="col d-flex mb-2">
+									<div class="col-12 col-sm-6 col-lg-12 col-lx-6 d-flex mb-2">
 										<img class="mr-3" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/2C52EDFF-B8EF-499A-B6C9-9242253DDAD7.svg" alt="tel">
 										<div class="margin-10 wrap">+994 50 494 94 99</div>
 									</div>
-									<div class="col">
+									<div class="col-12 col-sm-6 col-lg-12 col-lx-6 d-flex mb-2">
+										<img class="mr-3 d-block d-sm-none d-lg-block d-lx-none" src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/2C52EDFF-B8EF-499A-B6C9-9242253DDAD7.svg"
+											alt="tel">
 										<div class="margin-10 wrap">+994 12 511 12 14</div>
 									</div>
 									<div class="col-12 d-flex">
@@ -948,13 +965,13 @@
 			<div class="col-10 col-md-7 col-lg-6  col-xl-5 p-0">
 				<div class="alison-sub__form ">
 					<form class="row shadow" action="">
-						<div class="alison-sub__form-wrap col-8 p-0">
+						<div class="alison-sub__form-wrap col-12 col-md-8 p-0">
 							<img class="alison-sub__form-wrap-img"
 								src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/00DD4E2E-170B-46A0-8A58-FA9D9F1BAB29.svg"
 								alt="">
 							<input class="alison-sub__form-wrap-input" type="email" placeholder="sebastian.stan@gmail.com">
 						</div>
-						<input class="col-4 alison-sub__form-submit" type="submit" value="Submit">
+						<input class="col-12 col-md-4 alison-sub__form-submit" type="submit" value="Submit">
 					</form>
 				</div>
 			</div>

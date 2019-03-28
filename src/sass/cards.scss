@@ -70,9 +70,14 @@
 
 		&__item {
 			margin-bottom: 25px;
+			align-items: flex-start;
 
 			&_img {
 				margin-right: 14px;
+			}
+
+			&-text {
+				display: inline-block;
 			}
 
 			&_grey {
@@ -149,7 +154,7 @@
 }
 
 .tour-form {
-	padding: 30px;
+	padding: 15px;
 	background: $white;
 	border-radius: 5px;
 
@@ -158,12 +163,32 @@
 		.top__prise {
 			font-size: 35px;
 			margin-bottom: 11px;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			padding: 0;
 
 			&_span {
 				font-size: 14px;
 				opacity: 0.7;
+				margin-bottom: 8px;
 			}
+
 		}
+
+		.top__star {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+			width: 100%;
+
+			&-item{
+				
+			}
+
+		}
+
 	}
 	
 	&__main-form {
@@ -172,6 +197,7 @@
 
 	.main-form{
 		$grey: #DBDBDB;
+		$black-form: #4A4A4A; 	
 
 		font-family: 'Helvetica', Arial, sans-serif;
 		color: $grey;
@@ -196,7 +222,7 @@
 				padding-left: 55px;
 				width: 100%;
 				max-width: 100%;
-				color: $grey;
+				color: $black-form;
 				background: $white;
 
 				&::placeholder{
@@ -276,10 +302,11 @@
 				height: 46px;
 				border: 0;
 				border-radius: 5px 0 0 5px;
+				border: 2px solid transparent;
 
 				&:focus {
-					border: 2px solid lighten( $pink, 30%);
-	    			outline: none;
+					border: 2px solid lighten( $pink, 10%);
+					outline: 0;
 				}
 			}
 
@@ -311,8 +338,8 @@
 }
 
 .main-form__item .main-form__item-input:focus {
-	border: 2px solid lighten( $pink, 30%);
-	outline: none;
+	box-shadow: 0 0 0px 3px lighten( $pink, 10%);
+	outline: 0;
 }
 
 .margin-30 {
@@ -323,4 +350,13 @@
 .tab-item_size-search_gradient:hover {
 	color: $white;
 	background-color: $red;
+}
+
+.intl-tel-input.separate-dial-code .selected-flag{
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.intl-tel-input.separate-dial-code .selected-flag:focus{
+	box-shadow: 0 0 0px 3px lighten( $pink, 10%);
+	outline: 0;
 }

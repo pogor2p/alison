@@ -1,23 +1,13 @@
-.main-title{
-    @include media-breakpoint-down(xl) {
-        font-size: 72px;
-    }
-    @include media-breakpoint-down(lg) {
-        font-size: 48px;
-    }
-    @include media-breakpoint-down(md) {
-        font-size: 42px;
-    }
-    @include media-breakpoint-down(sm) {
-        font-size: 60px;
-    }
-}
 @include media-breakpoint-down(xl) {
-    
+    .tour-form {
+        padding: 30px;
+    }
 }
 
 @include media-breakpoint-down(lg) {
-    
+    .tour-form {
+        padding: 25px;
+    }
 }
 
 @include media-breakpoint-down(md) {
@@ -60,12 +50,23 @@
         padding-right: 0;
         text-align: center;
     }
+    .tour-form {
+        padding: 15px;
+    }
+    .tour-form__top .top__prise {
+        font-size: 50px;
+		margin-bottom: 0px;
+    }
+    .tour-form__top .top__prise_span{
+        font-size: 17px;
+		margin-bottom: 12px;
+    }
 
 }
 
 @include media-breakpoint-down(sm) {
     .hero-homepage {
-        margin-bottom: 490px;
+        margin-bottom: 480px;
         padding: 100px 10px 1px 10px;
 
         .container {
@@ -195,4 +196,33 @@
         
     }
 
+    .alison-sub__form-submit{
+        height: 35px;
+        border-radius: 0px 0px 5px 5px; 
+    }
+    .alison-sub__form-wrap-input{
+        border-radius: 5px 5px 0px 0px; 
+    }
+
+}
+
+.main-title{
+    @include media-breakpoint-down(xl) {
+        font-size: 72px;
+    }
+    @include media-breakpoint-down(lg) {
+        font-size: 48px;
+    }
+    @include media-breakpoint-down(md) {
+        font-size: 42px;
+    }
+    @include media-breakpoint-down(sm) {
+        font-size: 60px;
+    }
+}
+
+ @media (min-width:576px) and (max-width: 767px){
+    .hero-homepage {
+        margin-bottom: 400px;
+    }
 }

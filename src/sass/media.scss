@@ -8,6 +8,10 @@
     .tour-form {
         padding: 25px;
     }
+    .tour-form__top .top__prise {
+        align-items: baseline;
+        flex-direction: row;
+    }
 }
 
 @include media-breakpoint-down(md) {
@@ -62,6 +66,10 @@
 		margin-bottom: 12px;
     }
 
+    .tour-form__top .top__prise {
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 @include media-breakpoint-down(sm) {
@@ -216,6 +224,7 @@
     }
 
     .tour-form__top .top__prise_margin {
+        margin-top: -10px;
         margin-bottom: -15px;
     }
 
@@ -228,7 +237,12 @@
         }
     }
     .mb30{
-        margin-bottom: 30px;
+        margin-bottom: 25px;
+    }
+
+    .tour .info__item_img{
+        margin-right: 14px;
+        margin-top: 2px;
     }
 
 }

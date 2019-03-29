@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import 'slick-carousel';
+import 'bootstrap-select';
 import './form.js';
 import './humb_icon.js';
 
@@ -137,3 +138,6 @@ slick1.on('afterChange', function(event, slick, currentSlide){
           } 
   }
 });
+
+// SELECT
+$('.js-select').selectpicker();

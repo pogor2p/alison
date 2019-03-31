@@ -1206,5 +1206,16 @@ address {
     }
 
   }
-  
+
+}
+.intl-tel-input .selected-flag .iti-arrow {
+  display: none;
+}
+
+.intl-tel-input.separate-dial-code .selected-flag {
+  padding-left: 12px;
+}
+
+.main-form__item-input_tel {
+  padding-left: 80px !important; 
 }

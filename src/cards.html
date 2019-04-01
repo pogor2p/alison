@@ -6,10 +6,6 @@
 	<meta name="keywords" content="travel, azerbaijan, tours, hotel, hotels, trip, trips, georgia, cheap tours, transfer, transfers, travel to azerbaijan, travel to georgia, travel to ukraine, travel to baku, gabala, qabala, quba, guba palace, qafqaz, discount tour, best price, low price, visa azerbaijan, online visa, asan visa, alison travel, guides, food, best price, marxal, sheki, maiden tower">
 	<meta name="description" content="Find, compare, and book sightseeing tours, attractions, excursions, things to do and fun activities from around the world. Save money and book directly from local suppliers."/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="/css/build.css">
 </head>
 <body>
@@ -146,7 +142,7 @@
 															<img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg"
 																alt="location">
 														</div>
-														<select class="tab-item_size js-select" name="country_id">
+														<select class="tab-item_size" name="country_id">
 															<option disabled selected data-localize="Any country">Any
 																country</option>
 															<option value="1">Azerbaijan</option>
@@ -902,8 +898,8 @@
 
 									<div class="col-12">
 										<div class="main-form__item">
-											<select class="main-form__item-input col-12" id="peopleCount" required> 
-												<option style="color:#ffffff" disabled selected>People</option>
+											<select class="main-form__item-input js-select col-12" id="peopleCount" required> 
+												<option disabled selected>People</option>
 												<option value="1">1</option>
 												<option value="2">2</option>
 												<option value="3">3</option>
@@ -976,11 +972,12 @@
 				</div>
 			</div>
 		</div>
-		<hr>
 	</div>
 	<footer>
+		
 		<address class="container address">
-			<div class="row tab-content" id="nav-tabContent">
+			<hr>
+			<div class="alison-footer row tab-content" id="nav-tabContent">
 				<div class="col-12 col-md-6 card-4 card-4-1">
 					<div class="card-4-logo__container">
 						<div class="card-4__logo mb-3"></div>
@@ -1061,10 +1058,9 @@
 					</div>
 				</div>
 			</div>
+			<hr>
 		</address>
-		<div class="container">
-			<div class="brd-top"></div>
-		</div>
+		
 		<div class="container">
 			<div class="row align-items-center copyright  justify-content-md-between">
 				<div class="copyright__text">Copyright © 2018 Alison Travel. All rights reserved</div>

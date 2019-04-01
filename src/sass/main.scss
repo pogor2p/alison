@@ -255,7 +255,7 @@ select {
 }
 
 .dash-in__text__input::placeholder {
-  color: #555;
+  color: #55555538;
 }
 
 .dash-in__text__input:active,
@@ -1006,6 +1006,7 @@ address {
   margin-top: 30px;
   border-radius: 10px;
   overflow: hidden;
+  background: $white;
 }
 
 .tab-item {
@@ -1221,4 +1222,8 @@ address {
 
 .main-form__item-input_tel {
   padding-left: 80px !important; 
+}
+
+.alison-footer {
+  padding-top: 52px;
 }

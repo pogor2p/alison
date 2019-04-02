@@ -1,0 +1,120 @@
+.m-chat {
+  margin-top: 32px;
+  padding: 0 10px;
+
+  &__top-item {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: $white;
+    color: #014660;
+    font-weight: bold;
+  }
+
+  .active {
+    background-color: #dddddd;
+    border-radius: 15px;
+    color: #4d4d4d;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: normal;
+    
+  }
+
+  &__item {
+    text-align: center;
+    padding: 8px 0px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  &__input-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4d4d4d;
+    font-size: 13px;
+    margin-bottom: 9px;
+  }
+
+  &__wrap-input {
+    display: flex;
+    width: 100%;
+  }
+
+  &__input {
+    background: $white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 30px;
+    padding:0;
+    max-width: 65px;
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    &_after {
+      display: flex;
+      align-items: center;
+    }
+
+    &_after:after {
+      position: relative;
+      right: -5px;
+      content: ":";
+    }
+  }
+
+  &__input-style {
+    border: 0;
+    outline: none;
+    text-align: center;
+    margin: 20px 0;
+    color: #4d4d4d;
+  }
+
+  &__input-button {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    border: 0;
+    padding: 10px 0; 
+  }
+
+  &__input-button-img {
+    height: 20px;
+
+
+    &_trans-top {
+      transform: rotate(270deg);
+    }
+
+    &_trans-bot {
+      transform: rotate(90deg);
+    }
+  }
+
+  &__input-wrap-text{
+    position: absolute;
+    width: 65px;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+
+  }
+
+  &__input-text{
+    color: #4d4d4d;
+  } 
+
+}
+.p_8 {
+  padding: 8px;
+}

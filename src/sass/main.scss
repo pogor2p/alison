@@ -873,7 +873,7 @@ address {
 
 }
 
-.alisontravel{
+.alisontravel {
   position: absolute;
   left: 0;
   right: 0;
@@ -882,7 +882,7 @@ address {
     background: transparent;
     z-index: 8;
 
-    &:focus{
+    &:focus {
       outline: 0;
     }
 
@@ -890,7 +890,7 @@ address {
 
 }
 .alisontravel-navbar {
-  .dropdown{
+  .dropdown {
     position: absolute;
     top: 26px;
     left: 62%;
@@ -972,6 +972,7 @@ address {
   margin-bottom: 50px;
 
   &__text {
+
     &_white {
     color: rgba(255, 255, 255, 1);  
     }
@@ -999,8 +1000,13 @@ address {
   }
 
 }
-.tab-content {
+.form-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   background: $white;
+  border-radius: 5px; 
 }
 
 .tab-content__spase {
@@ -1012,6 +1018,7 @@ address {
 .tab-item {
   padding-right: 0;
   padding-left: 0;
+
   &_size {
     height: 60px;
     width: 100%;
@@ -1022,12 +1029,12 @@ address {
     border-radius: 0;
     border: 0;
 
-    &:focus{
+    &:focus {
       border: 2px solid #BD1F67;
 	    outline: none;
     }
 
-    &_grey{ 
+    &_grey { 
       color: rgba(0,0,0, 0.3);
     }
 
@@ -1278,7 +1285,7 @@ address {
     border: 0;
   }
 }
-.hero-homepage{
+.hero-homepage {
   .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
     overflow: none;
   }

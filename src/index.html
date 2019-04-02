@@ -16,7 +16,7 @@
 <body>
     <nav class="alisontravel navbar navbar-expand-lg">
         <div class="container align-items-center">
-            <a class="navbar-brand" href="#"><img src="../img/icons/logo.png" alt="logo" class="navbar-logo"></a>
+            <a class="navbar-brand" href="/"><img src="../img/icons/logo.png" alt="logo" class="navbar-logo"></a>
             <button class="navbar-toggler second-button alisontravel-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
@@ -107,14 +107,16 @@
                         <div class="search-tab-content">
                             <div class="page-search-p">
                                 <form action="http://www.alisontravel.eu/tours.php">
-                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="form-wrap">
                                         <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
                                                 <div class="mn-select w-100">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size"  name="country_id">
+                                                    <select class="tab-item_size form-control selectpicker" name="country_id"
+                                                        data-live-search="true">
                                                         <option disabled selected data-localize="Any country">Any country</option>
                                                         <option value="1">Azerbaijan</option>
                                                         <option value="2">Georgia</option>
@@ -126,7 +128,7 @@
                                                         <option value="8">Hungary </option>
                                                         <option value="9">Spain </option>
                                                         <option value="10">Germany </option>
-                                                        <option value="11">Czech Republic  </option>
+                                                        <option value="11">Czech Republic </option>
                                                         <option value="12">Austria </option>
                                                         <option value="13">Portugal </option>
                                                         <option value="14">Thailand </option>
@@ -136,6 +138,7 @@
                                                         <option value="18">Indonesia</option>
                                                         <option value="19">Montenegro</option>
                                                     </select>
+                                                    <input type="hidden" name="hidden_framework" id="hidden_framework" />
                                                 </div>
                                             </div>
                                         </div>
@@ -143,9 +146,11 @@
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
                                                 <div class="mn-select w-100">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size">
+                                                    <select class="tab-item_size form-control selectpicker" name="country_id"
+                                                        data-live-search="true">
                                                         <option disabled selected data-localize="Any city">Any city</option>
                                                         <option value="1">Baku</option>
                                                         <option value="3">Gabala</option>
@@ -184,9 +189,11 @@
                                                 <div class="input-group d-flex justify-content-center alig-items-center">
                                                     <div class="mn-select w-100">
                                                         <div class="select-img">
-                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg"
+                                                                alt="location">
                                                         </div>
-                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control value="2019-02-25" min="2019-02-25">
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker"
+                                                            class="form-control value=" 2019-02-25" min="2019-02-25">
                                                     </div>
                                                 </div>
                                             </div>
@@ -196,9 +203,11 @@
                                                 <div class="input-group d-flex justify-content-center alig-items-center">
                                                     <div class="mn-select w-100">
                                                         <div class="select-img">
-                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg"
+                                                                alt="location">
                                                         </div>
-                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control">
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker"
+                                                            class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
@@ -207,9 +216,10 @@
                                             <div class="form-group mb-0 ">
                                                 <div class="mn-select">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size">
+                                                    <select class="tab-item_size form-control selectpicker" data-live-search="true">
                                                         <option disabled selected>People</option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -229,7 +239,8 @@
                                         </div>
                                         <div class="tab-item col-12 col-sm-12 col-lg-12 order-md-12 order-lg-12 col-xl">
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center ">
-                                                <button class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
+                                                <button
+                                                    class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
                                             </div>
                                         </div>
                                     </div>
@@ -240,15 +251,17 @@
                     <div class="tab-pane fade" id="nav-hotels" role="tabpanel" aria-labelledby="nav-profile-tab">
                         <div class="search-tab-content">
                             <div class="page-search-p">
-                                <form action="http://www.alisontravel.eu/hotel.php">
-                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <form action="http://www.alisontravel.eu/tours.php">
+                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
                                         <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
                                                 <div class="mn-select w-100">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size"  name="country_id">
+                                                    <select class="tab-item_size form-control selectpicker" name="country_id"
+                                                        data-live-search="true">
                                                         <option disabled selected data-localize="Any country">Any country</option>
                                                         <option value="1">Azerbaijan</option>
                                                         <option value="2">Georgia</option>
@@ -260,7 +273,7 @@
                                                         <option value="8">Hungary </option>
                                                         <option value="9">Spain </option>
                                                         <option value="10">Germany </option>
-                                                        <option value="11">Czech Republic  </option>
+                                                        <option value="11">Czech Republic </option>
                                                         <option value="12">Austria </option>
                                                         <option value="13">Portugal </option>
                                                         <option value="14">Thailand </option>
@@ -270,6 +283,7 @@
                                                         <option value="18">Indonesia</option>
                                                         <option value="19">Montenegro</option>
                                                     </select>
+                                                    <input type="hidden" name="hidden_framework" id="hidden_framework" />
                                                 </div>
                                             </div>
                                         </div>
@@ -277,9 +291,11 @@
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
                                                 <div class="mn-select w-100">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size">
+                                                    <select class="tab-item_size form-control selectpicker" name="country_id"
+                                                        data-live-search="true">
                                                         <option disabled selected data-localize="Any city">Any city</option>
                                                         <option value="1">Baku</option>
                                                         <option value="3">Gabala</option>
@@ -318,9 +334,11 @@
                                                 <div class="input-group d-flex justify-content-center alig-items-center">
                                                     <div class="mn-select w-100">
                                                         <div class="select-img">
-                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg"
+                                                                alt="location">
                                                         </div>
-                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control value="2019-02-25" min="2019-02-25">
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker"
+                                                            class="form-control value=" 2019-02-25" min="2019-02-25">
                                                     </div>
                                                 </div>
                                             </div>
@@ -330,9 +348,11 @@
                                                 <div class="input-group d-flex justify-content-center alig-items-center">
                                                     <div class="mn-select w-100">
                                                         <div class="select-img">
-                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg"
+                                                                alt="location">
                                                         </div>
-                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control">
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker"
+                                                            class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
@@ -341,9 +361,10 @@
                                             <div class="form-group mb-0 ">
                                                 <div class="mn-select">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size">
+                                                    <select class="tab-item_size form-control selectpicker" data-live-search="true">
                                                         <option disabled selected>People</option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -363,7 +384,8 @@
                                         </div>
                                         <div class="tab-item col-12 col-sm-12 col-lg-12 order-md-12 order-lg-12 col-xl">
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center ">
-                                                <button class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
+                                                <button
+                                                    class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
                                             </div>
                                         </div>
                                     </div>
@@ -374,15 +396,17 @@
                     <div class="tab-pane fade" id="nav-flights" role="tabpanel" aria-labelledby="nav-contact-tab">
                         <div class="search-tab-content">
                             <div class="page-search-p">
-                                <form action="http://www.alisontravel.eu/book_flight.php">
-                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <form action="http://www.alisontravel.eu/tours.php">
+                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
                                         <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
                                                 <div class="mn-select w-100">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size"  name="country_id">
+                                                    <select class="tab-item_size form-control selectpicker" name="country_id"
+                                                        data-live-search="true">
                                                         <option disabled selected data-localize="Any country">Any country</option>
                                                         <option value="1">Azerbaijan</option>
                                                         <option value="2">Georgia</option>
@@ -394,7 +418,7 @@
                                                         <option value="8">Hungary </option>
                                                         <option value="9">Spain </option>
                                                         <option value="10">Germany </option>
-                                                        <option value="11">Czech Republic  </option>
+                                                        <option value="11">Czech Republic </option>
                                                         <option value="12">Austria </option>
                                                         <option value="13">Portugal </option>
                                                         <option value="14">Thailand </option>
@@ -404,6 +428,7 @@
                                                         <option value="18">Indonesia</option>
                                                         <option value="19">Montenegro</option>
                                                     </select>
+                                                    <input type="hidden" name="hidden_framework" id="hidden_framework" />
                                                 </div>
                                             </div>
                                         </div>
@@ -411,9 +436,11 @@
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
                                                 <div class="mn-select w-100">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size">
+                                                    <select class="tab-item_size form-control selectpicker" name="country_id"
+                                                        data-live-search="true">
                                                         <option disabled selected data-localize="Any city">Any city</option>
                                                         <option value="1">Baku</option>
                                                         <option value="3">Gabala</option>
@@ -452,9 +479,11 @@
                                                 <div class="input-group d-flex justify-content-center alig-items-center">
                                                     <div class="mn-select w-100">
                                                         <div class="select-img">
-                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg"
+                                                                alt="location">
                                                         </div>
-                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control value="2019-02-25" min="2019-02-25">
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker"
+                                                            class="form-control value=" 2019-02-25" min="2019-02-25">
                                                     </div>
                                                 </div>
                                             </div>
@@ -464,9 +493,11 @@
                                                 <div class="input-group d-flex justify-content-center alig-items-center">
                                                     <div class="mn-select w-100">
                                                         <div class="select-img">
-                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg"
+                                                                alt="location">
                                                         </div>
-                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control">
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker"
+                                                            class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
@@ -475,9 +506,10 @@
                                             <div class="form-group mb-0 ">
                                                 <div class="mn-select">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size">
+                                                    <select class="tab-item_size form-control selectpicker" data-live-search="true">
                                                         <option disabled selected>People</option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -497,7 +529,8 @@
                                         </div>
                                         <div class="tab-item col-12 col-sm-12 col-lg-12 order-md-12 order-lg-12 col-xl">
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center ">
-                                                <button class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
+                                                <button
+                                                    class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
                                             </div>
                                         </div>
                                     </div>
@@ -508,15 +541,17 @@
                     <div class="tab-pane fade" id="nav-transfers" role="tabpanel" aria-labelledby="nav-contact-tab">
                         <div class="search-tab-content">
                             <div class="page-search-p">
-                                <form action="/tours.php">
-                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <form action="http://www.alisontravel.eu/tours.php">
+                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
                                         <div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
                                                 <div class="mn-select w-100">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size"  name="country_id">
+                                                    <select class="tab-item_size form-control selectpicker" name="country_id"
+                                                        data-live-search="true">
                                                         <option disabled selected data-localize="Any country">Any country</option>
                                                         <option value="1">Azerbaijan</option>
                                                         <option value="2">Georgia</option>
@@ -528,7 +563,7 @@
                                                         <option value="8">Hungary </option>
                                                         <option value="9">Spain </option>
                                                         <option value="10">Germany </option>
-                                                        <option value="11">Czech Republic  </option>
+                                                        <option value="11">Czech Republic </option>
                                                         <option value="12">Austria </option>
                                                         <option value="13">Portugal </option>
                                                         <option value="14">Thailand </option>
@@ -538,6 +573,7 @@
                                                         <option value="18">Indonesia</option>
                                                         <option value="19">Montenegro</option>
                                                     </select>
+                                                    <input type="hidden" name="hidden_framework" id="hidden_framework" />
                                                 </div>
                                             </div>
                                         </div>
@@ -545,9 +581,11 @@
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center">
                                                 <div class="mn-select w-100">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size">
+                                                    <select class="tab-item_size form-control selectpicker" name="country_id"
+                                                        data-live-search="true">
                                                         <option disabled selected data-localize="Any city">Any city</option>
                                                         <option value="1">Baku</option>
                                                         <option value="3">Gabala</option>
@@ -586,9 +624,11 @@
                                                 <div class="input-group d-flex justify-content-center alig-items-center">
                                                     <div class="mn-select w-100">
                                                         <div class="select-img">
-                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg"
+                                                                alt="location">
                                                         </div>
-                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control value="2019-02-25" min="2019-02-25">
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker"
+                                                            class="form-control value=" 2019-02-25" min="2019-02-25">
                                                     </div>
                                                 </div>
                                             </div>
@@ -598,9 +638,11 @@
                                                 <div class="input-group d-flex justify-content-center alig-items-center">
                                                     <div class="mn-select w-100">
                                                         <div class="select-img">
-                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg" alt="location">
+                                                            <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/0E396863-1C83-4DDA-86A3-D56197DE8F4C.svg"
+                                                                alt="location">
                                                         </div>
-                                                        <input class="tab-item_size" type="date" data-toggle="datepicker" class="form-control">
+                                                        <input class="tab-item_size" type="date" data-toggle="datepicker"
+                                                            class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
@@ -609,9 +651,10 @@
                                             <div class="form-group mb-0 ">
                                                 <div class="mn-select">
                                                     <div class="select-img">
-                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg" alt="location">
+                                                        <img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg"
+                                                            alt="location">
                                                     </div>
-                                                    <select class="tab-item_size">
+                                                    <select class="tab-item_size form-control selectpicker" data-live-search="true">
                                                         <option disabled selected>People</option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -631,7 +674,8 @@
                                         </div>
                                         <div class="tab-item col-12 col-sm-12 col-lg-12 order-md-12 order-lg-12 col-xl">
                                             <div class="form-group mb-0 d-flex justify-content-center alig-items-center ">
-                                                <button class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
+                                                <button
+                                                    class="btn btn-msf btn-block tab-item_size-search tab-item_gradient border-0 w-100">Search</button>
                                             </div>
                                         </div>
                                     </div>

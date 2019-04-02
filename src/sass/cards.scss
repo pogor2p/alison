@@ -30,7 +30,7 @@
 	}
 }
 
-.tour{
+.tour {
 	font-family: 'Helvetica', Arial, sans-serif;
 	color: #4A4A4A;
 
@@ -49,14 +49,6 @@
 		line-height: 1.83;
 		letter-spacing: -0.5px;
 		margin-bottom: 40px;
-	}
-
-	&__info {
-		
-	}
-
-	&__itinerary {
-
 	}
 
 	.info {
@@ -120,13 +112,11 @@
 					opacity: 0.3;
 					border: 0;
 
-					&:hover {
-					}
 				}
 
 			}
 
-			.active{
+			.active {
 				font-size: 18px;
 				background-color: transparent; 
 				border:0;
@@ -140,7 +130,7 @@
 
 		}
 
-		&__content{
+		&__content {
 			margin-top: 30px;
 			margin-bottom: 30px;
 			font-size: 18px;
@@ -183,22 +173,13 @@
 			padding: 0;
 			width: 100%;
 
-			&-item{
-				
-			}
-
 		}
 
 	}
-	
-	&__main-form {
-		
-	}
 
-	.main-form{
+	.main-form {
 		$grey: #DBDBDB;
-		$black-form: #4A4A4A; 	
-
+		$black-form: #4A4A4A; 
 		font-family: 'Helvetica', Arial, sans-serif;
 		color: $grey;
 
@@ -225,11 +206,12 @@
 				color: $black-form;
 				background: $white;
 
-				&::placeholder{
+				&::placeholder {
 					color: $grey;
 				}
 
-				&_pt{
+				&_pt {
+					min-height: 60px;
 					padding-top: 17px;
 				}
 
@@ -240,14 +222,7 @@
 					margin-top: 0;
 				}
 			}
-
-			&_people {
-				
-			}
 		}
-	}
-
-	&__contact {
 	}
 
 	.contact {
@@ -309,7 +284,6 @@
 					outline: 0;
 				}
 			}
-
 		}
 
 		&-submit {

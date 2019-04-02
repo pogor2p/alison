@@ -963,6 +963,7 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .main-title {
@@ -1005,7 +1006,6 @@ address {
 .tab-content__spase {
   margin-top: 30px;
   border-radius: 10px;
-  overflow: hidden;
   background: $white;
 }
 
@@ -1226,4 +1226,60 @@ address {
 
 .alison-footer {
   padding-top: 52px;
+}
+//////////////
+.bootstrap-select > .dropdown-toggle {
+  height: 60px;
+  border-radius: 0;
+  background: $white;
+  padding-left: 45px;
+  border: 0;
+}
+
+.bootstrap-select > .dropdown-toggle:focus {
+  border: 2px solid #BD1F67;
+  outline: none !important;
+  box-shadow:none;
+}
+
+.main-form__item {
+  .bootstrap-select > .dropdown-toggle {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 50px;
+    &:focus {
+      box-shadow: 0 0 0px 2px #cd258b;
+      outline: none;
+    }
+  }
+}
+
+.tab-item .bootstrap-select > .dropdown-toggle {
+  border-radius: 5px; 
+  background: #fff;
+}
+
+.tab-item  :not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]) {
+  border-radius: 15px; 
+}
+
+.tab-content__spase {
+  margin-top: 30px;
+  border-radius: 10px;
+  overflow: none;
+  background: $white;
+}
+.tab-item {
+  .btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, .show > .btn-light.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+  .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle {
+    background: $white;
+    border: 0;
+  }
+}
+.hero-homepage{
+  .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    overflow: none;
+  }
 }

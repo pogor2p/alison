@@ -142,9 +142,8 @@
 															<img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/01A590E5-5177-4765-945E-4341E0022EF9.svg"
 																alt="location">
 														</div>
-														<select class="tab-item_size" name="country_id">
-															<option disabled selected data-localize="Any country">Any
-																country</option>
+														<select class="tab-item_size form-control selectpicker" name="country_id" data-live-search="true">
+															<option disabled selected data-localize="Any country">Any country</option>
 															<option value="1">Azerbaijan</option>
 															<option value="2">Georgia</option>
 															<option value="3">Italy </option>
@@ -165,20 +164,19 @@
 															<option value="18">Indonesia</option>
 															<option value="19">Montenegro</option>
 														</select>
+														<input type="hidden" name="hidden_framework" id="hidden_framework" />
 													</div>
 												</div>
 											</div>
 											<div class="tab-item col-12 col-sm-6 col-md-4 col-lg col-xl">
-												<div
-													class="form-group mb-0 d-flex justify-content-center alig-items-center">
+												<div class="form-group mb-0 d-flex justify-content-center alig-items-center">
 													<div class="mn-select w-100">
 														<div class="select-img">
 															<img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/FC084629-2377-434E-845C-9F23C792316B.svg"
 																alt="location">
 														</div>
-														<select class="tab-item_size">
-															<option disabled selected data-localize="Any city">Any city
-															</option>
+														<select class="tab-item_size form-control selectpicker" name="country_id" data-live-search="true">
+															<option disabled selected data-localize="Any city">Any city</option>
 															<option value="1">Baku</option>
 															<option value="3">Gabala</option>
 															<option value="5">Rome</option>
@@ -251,7 +249,7 @@
 															<img src="https://cdn.zeplin.io/5c560543dfa8943571182307/assets/736BFC5D-71D7-4889-A743-FC8641516992.svg"
 																alt="location">
 														</div>
-														<select class="tab-item_size">
+														<select class="tab-item_size form-control selectpicker" data-live-search="true">
 															<option disabled selected>People</option>
 															<option value="1">1</option>
 															<option value="2">2</option>
@@ -888,7 +886,6 @@
 										</div>
 									</div>
 
-
 									<div class="col-12 col-sm-6 col-lg-12 col-xl-6">
 										<div class="main-form__item">
 											<input class="main-form__item-input" class="checkDates" id="checkOutDate" type="text" size=65 name="Check-out" placeholder="Check-out" required/>
@@ -898,7 +895,7 @@
 
 									<div class="col-12">
 										<div class="main-form__item">
-											<select class="main-form__item-input js-select col-12" id="peopleCount" required> 
+											<select class="main-form__item-input form-control selectpicker col-12 pl-0 border-0" id="peopleCount" required> 
 												<option disabled selected>People</option>
 												<option value="1">1</option>
 												<option value="2">2</option>

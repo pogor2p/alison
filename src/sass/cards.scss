@@ -187,12 +187,12 @@
 			margin-bottom: 25px;
 
 			&-img {
-			position: absolute;
-			margin-left: 35px;
-			margin-top: 20px;
-			z-index: 2;
-			top: 0;
-			left: 0;
+				position: absolute;
+				margin-left: 35px;
+				margin-top: 20px;
+				z-index: 2;
+				top: 0;
+				left: 0;
 			}
 
 			&-input {
@@ -238,7 +238,7 @@
 		}
 		&__tel {
 			font-size: 17px;
-			opacity: 0.7;
+			color: #55555596;
 		}
 	}
 }

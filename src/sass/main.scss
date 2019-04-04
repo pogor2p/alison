@@ -1,3 +1,5 @@
+$grey-light:#555555;
+
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500');
 @import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
@@ -24,6 +26,12 @@ button {
 
 select {
   appearance: none;
+}
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+    appearance: none;
+    margin: 0; 
 }
 
 .header-lg {
@@ -135,7 +143,7 @@ select {
 
 .md-c-i:hover {
   text-decoration: none;
-  color: #555;
+  color: $grey-light;
 }
 
 .md-c-i img,
@@ -266,9 +274,9 @@ select {
 }
 
 .headline__text {
+  text-align: center;
   font-weight: bold;
-  color: #555;
-  margin-left: 15px;
+  color: $grey-light;
 }
 
 .tour {
@@ -300,10 +308,22 @@ select {
 }
 
 .card-1__image {
-  height: 150px;
+  height: 100%;
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+}
+.slick-card-1__item_hover {
+  color: $grey-light;
+}
+
+.slick-card-1__item_hover:hover {
+  text-decoration:none;
+  color: $grey-light;
+}
+
+.slick-card-1__item_hover:focus {
+  outline: none;
 }
 
 .card-1__container {
@@ -316,7 +336,7 @@ select {
   font-family: 'HelveticaNeue';
   font-weight: bold;
   font-size: 0.9rem;
-  color: #555;
+  color: $grey-light;
 }
 
 .card-1__description {
@@ -413,6 +433,7 @@ select {
 }
 
 .card-3__container__text {
+  text-align: center;
   font-family: 'GalanoGrotesqueDEMOBold';
 }
 
@@ -557,7 +578,7 @@ address {
   border: 0;
   border-radius: 5px;
   font-size: 0.8rem;
-  color: #555;
+  color: $grey-light;
   cursor: pointer;
 }
 
@@ -571,7 +592,7 @@ address {
   font-size: 0.9rem;
   line-height: 1.5;
   letter-spacing: -0.4px;
-  color: #555;
+  color: $grey-light;
 }
 
 .card-4-1 {
@@ -722,7 +743,7 @@ address {
   font-size: 0.75rem;
   margin-bottom: 20px;
   font-family: 'HelveticaNeue-Light';
-  color: #555;
+  color: $grey-light;
   order: 2;
   flex-basis: 100%;
   text-align: center;
@@ -761,7 +782,7 @@ address {
 
 .slick-card-1 .slick-list {
   overflow: visible;
-  z-index: 100;
+  z-index: 4;
 }
 
 .slick-card-1 .slick-slide {
@@ -769,21 +790,17 @@ address {
 }
 
 .slick-card-1 .slick-track {
-  z-index: 120;
+  z-index: 4;
 }
 
 .slick-card-1 .slick-prev {
-  z-index: 130;
+  z-index: 4;
 }
 
 .slick-card-1 .slick-next {
-  z-index: 130;
+  z-index: 4;
 }
 
-.slick-card-1-wrap {
-  margin-left: -15px;
-  overflow-x: hidden;
-}
 .slick-card-1__item {
   padding-left: 15px;
   padding-right: 15px;
@@ -792,7 +809,11 @@ address {
 }
 
 .slick-card-2-wrap {
-  margin-left: -15px;
+  margin-left: 0;
+}
+
+.headline {
+  width: 100%;
 }
 
 .slick-card-2__item {
@@ -892,8 +913,8 @@ address {
 .alisontravel-navbar {
   .dropdown {
     position: absolute;
-    top: 26px;
-    left: 62%;
+    top: -60px;
+    right: 20%;
   }
 
 }
@@ -902,6 +923,9 @@ address {
   margin: 0;
   flex-direction: row;
   flex-wrap: wrap;
+  background: linear-gradient(to right, #a21d6e 0%, #e2245e 100%);
+  position: fixed;
+  width: 100%;
 
   .alisontravel-link {
     padding-right: 44px;
@@ -1289,4 +1313,32 @@ address {
   .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
     overflow: none;
   }
+}
+
+.slick-dots li.slick-active button:before{
+  background: #ff0065;
+}
+
+.slick-slide img{
+  object-fit: cover;
+}
+
+.slick-next:before {
+  margin-left: -15px;
+}
+
+.slick-prev:before {
+  margin-left: 10px;
+}
+
+.most-card-wrap {
+  overflow: hidden;
+}
+.wrap-bg-menu {
+  width: 100%;
+  height: 100vh;
+  background-color: #555555ba;
+  position: fixed;
+  z-index: 3;
+  top: 88px;
 }

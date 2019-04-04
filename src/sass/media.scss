@@ -35,10 +35,9 @@
     }
 
     .alisontravel-navbar {
-        background: linear-gradient(to right, #a21d6e 0%, #e2245e 100%);
         z-index: 5; 
         position: absolute;
-        width: 100%;
+        width: 0;
         padding-top: 88px;
     }
 
@@ -77,10 +76,18 @@
         flex-direction: column;
     }
 
+    .alisontravel {
+        background: linear-gradient(to right, #a21d6e 0%, #e2245e 100%);
+        position: fixed;
+        z-index: 5;
+        top: 0;
+    }
+
 }
 
 @include media-breakpoint-down(sm) {
     .hero-homepage {
+        margin-top: 88px;
         margin-bottom: 480px;
         padding: 100px 10px 1px 10px;
 
@@ -268,6 +275,14 @@
         padding: 12px;
         padding-top:39px;
     }
+    .card-3 {
+        height: calc(90vw - 30px);
+    }
+
+    .alisontravel-navbar .dropdown {
+        right: 68px;
+    }
+
 }
 
 .main-title {
@@ -286,8 +301,33 @@
     }
 }
 
- @media (min-width:576px) and (max-width: 767px) {
+@media (min-width:576px) and (max-width: 767px) {
     .hero-homepage {
         margin-bottom: 400px;
+    }
+}
+
+@media (min-width:0px) and (max-width: 320px) {
+    .card-3 {
+        margin: 5px 0;
+        height: 126px;
+    }
+
+    .headline__text {
+        margin-top: 15px;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:575px) and (max-width: 768px) {
+    .card-3 {
+        height: 220px;
+    }
+}
+
+@media (min-width:590px) and (max-width: 769px) {
+    .alisontravel-navbar .dropdown {
+        right: 22%;
     }
 }
